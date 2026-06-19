@@ -1,0 +1,162 @@
+_path;_name;default_value;default_label;default_description;node_handling;node_addable_type;value_type;value_min;value_max;value_reference;input_type
+;catalogs;;D5ewAH|Type catalogs;TvbhVS|a dilbo Type catalogs ...;;;none;;;;
+.catalogs;asset_status;;Th1rpd|Asset status options;9hYX9D|the different options fo...;;none;none;;;;
+.catalogs.asset_status;AVAILABLE;1;MYITc0|available;;;;int;;;;
+.catalogs.asset_status;NOTAVAILABLE;2;WQnTwK|not available;;;;int;;;;
+.catalogs.asset_status;ONTHEWATER;3;03k0iK|on the water;fqvnh2|the status is only used ...;;;int;;;;
+.catalogs.asset_status;HIDE;4;IXoLto|hide;ZKyyt1|the status is only used ...;;;int;;;;
+.catalogs;asset_type;;lxAoLm|asset types;Zj5YpY|usually boats, trailers ...;;none;none;;;;
+.catalogs.asset_type;BOAT;1;Pf0MrO|Boat;;;;int;;;;
+.catalogs.asset_type;TRAILER;2;COJ2c6|Trailer;;;;int;;;;
+.catalogs.asset_type;OTHER;3;P5ZVN7|Other;;;;int;;;;
+.catalogs;asset_subtype;;jZcTh9|asset subtypes;dlPdPH|for boats the built, for...;;none;none;;;;
+.catalogs.asset_subtype;AGIG;1;HcIlHr|A-Gig;;R;;int;;;;
+.catalogs.asset_subtype;BGIG;2;UHJlkG|B-Gig;;R;;int;;;;
+.catalogs.asset_subtype;CGIG;3;LFWEMm|C-Gig;;R;;int;;;;
+.catalogs.asset_subtype;DGIG;4;6yPD1e|D-Gig;;R;;int;;;;
+.catalogs.asset_subtype;EGIG;5;ghD7eD|E-Gig;;R;;int;;;;
+.catalogs.asset_subtype;BARQUE;6;iVNmLl|barque;;R;;int;;;;
+.catalogs.asset_subtype;CHURCHBOAT;7;HLapWX|church boat;;R;;int;;;;
+.catalogs.asset_subtype;ERG;8;uv10GI|Ergo;;;;int;;;;
+.catalogs.asset_subtype;INRIGGER;9;vm7D8e|Inrigger;;R;;int;;;;
+.catalogs.asset_subtype;MOTORBOAT;10;lpmzsR|motor boat;;R;;int;;;;
+.catalogs.asset_subtype;RACING;11;Mig5Qp|racing;;R;;int;;;;
+.catalogs.asset_subtype;TRIMMY;12;AhWPwp|trimmy;;R;;int;;;;
+.catalogs.asset_subtype;WHERRY;13;VykcaV|wherry;;R;;int;;;;
+.catalogs.asset_subtype;OTHER;14;zPPByG|other;;;;int;;;;
+.catalogs.asset_subtype;SEAKAYAK;15;VRFk1g|Seakayak;;C;;int;;;;
+.catalogs.asset_subtype;RACINGKAYAK;16;42tG1v|Racing Kayak;;C;;int;;;;
+.catalogs.asset_subtype;WHITEWATERKAYAK;17;I0yBi9|White Water Kayak;;C;;int;;;;
+.catalogs.asset_subtype;CANADIANTOURINGCANOE;18;Ugs9E9|Canadian Touring Canoe;;C;;int;;;;
+.catalogs.asset_subtype;POLOBOAT;19;5n89du|Polo Boat;;C;;int;;;;
+.catalogs.asset_subtype;FOLDINGCANOE;20;gbnKmi|Folding Canoe;;C;;int;;;;
+.catalogs.asset_subtype;CANADIANTEAMCANOE;21;YESw6Y|Canadian team canoe;;C;;int;;;;
+.catalogs.asset_subtype;DRAGONBOAT;22;7VPHRj|Dragonboat;;C;;int;;;;
+.catalogs;boat_variants;;KJVdkc|Boat variants;K2xXwe|the list of boat variant...;;.templates.boat_variant;none;;;;
+.catalogs.boat_variants;1_COXLESS_SCULL;1;8z7mQ0|One-without cox-scull;;;;template;;;.templates.boat_variant;
+.catalogs.boat_variants.1_COXLESS_SCULL;coxing;COXLESS;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;;;string;;;.catalogs.boat_coxing;select
+.catalogs.boat_variants.1_COXLESS_SCULL;seating;1;K0gmHX|seating;G1zcne|the seating like 4x for ...;;;string;;;.catalogs.boat_seating;select
+.catalogs.boat_variants.1_COXLESS_SCULL;places;1;aG0EhE|places;wubamX|the number of people who...;;;int;1;50;;
+.catalogs.boat_variants.1_COXLESS_SCULL;rigging;SCULL;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;;;string;;;.catalogs.boat_rigging;select
+.catalogs.boat_variants;2X_COXED_SCULL;2;t37q0M|double twos-with cox;;;;template;;;.templates.boat_variant;
+.catalogs.boat_variants.2X_COXED_SCULL;coxing;COXED;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;;;string;;;.catalogs.boat_coxing;select
+.catalogs.boat_variants.2X_COXED_SCULL;seating;2;K0gmHX|seating;G1zcne|the seating like 4x for ...;;;string;;;.catalogs.boat_seating;select
+.catalogs.boat_variants.2X_COXED_SCULL;places;3;aG0EhE|places;wubamX|the number of people who...;;;int;1;50;;
+.catalogs.boat_variants.2X_COXED_SCULL;rigging;SCULL;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;;;string;;;.catalogs.boat_rigging;select
+.catalogs.boat_variants;2X_COXLESS_SCULL;3;trjdW2|double twos-without cox;;;;template;;;.templates.boat_variant;
+.catalogs.boat_variants.2X_COXLESS_SCULL;coxing;COXLESS;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;;;string;;;.catalogs.boat_coxing;select
+.catalogs.boat_variants.2X_COXLESS_SCULL;seating;2X;K0gmHX|seating;G1zcne|the seating like 4x for ...;;;string;;;.catalogs.boat_seating;select
+.catalogs.boat_variants.2X_COXLESS_SCULL;places;2;aG0EhE|places;wubamX|the number of people who...;;;int;1;50;;
+.catalogs.boat_variants.2X_COXLESS_SCULL;rigging;SCULL;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;;;string;;;.catalogs.boat_rigging;select
+.catalogs.boat_variants;2_COXED_SCULL;4;AyrdcI|twos-with cox;;;;template;;;.templates.boat_variant;
+.catalogs.boat_variants.2_COXED_SCULL;coxing;coxless;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;;;string;;;.catalogs.boat_coxing;select
+.catalogs.boat_variants.2_COXED_SCULL;seating;1;K0gmHX|seating;G1zcne|the seating like 4x for ...;;;string;;;.catalogs.boat_seating;select
+.catalogs.boat_variants.2_COXED_SCULL;places;1;aG0EhE|places;wubamX|the number of people who...;;;int;1;50;;
+.catalogs.boat_variants.2_COXED_SCULL;rigging;scull;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;;;string;;;.catalogs.boat_rigging;select
+.catalogs.boat_variants;2_COXLESS_SWEEP;5;85Dkbv|twos-without cox;;;;template;;;.templates.boat_variant;
+.catalogs.boat_variants.2_COXLESS_SWEEP;coxing;COXLESS;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;;;string;;;.catalogs.boat_coxing;select
+.catalogs.boat_variants.2_COXLESS_SWEEP;seating;2;K0gmHX|seating;G1zcne|the seating like 4x for ...;;;string;;;.catalogs.boat_seating;select
+.catalogs.boat_variants.2_COXLESS_SWEEP;places;2;aG0EhE|places;wubamX|the number of people who...;;;int;1;50;;
+.catalogs.boat_variants.2_COXLESS_SWEEP;rigging;SWEEP;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;;;string;;;.catalogs.boat_rigging;select
+.catalogs.boat_variants;3_COXED_SCULL;6;UfY9dV|threes-with cox;;;;template;;;.templates.boat_variant;
+.catalogs.boat_variants.3_COXED_SCULL;coxing;COXED;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;;;string;;;.catalogs.boat_coxing;select
+.catalogs.boat_variants.3_COXED_SCULL;seating;3;K0gmHX|seating;G1zcne|the seating like 4x for ...;;;string;;;.catalogs.boat_seating;select
+.catalogs.boat_variants.3_COXED_SCULL;places;4;aG0EhE|places;wubamX|the number of people who...;;;int;1;50;;
+.catalogs.boat_variants.3_COXED_SCULL;rigging;SCULL;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;;;string;;;.catalogs.boat_rigging;select
+.catalogs.boat_variants;3_COXLESS_SCULL;7;iPFpX3|threes-without cox;;;;template;;;.templates.boat_variant;
+.catalogs.boat_variants.3_COXLESS_SCULL;coxing;COXLESS;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;;;string;;;.catalogs.boat_coxing;select
+.catalogs.boat_variants.3_COXLESS_SCULL;seating;3;K0gmHX|seating;G1zcne|the seating like 4x for ...;;;string;;;.catalogs.boat_seating;select
+.catalogs.boat_variants.3_COXLESS_SCULL;places;3;aG0EhE|places;wubamX|the number of people who...;;;int;1;50;;
+.catalogs.boat_variants.3_COXLESS_SCULL;rigging;SCULL;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;;;string;;;.catalogs.boat_rigging;select
+.catalogs.boat_variants;4X_COXED_SCULL;8;trgoYu|double fours-with cox;;;;template;;;.templates.boat_variant;
+.catalogs.boat_variants.4X_COXED_SCULL;coxing;COXED;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;;;string;;;.catalogs.boat_coxing;select
+.catalogs.boat_variants.4X_COXED_SCULL;seating;4X;K0gmHX|seating;G1zcne|the seating like 4x for ...;;;string;;;.catalogs.boat_seating;select
+.catalogs.boat_variants.4X_COXED_SCULL;places;5;aG0EhE|places;wubamX|the number of people who...;;;int;1;50;;
+.catalogs.boat_variants.4X_COXED_SCULL;rigging;SCULL;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;;;string;;;.catalogs.boat_rigging;select
+.catalogs.boat_variants;4X_COXLESS_SCULL;9;Qq5r0W|double fours-without cox;;;;template;;;.templates.boat_variant;
+.catalogs.boat_variants.4X_COXLESS_SCULL;coxing;COXLESS;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;;;string;;;.catalogs.boat_coxing;select
+.catalogs.boat_variants.4X_COXLESS_SCULL;seating;4X;K0gmHX|seating;G1zcne|the seating like 4x for ...;;;string;;;.catalogs.boat_seating;select
+.catalogs.boat_variants.4X_COXLESS_SCULL;places;4;aG0EhE|places;wubamX|the number of people who...;;;int;1;50;;
+.catalogs.boat_variants.4X_COXLESS_SCULL;rigging;SCULL;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;;;string;;;.catalogs.boat_rigging;select
+.catalogs.boat_variants;4_COXED_SCULL;10;O0UHBE|double fours-with cox;;;;template;;;.templates.boat_variant;
+.catalogs.boat_variants.4_COXED_SCULL;coxing;coxless;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;;;string;;;.catalogs.boat_coxing;select
+.catalogs.boat_variants.4_COXED_SCULL;seating;1;K0gmHX|seating;G1zcne|the seating like 4x for ...;;;string;;;.catalogs.boat_seating;select
+.catalogs.boat_variants.4_COXED_SCULL;places;1;aG0EhE|places;wubamX|the number of people who...;;;int;1;50;;
+.catalogs.boat_variants.4_COXED_SCULL;rigging;scull;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;;;string;;;.catalogs.boat_rigging;select
+.catalogs.boat_variants;4_COXED_SWEEP;11;IUXcdG|fours-with cox;;;;template;;;.templates.boat_variant;
+.catalogs.boat_variants.4_COXED_SWEEP;coxing;COXED;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;;;string;;;.catalogs.boat_coxing;select
+.catalogs.boat_variants.4_COXED_SWEEP;seating;4;K0gmHX|seating;G1zcne|the seating like 4x for ...;;;string;;;.catalogs.boat_seating;select
+.catalogs.boat_variants.4_COXED_SWEEP;places;5;aG0EhE|places;wubamX|the number of people who...;;;int;1;50;;
+.catalogs.boat_variants.4_COXED_SWEEP;rigging;SWEEP;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;;;string;;;.catalogs.boat_rigging;select
+.catalogs.boat_variants;4_COXLESS_SWEEP;12;i9fWFb|fours-without cox;;;;template;;;.templates.boat_variant;
+.catalogs.boat_variants.4_COXLESS_SWEEP;coxing;COXLESS;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;;;string;;;.catalogs.boat_coxing;select
+.catalogs.boat_variants.4_COXLESS_SWEEP;seating;4;K0gmHX|seating;G1zcne|the seating like 4x for ...;;;string;;;.catalogs.boat_seating;select
+.catalogs.boat_variants.4_COXLESS_SWEEP;places;4;aG0EhE|places;wubamX|the number of people who...;;;int;1;50;;
+.catalogs.boat_variants.4_COXLESS_SWEEP;rigging;SWEEP;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;;;string;;;.catalogs.boat_rigging;select
+.catalogs.boat_variants;5_COXLESS_SCULL;13;q3IQ5g|fives-without cox;;;;template;;;.templates.boat_variant;
+.catalogs.boat_variants.5_COXLESS_SCULL;coxing;COXLESS;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;;;string;;;.catalogs.boat_coxing;select
+.catalogs.boat_variants.5_COXLESS_SCULL;seating;5;K0gmHX|seating;G1zcne|the seating like 4x for ...;;;string;;;.catalogs.boat_seating;select
+.catalogs.boat_variants.5_COXLESS_SCULL;places;5;aG0EhE|places;wubamX|the number of people who...;;;int;1;50;;
+.catalogs.boat_variants.5_COXLESS_SCULL;rigging;SCULL;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;;;string;;;.catalogs.boat_rigging;select
+.catalogs.boat_variants;8_COXED_SWEEP;14;4huRFN|eights-with cox;;;;template;;;.templates.boat_variant;
+.catalogs.boat_variants.8_COXED_SWEEP;coxing;COXED;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;;;string;;;.catalogs.boat_coxing;select
+.catalogs.boat_variants.8_COXED_SWEEP;seating;8;K0gmHX|seating;G1zcne|the seating like 4x for ...;;;string;;;.catalogs.boat_seating;select
+.catalogs.boat_variants.8_COXED_SWEEP;places;9;aG0EhE|places;wubamX|the number of people who...;;;int;1;50;;
+.catalogs.boat_variants.8_COXED_SWEEP;rigging;SWEEP;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;;;string;;;.catalogs.boat_rigging;select
+.catalogs.boat_variants;OTHER_OTHER_OTHER;15;5ncXLv|any other;;;;template;;;.templates.boat_variant;
+.catalogs.boat_variants.OTHER_OTHER_OTHER;coxing;OTHER;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;;;string;;;.catalogs.boat_coxing;select
+.catalogs.boat_variants.OTHER_OTHER_OTHER;seating;OTHER;K0gmHX|seating;G1zcne|the seating like 4x for ...;;;string;;;.catalogs.boat_seating;select
+.catalogs.boat_variants.OTHER_OTHER_OTHER;places;9;aG0EhE|places;wubamX|the number of people who...;;;int;1;50;;
+.catalogs.boat_variants.OTHER_OTHER_OTHER;rigging;OTHER;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;;;string;;;.catalogs.boat_rigging;select
+.catalogs;boat_coxing;;kNVX2b|Boat coxing;VVLokL|the different options fo...;;none;none;;;;
+.catalogs.boat_coxing;COXLESS;1;grnRY1|without cox;;;;int;;;;
+.catalogs.boat_coxing;COXED;2;AcZSJ0|with cox;;;;int;;;;
+.catalogs.boat_coxing;OTHER;3;NbRfNS|other;;;;int;;;;
+.catalogs;boat_rigging;;RCBnd3|Boat rigging;B9zJnz|the different options fo...;;none;none;;;;
+.catalogs.boat_rigging;SCULL;1;m1EUK5|scull;;R;;int;;;;
+.catalogs.boat_rigging;SWEEP;2;GHlY4y|sweep;;R;;int;;;;
+.catalogs.boat_rigging;PADDLE;3;10HnEo|Paddle;;C;;int;;;;
+.catalogs.boat_rigging;OTHER;4;ABXd9f|other;;;;int;;;;
+.catalogs;boat_seating;;44UdCb|Boat seating;ft49sK|the different options fo...;;none;none;;;;
+.catalogs.boat_seating;1;1;2m3N8J|One;;;;int;;;;
+.catalogs.boat_seating;2;2;n8EyiH|double sweep;;;;int;;;;
+.catalogs.boat_seating;2X;3;0sSNXI|double scull;;;;int;;;;
+.catalogs.boat_seating;3;4;kTWaoZ|threes;;;;int;;;;
+.catalogs.boat_seating;4;5;hlxO3N|fours;;;;int;;;;
+.catalogs.boat_seating;4X;6;9QtVqj|double fours;;;;int;;;;
+.catalogs.boat_seating;5;7;kzSxm8|fives;;;;int;;;;
+.catalogs.boat_seating;6;8;uJUggz|sixes;;;;int;;;;
+.catalogs.boat_seating;6X;9;ewfbMj|double sixes;;;;int;;;;
+.catalogs.boat_seating;8;10;denQKB|eights;;;;int;;;;
+.catalogs.boat_seating;8X;11;DUMRwv|dozble eights;;;;int;;;;
+.catalogs.boat_seating;OTHER;12;NkGPBr|other;;;;int;;;;
+.catalogs;damage_severities;;769Yt3|Damage severities;JNDKS5|the different options fo...;;none;none;;;;
+.catalogs.damage_severities;FULLYUSEABLE;1;X3aEex|fully usable;;;;int;;;;
+.catalogs.damage_severities;LIMITEDUSEABLE;2;rdpocs|limited usable;;;;int;;;;
+.catalogs.damage_severities;NOTUSEABLE;3;xDE1cA|not usable;;;;int;;;;
+.catalogs;destination_areas;;we0nQ4|Destination areas;SNnUt4|the different options fo...;;none;none;;;;
+.catalogs.destination_areas;OTHER;1;Mq4mkn|andere;;;;int;;;;
+.catalogs;location_types;;slf0VZ|Location types;8x4ec0|the different options fo...;;none;none;;;;
+.catalogs.location_types;BOATHOUSE;1;poQR3u|boathouse;;;;int;;;;
+.catalogs.location_types;CLUBHOUSE;2;CFTuTf|clubhouse;;;;int;;;;
+.catalogs.location_types;OTHER;3;PlKD7C|other;;;;int;;;;
+.catalogs;message_destinations;;9U1xAJ|Message destinations;rxBROI|the different options fo...;;none;none;;;;
+.catalogs.message_destinations;ADMIN;1;66jsOU|Administrator;;;;int;;;;
+.catalogs.message_destinations;BOATM;2;lKC9rN|Boat master;;;;int;;;;
+.catalogs;person_gender;;F1eO35|Person gender;xN1pkc|the different options fo...;;none;none;;;;
+.catalogs.person_gender;FEMALE;1;GEqrkL|female;;;;int;;;;
+.catalogs.person_gender;MALE;2;q14bUB|male;;;;int;;;;
+.catalogs.person_gender;OTHER;3;Y3mUTK|other;;;;int;;;;
+.catalogs;person_status;;D9IRZd|Person status;VWN7Up|the different options fo...;;none;none;;;;
+.catalogs.person_status;MEMBER;1;oL3cee|Member;H4jV4o|a member of the club;;;int;;;;
+.catalogs.person_status;GUEST;2;uDYCoB|Guest;NEsOss|a listed guest of the cl...;;;int;;;;
+.catalogs.person_status;OTHER;3;bpH6Mx|Other;xF5oPr|other people;;;int;;;;
+.catalogs;reservation_types;;lOh6TH|Reservation types;RRVXOt|the different options fo...;;none;none;;;;
+.catalogs.reservation_types;ONETIME;1;bN3xHf|one time;;;;int;;;;
+.catalogs;session_types;;oazRhT|Session types;67zrfh|the different options fo...;;none;none;;;;
+.catalogs.session_types;NORMAL;1;xhLziQ|normal session;;;;int;;;;
+.catalogs.session_types;LATEENTRY;2;vAmruh|late entry;;;;int;;;;
+.catalogs.session_types;TRAININGCAMP;3;5IYzrM|training camp;;;;int;;;;
+.catalogs.session_types;ERG;4;5HZbuy|Ergo;;;;int;;;;
+.catalogs.session_types;MOTORBOAT;5;4f13QL|motor boat;;;;int;;;;
+.catalogs.session_types;REGATTA;6;zQeBQz|regatta;;;;int;;;;

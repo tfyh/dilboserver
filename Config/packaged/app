@@ -1,0 +1,77 @@
+_path;_name;default_value;default_label;default_description;node_addable_type;value_type;value_min;value_max;value_reference;input_type;actual_value
+;app;;vQqH1u|application settings;uCpZSW|a dilbo Application ob...;;none;;;;;
+.app;club;;oIdZfk|club settings;Dx4OBv|a dilbo Club object in...;;none;;;;;
+.app.club;acronym;RCWB;DYvvBo|Acronym;1SbPIM|the abbreviation of the ...;;string;;;;;BRG
+.app.club;address;boathouse;I9cjtm|Main location;g5sgQX|the main location of the...;;string;;;.app.club.locations;select;Bootshaus
+.app.club;clubname;RC Weiss Blau;mkQ56z|Club name;uQMtKd|the club°s full name;;string;;;;;Bonner RG
+.app.club;url;https://www.dilbo.org;1Mzjw9|Web homepage;AC6hqs|the clubs homepage URL;;string;;;;;
+.app.club;dilbo_server;http://localhost;LMP2yc|server URL;NNd6Kq|the dilbo server URL;;string;;;;;
+.app.club;associations;;YNWYRr|Associations;NkAxDv|a dilbo Associations o...;;none;;;;;
+.app.club.associations;global;;DiqqXC|Global association name;hCOXX2|Its global assocoation, ...;;string;;;;;
+.app.club.associations;member_of_drv;false;RhddWw|Member Of DRV;q8lMgp|true, if member of DRV;;boolean;false;false;;;true
+.app.club.associations;regional;;67aHAM|Regional association nam...;wdaPnt|Its regional association...;;string;;;;;
+.app.club;habits;;jRBat5|Habits;gPuio3|the club habits like lan...;;none;;;;;
+.app.club.habits;name_format;FIRSTLAST;2bt21a|Name format;7m4ZED|the full name format;;string;;;.framework.select.name_format;select;
+.app.club.habits;public_eventlists;"all_sessions; open_sessions; future_reservations; open_damages";HQJsHw|Public event lists;GyWake|the list of publicly ava...;;string;;;;;
+.app.club.habits;public_rankings;"boats_ranking; destinations_ranking";R4DpRg|Public rankings;ApskpP|the list of publicly ava...;;string;;;;;
+.app.club.habits;sports_type;rowing;QJVT5W|sports type;c4h4Rj|the sports this logbook ...;;string;;;.framework.select.sport;select;
+.app.club.habits;sports_year_start;1;dL8PNe|Sports year start;MijYWH|the starting month of th...;;int;1;12;;"select 1=1;4=4;7=7;10=10";
+.app.club.habits;timezone;cet;kYzDQD|Time zone;1cQ44R|the time zone used;;string;;;.framework.select.timezone;select;
+.app.club;locations;;Lo8RAS|Locations;NznOXv|the list of locations of...;.templates.location;none;;;;;
+.app.club;logbooks;;SBPtZz|Logbooks;NpDT5P|the list of logbooks of ...;.templates.logbook;none;;;;;
+.app.club;workbooks;;fbiboA|Workbooks;xGN4rr|the list of books on clu...;.templates.workbook;none;;;;;
+.app;mailer;;T5e4XF|mailer;WUshOF|a dilbo communications...;;none;;;;;
+.app.mailer;mail_footer;<hr><small>dilbo \u00a9 www.dilbo.org<\/small>;im6qRb|Mail footer;w7fPZs|the footer of all genera...;;string;;;;;
+.app.mailer;mail_subscript;<p>Yours, dilbo.<p>;MnB369|Mail subscript;Q2CMAB|the subscript to system ...;;string;;;;;
+.app.mailer;system_mail_sender;dilbo-noreply<noreply@default.dilbo.org>;F01jyL|System mail sender;HQYFyU|the mail address to be u...;;string;;;;;
+.app;maintenance;;zr2idi|Maintenance;YQ9znM|the applications mainte...;;none;;;;;
+.app.maintenance;configured_jobs;;E2E47c|Configured jobs;uWxE5s|the list of daily jobs t...;;string;;;;;
+.app.maintenance;daily_backup;false;oTQpJP|Daily backup;8DhT84|Enabling of the daily ba...;;boolean;false;false;;;false
+.app.maintenance;purge_deleted_age_days;365;UaLOHn|purge deleted, age in da...;JFBjiB|the number of days after...;;int;0;0;;;
+.app.maintenance;archive;;oueYSV|Archive;deHQT3|The archiving of record ...;;none;;;;;
+.app.maintenance.archive;clubwork_age_days;720;rKTnK7|Clubwork age in days;h05I6K|Clubwork age in days;;int;0;0;;;
+.app.maintenance.archive;damage_age_days;720;Ida7sx|Damage age in days;mljXaE|Damage age in days;;int;0;0;;;
+.app.maintenance.archive;message_age_days;720;hYT7i4|Message age in days;opmIs7|Message age in days;;int;0;0;;;
+.app.maintenance.archive;persons_age_days;1810;UkHpF2|Persons age in days;r5rY6e|Persons age in days;;int;0;0;;;
+.app.maintenance.archive;reservation_age_days;720;ASEoCr|Reservation age in days;dhMW65|Reservation age in days;;int;0;0;;;
+.app.maintenance.archive;trip_age_days;720;EGsuao|Trip age in days;1pJnML|Trip age in days;;int;0;0;;;
+.app;notification;;JLdYZP|Workflow notifications;UQRns8|a dilbo Workflow notifi...;;none;;;;;
+.app.notification;notificaton_copy_to;;NehXwd|notification copy to;XEqfJN|the carbon copy address ...;;string;;;;;
+.app.notification;notify_admin_message_to;;R22xcy|notify message to;WEbWAm|the address to notify me...;;string;;;;;
+.app.notification;notify_damage_to;;WquAqp|notifiy damage to;mNr8kc|the address to notify da...;;string;;;;;
+.app.notification;notify_damage_unusable_only;true;aY3FHB|notify if not usable onl...;Hxsuol|only notfy damages which...;;boolean;false;false;;;false
+.app.notification;notify_reservation_to;;jn5WN8|notify reservation to;CUBg0z|the address to notify re...;;string;;;;;
+.app.notification;personal_logbook;;QfyaT6|Personal logbook;8NQluN|a dilbo Personal logboo...;;none;;;;;
+.app.notification.personal_logbook;columns;Fahrtnummer,Datum,Boot,Steuermann,Mannschaft,Abfahrt,Ankunft,Ziel,Kilometer;fK2tDd|Columns;3TiVZ0|the columns to display i...;;string;;;;;
+.app.notification.personal_logbook;table_tag;logbook;vODhXd|Table;MmDF9y|the html format of the t...;;string;;;;;
+.app.notification.personal_logbook;td_tag;<td>;Dp1r1c|Format for td;LOqM7C|the html format of the t...;;string;;;;;
+.app.notification.personal_logbook;th_tag;<th>;xyM8WL|Format for th;CT3fXP|the html format of the t...;;string;;;;;
+.app.notification.personal_logbook;tr_tag;<tr>;FoUakd|Format for tr;Biq8LE|the html format of the t...;;string;;;;;
+.app;operations;;lYBmSv|Operations;C87JcE|the applications operat...;;none;;;;;
+.app.operations;date_of_cdp_agreement;1970-01-01;GVwDG3|Date of agreement for co...;sJaCgN|Date of agreement for co...;;date;;;;;
+.app.operations;debug_on;false;zBPp3D|Debugging on;DNkmyb|debugging slows down ope...;;boolean;false;false;;;false
+.app.operations;hoster;;e5f94Q|Hoster;lSrBza|the hoster, i. e. servic...;;string;;;;;
+.app.operations;operations_responsible;;9v6qNa|Operations responsible;UwzBpl|the person responsible f...;;string;;;;;
+.app.operations;support_token;;L8QRea|Support token;s2Yv4N|the token provided by th...;;string;;;;;
+.app;public_info;;T1Xqi0|publicly available infor...;;;none;;;;;
+.app.public_info;notavailable;false;xzhtwo|Boats not available;cd71Yk|allow display of the boa...;;boolean;false;false;;;false
+.app.public_info;notusable;false;mYiQgl|Boats not usable;8Zd75V|allow display of the boa...;;boolean;false;false;;;false
+.app.public_info;onthewater;false;wAmxf9|Boats on the water;Xn0KFG|allow display of the boa...;;boolean;false;false;;;false
+.app.public_info;reserved;false;0qy3Ok|Boats reserved;9P1aDt|allow display of the boa...;;boolean;false;false;;;false
+.app.public_info;trip_data;;JuEtZD|publicaly visible tripda...;buM3DY|a dilbo publicaly visib...;;none;;;;;
+.app.public_info.trip_data;boat_affix;false;xjIgJU|boat affix;THfsbA|use the boat_affix field...;;boolean;false;false;;;false
+.app.public_info.trip_data;boat_name;false;wMG0QG|boat name;tXmsvK|use the boat_name field ...;;boolean;false;false;;;false
+.app.public_info.trip_data;boat_type;false;fCVvmQ|boat type;tt0Asq|use the boat_type field ...;;boolean;false;false;;;false
+.app.public_info.trip_data;crew_groups;false;gXMgBV|crew groups;vd6ICS|use the crew_groups fiel...;;boolean;false;false;;;false
+.app.public_info.trip_data;destination;false;D74J4B|destination;14ihGe|use the destination fiel...;;boolean;false;false;;;false
+.app.public_info.trip_data;distance;false;vtaU6d|distance;1o6xTa|use the distance field w...;;boolean;false;false;;;false
+.app.public_info.trip_data;entry_id;false;9Eu3qa|entry id;jkKR7G|use the entry_id field w...;;boolean;false;false;;;false
+.app.public_info.trip_data;start_time;false;0pdLA1|start time;Wxz52t|use the start_time field...;;boolean;false;false;;;false
+.app;synchronisation;;TDuaQK|Client synchronisation;oxrvY3|a dilbo Client synchron...;;none;;;;;
+.app.synchronisation;synch_check_period;60;CATRWa|Synch check period;mi5ugY|the number of seconds be...;;int;0;0;;;
+.app.synchronisation;synch_period;3600;2YqJmX|Synch period;ifN5oc|the number of seconds be...;;int;0;0;;;
+.app;user_preferences;;7h26Hb|Preferences;OJyI8o|a dilbo (user) Preferenc...;;none;;;;;
+.app.user_preferences;language;de;ZQGhyK|Language;gbm29m|the selected language;;string;;;.framework.select.language;select;
+.app.user_preferences;logbook;logbook;Fc4Dgy|Logbook;FDZrap|the selected logbook;;string;;;.app.club.logbooks;select;
+.app.user_preferences;profile;dilbo;xgwLOU|Profile;ixCIoQ|the selected UI profile;;string;;;.ui.profiles;select;
+.app.user_preferences;workbook;workbook;CoKpst|Workbook;mHga8e|the selected workbook;;string;;;.app.club.workbooks;select;

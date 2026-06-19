@@ -1,0 +1,504 @@
+efa2able;efa2column;source;dilbo table;dilbo field;rule efa2dilbo;rule join field;value_type
+efa2autoincrement;Sequence;efa2;-;-;skip_table;;string
+efa2autoincrement;IntValue;efa2;-;-;skip_table;;int
+efa2autoincrement;LongValue;efa2;-;-;skip_table;;long
+efa2autoincrement;ChangeCount;efa2;-;-;skip_table;;int
+efa2autoincrement;LastModified;efa2;-;-;skip_table;;long
+efa2autoincrement;LastModification;efaCloud;-;-;skip_table;;long
+efa2autoincrement;ecrid;efaCloud;-;-;skip_table;;string
+efa2boatdamages;BoatId;efa2;damages;asset_uuid;copy;;uuid
+efa2boatdamages;Damage;efa2;damages;number;map_damage_number;;int
+efa2boatdamages;Description;efa2;damages;description;copy;;string
+efa2boatdamages;Severity;efa2;damages;severity;copy;;string
+efa2boatdamages;Fixed;efa2;damages;fixed;copy;;boolean
+efa2boatdamages;ReportDate;efa2;damages;reported_on;add_time;ReportTime;date
+efa2boatdamages;ReportTime;efa2;damages;(reported_on);skip;;time
+efa2boatdamages;FixDate;efa2;damages;fixed_on;add_time;FixTime;date
+efa2boatdamages;FixTime;efa2;damages;(fixed_on);skip;;time
+efa2boatdamages;ReportedByPersonId;efa2;damages;reported_by;use_name_if_empty;ReportedByPersonName;uuid
+efa2boatdamages;ReportedByPersonName;efa2;damages;-;skip;;string
+efa2boatdamages;FixedByPersonId;efa2;damages;fixed_by;use_name_if_empty;FixedByPersonName;string
+efa2boatdamages;FixedByPersonName;efa2;damages;-;skip;;string
+efa2boatdamages;RepairCosts;efa2;damages;repair_costs;copy;;string
+efa2boatdamages;Claim;efa2;damages;claim;copy;;boolean
+efa2boatdamages;Notes;efa2;damages;notes;copy;;string
+efa2boatdamages;LogbookText;efa2;damages;logbook_text;copy;;string
+efa2boatdamages;ChangeCount;efa2;damages;-;skip;;int
+efa2boatdamages;LastModified;efa2;damages;modified;millis_to_microtime;;long
+efa2boatdamages;LastModification;efaCloud;damages;(efaCloud record management);skip;;string
+efa2boatdamages;ClientSideKey;efaCloud;damages;(efaCloud KeySynch);skip;;int
+efa2boatdamages;ecrid;efaCloud;damages;(efaCloud record management);skip;;string
+efa2boatdamages;ecrown;efaCloud;damages;(efaCloud record management);skip;;int
+efa2boatdamages;ecrhis;efaCloud;damages;(efaCloud record management);skip;;text
+efa2boatreservations;VirtualBoat;efa2;reservations;-;skip;;string
+efa2boatreservations;BoatId;efa2;reservations;asset_uuid;copy;;uuid
+efa2boatreservations;Reservation;efa2;reservations;number;copy;;int
+efa2boatreservations;Type;efa2;reservations;type;copy;;string
+efa2boatreservations;VirtualReservationDate;efa2;reservations;-;skip;;date
+efa2boatreservations;DateFrom;efa2;reservations;start;add_time;TimeFrom;date
+efa2boatreservations;DateTo;efa2;reservations;end;add_time;TimeTo;date
+efa2boatreservations;DayOfWeek;efa2;reservations;day_of_week;copy;;int
+efa2boatreservations;TimeFrom;efa2;reservations;(start);skip;;time
+efa2boatreservations;TimeTo;efa2;reservations;(end);skip;;time
+efa2boatreservations;VirtualPerson;efa2;reservations;-;skip;;string
+efa2boatreservations;PersonId;efa2;reservations;person_uuid;copy;;uuid
+efa2boatreservations;PersonName;efa2;reservations;(person_uuid);skip;;string
+efa2boatreservations;Reason;efa2;reservations;reason;copy;;string
+efa2boatreservations;Contact;efa2;reservations;contact;copy;;string
+efa2boatreservations;ChangeCount;efa2;reservations;-;skip;;int
+efa2boatreservations;LastModified;efa2;reservations;modified;millis_to_microtime;;long
+efa2boatreservations;LastModification;efaCloud;reservations;(efaCloud record management);skip;;string
+efa2boatreservations;ClientSideKey;efaCloud;reservations;(efaCloud KeySynch);skip;;int
+efa2boatreservations;ecrid;efaCloud;reservations;(efaCloud record management);skip;;string
+efa2boatreservations;ecrown;efaCloud;reservations;(efaCloud record management);skip;;int
+efa2boatreservations;ecrhis;efaCloud;reservations;(efaCloud record management);skip;;text
+efa2boats;Id;efa2;assets;uuid;copy;;uuid
+efa2boats;Name;efa2;assets;name;copy;;string
+efa2boats;NameAffix;efa2;assets;name_affix;copy;;string
+efa2boats;Owner;efa2;assets;asset_owner;copy;;string
+efa2boats;LastVariant;efa2;assets;last_variant;skip;;string
+efa2boats;DefaultVariant;efa2;assets;default_variant;skip;;string
+efa2boats;TypeVariant;efa2;assets;variant_options;create_boat_variants;;string
+efa2boats;TypeDescription;efa2;assets;-;skip;;string
+efa2boats;TypeType;efa2;assets;-;skip;;string
+efa2boats;TypeSeats;efa2;assets;-;skip;;string
+efa2boats;TypeRigging;efa2;assets;-;skip;;string
+efa2boats;TypeCoxing;efa2;assets;-;skip;;string
+efa2boats;AllowedGroupIdList;efa2;assets;allowed_group_uuids;copy_list;;uuid_list
+efa2boats;MaxNotInGroup;efa2;assets;max_not_in_group;copy;;int
+efa2boats;RequiredGroupId;efa2;assets;required_group_uuid;copy;;uuid
+efa2boats;OnlyWithBoatCaptain;efa2;assets;only_with_boat_captain;copy;;boolean
+efa2boats;Manufacturer;efa2;assets;manufacturer;copy;;string
+efa2boats;Model;efa2;assets;model;copy;;string
+efa2boats;MaxCrewWeight;efa2;assets;max_crew_weight;copy;;int
+efa2boats;ManufactionDate;efa2;assets;manufaction_date;copy;;date
+efa2boats;SerialNo;efa2;assets;serial_no;copy;;string
+efa2boats;PurchaseDate;efa2;assets;purchase_date;copy;;date
+efa2boats;PurchasePrice;efa2;assets;purchase_price;copy;;string
+efa2boats;SellingDate;efa2;assets;selling_date;copy;;date
+efa2boats;SellingPrice;efa2;assets;selling_price;copy;;string
+efa2boats;PurchasePriceCurrency;efa2;assets;purchase_price_currency;copy;;string
+efa2boats;InsuranceValue;efa2;assets;insurance_value;copy;;string
+efa2boats;DefaultCrewId;efa2;assets;default_crew_uuid;copy;;uuid
+efa2boats;DefaultSessionType;efa2;assets;default_session_type;copy;;string
+efa2boats;DefaultDestinationId;efa2;assets;default_destination_uuid;copy;;uuid
+efa2boats;ExcludeFromStatistics;efa2;assets;exclude_from_statistics;copy;;boolean
+efa2boats;FreeUse1;efa2;assets;free_use_1;copy;;string
+efa2boats;FreeUse2;efa2;assets;free_use_2;copy;;string
+efa2boats;FreeUse3;efa2;assets;free_use_3;copy;;string
+efa2boats;EfbId;efa2;assets;efb_id;copy;;int
+efa2boats;ValidFrom;efa2;assets;valid_from;millis_to_date;;long
+efa2boats;InvalidFrom;efa2;assets;invalid_from;millis_to_date;;long
+efa2boats;Invisible;efa2;assets;invisible;copy;;boolean
+efa2boats;Deleted;efa2;assets;deleted;copy;;boolean
+efa2boats;ChangeCount;efa2;assets;-;skip;;int
+efa2boats;LastModified;efa2;assets;modified;millis_to_microtime;;long
+efa2boats;LastModification;efaCloud;assets;(efaCloud record management);skip;;string
+efa2boats;ecrid;efaCloud;assets;(efaCloud record management);skip;;string
+efa2boats;ecrown;efaCloud;assets;(efaCloud record management);skip;;int
+efa2boats;ecrhis;efaCloud;assets;(efaCloud record management);skip;;text
+efa2boatstatus;BoatId;efa2;assets;base_status;map_to_assets;BaseStatus;string
+efa2boatstatus;BoatText;efa2;-;-;skip;;string
+efa2boatstatus;UnknownBoat;efa2;-;-;skip;;boolean
+efa2boatstatus;BaseStatus;efa2;-;-;skip;;string
+efa2boatstatus;CurrentStatus;efa2;-;-;skip;;string
+efa2boatstatus;ShowInList;efa2;-;-;skip;;boolean
+efa2boatstatus;OnlyInBoathouseId;efa2;-;-;skip;;boolean
+efa2boatstatus;Logbook;efa2;-;-;skip;;string
+efa2boatstatus;EntryNo;efa2;-;-;skip;;int
+efa2boatstatus;Comment;efa2;-;-;skip;;string
+efa2boatstatus;ChangeCount;efa2;-;-;skip;;int
+efa2boatstatus;LastModified;efa2;-;-;skip;;long
+efa2boatstatus;LastModification;efaCloud;-;-;skip;;long
+efa2boatstatus;ecrid;efaCloud;-;-;skip;;string
+efa2boatstatus;ecrown;efaCloud;-;-;skip;;int
+efa2clubwork;Id;efa2;workbook;uuid;copy;;uuid
+efa2clubwork;PersonId;efa2;workbook;person_uuid;use_name_if_empty;FirstLastName;uuid
+efa2clubwork;FirstName;efa2;workbook;-;skip;;string
+efa2clubwork;LastName;efa2;workbook;-;skip;;long
+efa2clubwork;FirstLastName;efa2;workbook;(person_uuid);skip;;string
+efa2clubwork;NameAffix;efa2;workbook;-;skip;;string
+efa2clubwork;Date;efa2;workbook;date;copy;;date
+efa2clubwork;Description;efa2;workbook;description;copy;;string
+efa2clubwork;Hours;efa2;workbook;hours;copy;;double
+efa2clubwork;Flag;efa2;workbook;flag;copy;;boolean
+efa2clubwork;Approved;efa2;workbook;approved;copy;;boolean
+efa2clubwork;ChangeCount;efa2;workbook;-;skip;;int
+efa2clubwork;LastModified;efa2;workbook;modified;millis_to_microtime;;long
+efa2clubwork;Clubworkbookname;efaCloud;workbook;workbookname ;copy_bookname;;string
+efa2clubwork;LastModification;efaCloud;workbook;(efaCloud record management);skip;;string
+efa2clubwork;ecrid;efaCloud;workbook;(efaCloud record management);skip;;string
+efa2clubwork;ecrown;efaCloud;workbook;(efaCloud record management);skip;;int
+efa2clubwork;ecrhis;efaCloud;workbook;(efaCloud record management);skip;;text
+efa2clubwork;VirtualPerson;efa2;workbook;(virtual field);skip;;string
+efa2crews;Id;efa2;crews;uuid;copy;;uuid
+efa2crews;Name;efa2;crews;name;copy;;string
+efa2crews;CoxId;efa2;crews;cox_uuid;copy;;uuid
+efa2crews;Crew1Id;efa2;crews;(member_uuids);merge_crew;;uuid
+efa2crews;Crew2Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew3Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew4Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew5Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew6Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew7Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew8Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew9Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew10Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew11Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew12Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew13Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew14Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew15Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew16Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew17Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew18Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew19Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew20Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew21Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew22Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew23Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;Crew24Id;efa2;crews;(member_uuids);skip;;uuid
+efa2crews;BoatCaptain;efa2;crews;boat_captain;copy;;int
+efa2crews;ChangeCount;efa2;crews;-;skip;;int
+efa2crews;LastModified;efa2;crews;modified;millis_to_microtime;;long
+efa2crews;LastModification;efaCloud;crews;(efaCloud record management);skip;;string
+efa2crews;ecrid;efaCloud;crews;(efaCloud record management);skip;;string
+efa2crews;ecrown;efaCloud;crews;(efaCloud record management);skip;;int
+efa2destinations;Id;efa2;destinations;uuid;copy;;uuid
+efa2destinations;Name;efa2;destinations;name;copy;;string
+efa2destinations;Start;efa2;destinations;start_location;copy;;string
+efa2destinations;End;efa2;destinations;end_location;copy;;string
+efa2destinations;StartIsBoathouse;efa2;destinations;start_is_boathouse;copy;;boolean
+efa2destinations;Roundtrip;efa2;destinations;roundtrip;copy;;boolean
+efa2destinations;DestinationAreas;efa2;destinations;destination_areas;copy_list;;string_list
+efa2destinations;PassedLocks;efa2;destinations;passed_locks;copy;;int
+efa2destinations;Distance;efa2;destinations;distance;copy_distance;;double
+efa2destinations;OnlyInBoathouseId;efa2;destinations;only_in_boathouse_id;copy;;string
+efa2destinations;WatersIdList;efa2;destinations;waters_uuids;copy_list;;uuid_list
+efa2destinations;ValidFrom;efa2;destinations;valid_from;millis_to_date;;long
+efa2destinations;InvalidFrom;efa2;destinations;invalid_from;millis_to_date;;long
+efa2destinations;Invisible;efa2;destinations;invisible;copy;;boolean
+efa2destinations;Deleted;efa2;destinations;deleted;copy;;boolean
+efa2destinations;ChangeCount;efa2;destinations;-;skip;;int
+efa2destinations;LastModified;efa2;destinations;modified;millis_to_microtime;;long
+efa2destinations;LastModification;efaCloud;destinations;(efaCloud record management);skip;;string
+efa2destinations;ecrid;efaCloud;destinations;(efaCloud record management);skip;;string
+efa2destinations;ecrown;efaCloud;destinations;(efaCloud record management);skip;;int
+efa2fahrtenabzeichen;PersonId;efa2;badges;personid;copy;;uuid
+efa2fahrtenabzeichen;Abzeichen;efa2;badges;abzeichen;copy;;string
+efa2fahrtenabzeichen;AbzeichenAB;efa2;badges;abzeichenab;copy;;string
+efa2fahrtenabzeichen;Kilometer;efa2;badges;kilometer;copy;;string
+efa2fahrtenabzeichen;KilometerAB;efa2;badges;kilometerab;copy;;string
+efa2fahrtenabzeichen;Fahrtenheft;efa2;badges;fahrtenheft;copy;;string
+efa2fahrtenabzeichen;GUI_VORNAME;efa2;badges;gui_vorname;copy;;string
+efa2fahrtenabzeichen;GUI_NACHNAME;efa2;badges;gui_nachname;copy;;string
+efa2fahrtenabzeichen;GUI_JAHRGANG;efa2;badges;gui_jahrgang;copy;;string
+efa2fahrtenabzeichen;GUI_ANZABZEICHEN;efa2;badges;gui_anzabzeichen;copy;;string
+efa2fahrtenabzeichen;GUI_ANZKM;efa2;badges;gui_anzkm;copy;;string
+efa2fahrtenabzeichen;GUI_ANZABZEICHENAB;efa2;badges;gui_anzabzeichenab;copy;;string
+efa2fahrtenabzeichen;GUI_ANZKMAB;efa2;badges;gui_anzkmab;copy;;string
+efa2fahrtenabzeichen;GUI_LETZTESJAHR;efa2;badges;gui_letztesjahr;copy;;string
+efa2fahrtenabzeichen;GUI_LETZTEKM;efa2;badges;gui_letztekm;copy;;string
+efa2fahrtenabzeichen;GUI_LETZTESDATUM;efa2;badges;gui_letztesdatum;copy;;string
+efa2fahrtenabzeichen;GUI_VERSION;efa2;badges;gui_version;copy;;string
+efa2fahrtenabzeichen;GUI_SCHLUESSEL;efa2;badges;gui_schluessel;copy;;string
+efa2fahrtenabzeichen;GUI_SIGNATUR;efa2;badges;gui_signatur;copy;;string
+efa2fahrtenabzeichen;GUI_STATUS;efa2;badges;gui_status;copy;;string
+efa2fahrtenabzeichen;ChangeCount;efa2;badges;-;skip;;int
+efa2fahrtenabzeichen;LastModified;efa2;badges;modified;millis_to_microtime;;long
+efa2fahrtenabzeichen;LastModification;efaCloud;badges;(efaCloud record management);skip;;string
+efa2fahrtenabzeichen;ecrid;efaCloud;badges;(efaCloud record management);skip;;string
+efa2fahrtenabzeichen;ecrown;efaCloud;badges;(efaCloud record management);skip;;int
+efa2fahrtenabzeichen;ecrhis;efaCloud;badges;(efaCloud record management);skip;;text
+efa2groups;Id;efa2;groups;uuid;copy;;uuid
+efa2groups;Name;efa2;groups;name;copy;;string
+efa2groups;Color;efa2;groups;color;copy;;string
+efa2groups;MemberIdList;efa2;groups;member_uuids;copy_list;;uuid_list
+efa2groups;ValidFrom;efa2;groups;valid_from;millis_to_date;;long
+efa2groups;InvalidFrom;efa2;groups;invalid_from;millis_to_date;;long
+efa2groups;Invisible;efa2;groups;invisible;copy;;boolean
+efa2groups;Deleted;efa2;groups;deleted;copy;;boolean
+efa2groups;ChangeCount;efa2;groups;-;skip;;int
+efa2groups;LastModified;efa2;groups;modified;millis_to_microtime;;long
+efa2groups;LastModification;efaCloud;groups;(efaCloud record management);skip;;string
+efa2groups;ecrid;efaCloud;groups;(efaCloud record management);skip;;string
+efa2groups;ecrown;efaCloud;groups;(efaCloud record management);skip;;int
+efa2logbook;EntryId;efa2;logbook;number;copy;;int
+efa2logbook;Date;efa2;logbook;start;add_time;StartTime;date
+efa2logbook;EndDate;efa2;logbook;end;add_time;EndTime;date
+efa2logbook;BoatId;efa2;logbook;asset_uuid;use_name_if_empty;BoatName;uuid_or_name
+efa2logbook;BoatVariant;efa2;logbook;asset_variant;copy;;string
+efa2logbook;BoatName;efa2;logbook;(asset_uuid);skip;;string
+efa2logbook;AllCrewNames;efa2;logbook;-;skip;;string
+efa2logbook;AllCrewIds;efa2;logbook;-;skip;;string
+efa2logbook;CoxId;efa2;logbook;(coxed);skip;;uuid
+efa2logbook;CoxName;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew1Id;efa2;logbook;crew;merge_crew;;uuid
+efa2logbook;Crew1Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew2Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew2Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew3Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew3Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew4Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew4Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew5Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew5Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew6Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew6Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew7Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew7Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew8Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew8Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew9Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew9Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew10Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew10Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew11Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew11Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew12Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew12Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew13Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew13Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew14Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew14Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew15Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew15Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew16Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew16Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew17Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew17Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew18Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew18Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew19Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew19Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew20Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew20Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew21Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew21Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew22Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew22Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew23Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew23Name;efa2;logbook;(crew);skip;;string
+efa2logbook;Crew24Id;efa2;logbook;(crew);skip;;uuid
+efa2logbook;Crew24Name;efa2;logbook;(crew);skip;;string
+efa2logbook;BoatCaptain;efa2;logbook;boat_captain;copy;;int
+efa2logbook;StartTime;efa2;logbook;(start);skip;;time
+efa2logbook;EndTime;efa2;logbook;end;add_date_if_empty;Date;time
+efa2logbook;DestinationId;efa2;logbook;destination;use_name_if_empty;DestinationName;uuid_or_name
+efa2logbook;DestinationName;efa2;logbook;(destination);skip;;string
+efa2logbook;DestinationVariantName;efa2;logbook;-;skip;;string
+efa2logbook;WatersIdList;efa2;logbook;waters;use_name_if_empty;WatersNameList;uuid_or_name_list
+efa2logbook;WatersNameList;efa2;logbook;(waters);skip;;string
+efa2logbook;Distance;efa2;logbook;distance;copy_distance;;double
+efa2logbook;Comments;efa2;logbook;comments;copy;;string
+efa2logbook;SessionType;efa2;logbook;session_type;copy;;string
+efa2logbook;SessionGroupId;efa2;logbook;-;skip;;uuid
+efa2logbook;EfbSyncTime;efa2;logbook;-;skip;;string
+efa2logbook;Open;efa2;logbook;-;skip;;boolean
+efa2logbook;ChangeCount;efa2;logbook;-;skip;;int
+efa2logbook;LastModified;efa2;logbook;modified;millis_to_microtime;;long
+efa2logbook;LastModification;efaCloud;logbook;(efaCloud record management);skip;;string
+efa2logbook;ClientSideKey;efaCloud;logbook;(efaCloud KeySynch);skip;;int
+efa2logbook;Logbookname;efaCloud;logbook;logbookname;copy_bookname;;string
+efa2logbook;ecrid;efaCloud;logbook;(efaCloud record management);skip;;string
+efa2logbook;ecrown;efaCloud;logbook;(efaCloud record management);skip;;int
+efa2logbook;ecrhis;efaCloud;logbook;(efaCloud record management);skip;;text
+efa2messages;MessageId;efa2;messages;number;copy;;int
+efa2messages;Date;efa2;messages;sent_on;add_time;Time;date
+efa2messages;Time;efa2;messages;(sent);skip;;time
+efa2messages;To;efa2;messages;sent_to;copy;;string
+efa2messages;From;efa2;messages;sent_from;copy;;uuid_or_name
+efa2messages;Subject;efa2;messages;subject;copy;;string
+efa2messages;Text;efa2;messages;body;copy;;string
+efa2messages;Read;efa2;messages;read;copy;;boolean
+efa2messages;ToBeMailed;efa2;messages;to_be_mailed;copy;;boolean
+efa2messages;ReplyTo;efa2;messages;reply_to;copy;;string
+efa2messages;ChangeCount;efa2;messages;-;skip;;int
+efa2messages;LastModified;efa2;messages;modified;millis_to_microtime;;long
+efa2messages;LastModification;efaCloud;messages;(efaCloud record management);skip;;string
+efa2messages;ClientSideKey;efaCloud;messages;(efaCloud KeySynch);skip;;int
+efa2messages;ecrid;efaCloud;messages;(efaCloud record management);skip;;string
+efa2messages;ecrown;efaCloud;messages;(efaCloud record management);skip;;int
+efa2persons;Id;efa2;persons;uuid;copy;;uuid
+efa2persons;FirstName;efa2;persons;first_name;copy;;string
+efa2persons;LastName;efa2;persons;last_name;copy;;string
+efa2persons;FirstLastName;efa2;persons;-;skip;;long
+efa2persons;NameAffix;efa2;persons;name_affix;copy;;string
+efa2persons;Title;efa2;persons;-;skip;;string
+efa2persons;Gender;efa2;persons;gender;copy;;string
+efa2persons;Birthday;efa2;persons;birthday;copy;;string
+efa2persons;Association;efa2;persons;association;copy;;string
+efa2persons;StatusId;efa2;persons;status;copy;;uuid
+efa2persons;AddressStreet;efa2;persons;addr_street;copy;;string
+efa2persons;AddressAdditional;efa2;persons;addr_additional;copy;;string
+efa2persons;AddressCity;efa2;persons;addr_city;copy;;string
+efa2persons;AddressZip;efa2;persons;addr_zip;copy;;string
+efa2persons;AddressCountry;efa2;persons;addr_country;copy;;string
+efa2persons;Email;efa2;persons;email;copy;;string
+efa2persons;MembershipNo;efa2;persons;membership_number;copy;;string
+efa2persons;Password;efa2;persons;-;skip;;string
+efa2persons;ExternalId;efa2;persons;external_id;copy;;string
+efa2persons;Disability;efa2;persons;disability;copy;;boolean
+efa2persons;ExcludeFromStatistics;efa2;persons;exclude_from_statistics;copy;;boolean
+efa2persons;ExcludeFromCompetition;efa2;persons;exclude_from_competition;copy;;boolean
+efa2persons;ExcludeFromClubwork;efa2;persons;exclude_from_clubwork;copy;;boolean
+efa2persons;BoatUsageBan;efa2;persons;boat_usage_ban;copy;;boolean
+efa2persons;InputShortcut;efa2;persons;-;skip;;string
+efa2persons;DefaultBoatId;efa2;persons;default_asset_uuid;copy;;uuid
+efa2persons;FreeUse1;efa2;persons;free_use_1;copy;;string
+efa2persons;FreeUse2;efa2;persons;free_use_2;copy;;string
+efa2persons;FreeUse3;efa2;persons;free_use_3;copy;;string
+efa2persons;EfbId;efa2;persons;efb_id;copy;;int
+efa2persons;ValidFrom;efa2;persons;valid_from;millis_to_date;;long
+efa2persons;InvalidFrom;efa2;persons;invalid_from;millis_to_date;;long
+efa2persons;Invisible;efa2;persons;invisible;copy;;boolean
+efa2persons;Deleted;efa2;persons;deleted;copy;;boolean
+efa2persons;ChangeCount;efa2;persons;-;skip;;int
+efa2persons;LastModified;efa2;persons;modified;millis_to_microtime;;long
+efa2persons;LastModification;efaCloud;persons;(efaCloud record management);skip;;string
+efa2persons;ecrid;efaCloud;persons;(efaCloud record management);skip;;string
+efa2persons;ecrown;efaCloud;persons;(efaCloud record management);skip;;int
+efa2persons;ecrhis;efaCloud;persons;(efaCloud record management);skip;;text
+efa2sessiongroups;Id;efa2;-;-;skip_table;;
+efa2sessiongroups;Logbook;efa2;-;-;skip_table;;
+efa2sessiongroups;Name;efa2;-;-;skip_table;;
+efa2sessiongroups;Route;efa2;-;-;skip_table;;
+efa2sessiongroups;Organizer;efa2;-;-;skip_table;;
+efa2sessiongroups;StartDate;efa2;-;-;skip_table;;
+efa2sessiongroups;EndDate;efa2;-;-;skip_table;;
+efa2sessiongroups;ActiveDays;efa2;-;-;skip_table;;
+efa2sessiongroups;ChangeCount;efa2;-;-;skip_table;;
+efa2sessiongroups;LastModified;efa2;-;-;skip_table;;
+efa2sessiongroups;LastModification;efaCloud;-;-;skip_table;;
+efa2sessiongroups;ecrid;efaCloud;-;-;skip_table;;
+efa2sessiongroups;ecrown;efaCloud;-;-;skip_table;;
+efa2sessiongroups;ecrhis;efaCloud;-;-;skip_table;;
+efa2statistics;Id;efa2;-;-;skip_table;;
+efa2statistics;Name;efa2;-;-;skip_table;;
+efa2statistics;Position;efa2;-;-;skip_table;;
+efa2statistics;PubliclyAvailable;efa2;-;-;skip_table;;
+efa2statistics;DateFrom;efa2;-;-;skip_table;;
+efa2statistics;DateTo;efa2;-;-;skip_table;;
+efa2statistics;StatisticCategory;efa2;-;-;skip_table;;
+efa2statistics;StatisticType;efa2;-;-;skip_table;;
+efa2statistics;StatisticKey;efa2;-;-;skip_table;;
+efa2statistics;FilterGender;efa2;-;-;skip_table;;
+efa2statistics;FilterGenderAll;efa2;-;-;skip_table;;
+efa2statistics;FilterStatus;efa2;-;-;skip_table;;
+efa2statistics;FilterStatusAll;efa2;-;-;skip_table;;
+efa2statistics;FilterSessionType;efa2;-;-;skip_table;;
+efa2statistics;FilterSessionTypeAll;efa2;-;-;skip_table;;
+efa2statistics;FilterBoatType;efa2;-;-;skip_table;;
+efa2statistics;FilterBoatTypeAll;efa2;-;-;skip_table;;
+efa2statistics;FilterBoatSeats;efa2;-;-;skip_table;;
+efa2statistics;FilterBoatSeatsAll;efa2;-;-;skip_table;;
+efa2statistics;FilterBoatRigging;efa2;-;-;skip_table;;
+efa2statistics;FilterBoatRiggingAll;efa2;-;-;skip_table;;
+efa2statistics;FilterBoatCoxing;efa2;-;-;skip_table;;
+efa2statistics;FilterBoatCoxingAll;efa2;-;-;skip_table;;
+efa2statistics;FilterBoatOwner;efa2;-;-;skip_table;;
+efa2statistics;FilterBoatOwnerAll;efa2;-;-;skip_table;;
+efa2statistics;FilterByPersonId;efa2;-;-;skip_table;;
+efa2statistics;FilterByPersonText;efa2;-;-;skip_table;;
+efa2statistics;FilterByBoatId;efa2;-;-;skip_table;;
+efa2statistics;FilterByBoatText;efa2;-;-;skip_table;;
+efa2statistics;FilterByGroupId;efa2;-;-;skip_table;;
+efa2statistics;FilterPromptPerson;efa2;-;-;skip_table;;
+efa2statistics;FilterPromptBoat;efa2;-;-;skip_table;;
+efa2statistics;FilterPromptGroup;efa2;-;-;skip_table;;
+efa2statistics;FilterFromToBoathouse;efa2;-;-;skip_table;;
+efa2statistics;FilterNameContains;efa2;-;-;skip_table;;
+efa2statistics;FilterCommentsInclude;efa2;-;-;skip_table;;
+efa2statistics;FilterCommentsExclude;efa2;-;-;skip_table;;
+efa2statistics;FilterMinSessionDistance;efa2;-;-;skip_table;;
+efa2statistics;FilterOnlyOpenDamages;efa2;-;-;skip_table;;
+efa2statistics;FilterAlsoOpenSessions;efa2;-;-;skip_table;;
+efa2statistics;FilterOnlyLogbook;efa2;-;-;skip_table;;
+efa2statistics;ShowFields;efa2;-;-;skip_table;;
+efa2statistics;ShowLogbookFields;efa2;-;-;skip_table;;
+efa2statistics;ShowOtherFields;efa2;-;-;skip_table;;
+efa2statistics;Aggregations;efa2;-;-;skip_table;;
+efa2statistics;AggregationDistanceBarSize;efa2;-;-;skip_table;;
+efa2statistics;AggregationRowDistanceBarSize;efa2;-;-;skip_table;;
+efa2statistics;AggregationCoxDistanceBarSize;efa2;-;-;skip_table;;
+efa2statistics;AggregationSessionsBarSize;efa2;-;-;skip_table;;
+efa2statistics;AggregationAvgDistanceBarSize;efa2;-;-;skip_table;;
+efa2statistics;AggregationDurationBarSize;efa2;-;-;skip_table;;
+efa2statistics;AggregationSpeedBarSize;efa2;-;-;skip_table;;
+efa2statistics;CompYear;efa2;-;-;skip_table;;
+efa2statistics;CompPercentFulfilled;efa2;-;-;skip_table;;
+efa2statistics;CompOutputShort;efa2;-;-;skip_table;;
+efa2statistics;CompOutputRules;efa2;-;-;skip_table;;
+efa2statistics;CompOutputAdditionalWithRequirements;efa2;-;-;skip_table;;
+efa2statistics;CompOutputWithoutDetails;efa2;-;-;skip_table;;
+efa2statistics;CompOutputAllDestinationAreas;efa2;-;-;skip_table;;
+efa2statistics;SortingCriteria;efa2;-;-;skip_table;;
+efa2statistics;SortingOrder;efa2;-;-;skip_table;;
+efa2statistics;OutputType;efa2;-;-;skip_table;;
+efa2statistics;OutputFile;efa2;-;-;skip_table;;
+efa2statistics;OutputEncoding;efa2;-;-;skip_table;;
+efa2statistics;OutputHtmlUpdateTable;efa2;-;-;skip_table;;
+efa2statistics;OutputCsvSeparator;efa2;-;-;skip_table;;
+efa2statistics;OutputCsvQuotes;efa2;-;-;skip_table;;
+efa2statistics;OptionDistanceWithUnit;efa2;-;-;skip_table;;
+efa2statistics;OptionTruncateDistance;efa2;-;-;skip_table;;
+efa2statistics;OptionListAllNullEntries;efa2;-;-;skip_table;;
+efa2statistics;OptionIgnoreNullValues;efa2;-;-;skip_table;;
+efa2statistics;OptionOnlyMembersWithInsufficientClubwork;efa2;-;-;skip_table;;
+efa2statistics;OptionSumGuestsAndOthers;efa2;-;-;skip_table;;
+efa2statistics;OptionSumGuestsByClub;efa2;-;-;skip_table;;
+efa2statistics;OptionShowValidLastTrip;efa2;-;-;skip_table;;
+efa2statistics;ChangeCount;efa2;-;-;skip_table;;
+efa2statistics;LastModified;efa2;-;-;skip_table;;
+efa2statistics;LastModification;efaCloud;-;-;skip_table;;
+efa2statistics;ecrid;efaCloud;-;-;skip_table;;
+efa2status;Id;efa2;status;uuid;copy;;uuid
+efa2status;Name;efa2;status;name;copy;;string
+efa2status;Type;efa2;status;type;copy;;string
+efa2status;Membership;efa2;status;-;skip;;string
+efa2status;AutoSetOnAge;efa2;status;-;skip;;boolean
+efa2status;MinAge;efa2;status;-;skip;;int
+efa2status;MaxAge;efa2;status;-;skip;;int
+efa2status;ChangeCount;efa2;status;-;skip;;int
+efa2status;LastModified;efa2;status;modified;millis_to_microtime;;long
+efa2status;LastModification;efaCloud;status;(efaCloud record management);skip;;string
+efa2status;ecrid;efaCloud;status;(efaCloud record management);skip;;string
+efa2status;ecrown;efaCloud;status;(efaCloud record management);skip;;int
+efa2waters;Id;efa2;waters;uuid;copy;;uuid
+efa2waters;Name;efa2;waters;name;copy;;string
+efa2waters;Details;efa2;waters;details;copy;;string
+efa2waters;EfbId;efa2;waters;efb_id;copy;;int
+efa2waters;ChangeCount;efa2;waters;-;skip;;int
+efa2waters;LastModified;efa2;waters;modified;millis_to_microtime;;long
+efa2waters;LastModification;efaCloud;waters;(efaCloud record management);skip;;string
+efa2waters;ecrid;efaCloud;waters;(efaCloud record management);skip;;string
+efa2waters;ecrown;efaCloud;waters;(efaCloud record management);skip;;int
+efaCloudArchived;ID;efaCloud;-;-;skip_table;;int
+efaCloudArchived;Time;efaCloud;-;-;skip_table;;long
+efaCloudArchived;Table;efaCloud;-;-;skip_table;;string
+efaCloudArchived;Record;efaCloud;-;-;skip_table;;text
+efaCloudLog;ID;efaCloud;-;-;skip_table;;int
+efaCloudLog;Author;efaCloud;-;-;skip_table;;string
+efaCloudLog;Time;efaCloud;-;-;skip_table;;long
+efaCloudLog;ChangedTable;efaCloud;-;-;skip_table;;string
+efaCloudLog;ChangedID;efaCloud;-;-;skip_table;;string
+efaCloudLog;Modification;efaCloud;-;-;skip_table;;string
+efaCloudLog;LastModified;efaCloud;-;-;skip_table;;long
+efaCloudTrash;ID;efaCloud;-;-;skip_table;;int
+efaCloudTrash;TrashedAt;efaCloud;-;-;skip_table;;long
+efaCloudTrash;Table;efaCloud;-;-;skip_table;;string
+efaCloudTrash;TrashedRecord;efaCloud;-;-;skip_table;;text
+efaCloudUsers;ID;efaCloud;persons;-;skip;;int
+efaCloudUsers;EMail;efaCloud;persons;email;copy;;string
+efaCloudUsers;efaCloudUserID;efaCloud;persons;user_id;copy;;int
+efaCloudUsers;Vorname;efaCloud;persons;-;skip;;string
+efaCloudUsers;Nachname;efaCloud;persons;-;skip;;string
+efaCloudUsers;Rolle;efaCloud;persons;role;copy;;string
+efaCloudUsers;Passwort_Hash;efaCloud;persons;password_hash;copy;;string
+efaCloudUsers;LastModified;efaCloud;persons;modified;millis_to_microtime;;long
+efaCloudUsers;ecrhis;efaCloud;persons;(efaCloud record management);skip;;text
+efaCloudUsers;efaAdminName;efaCloud;persons;-;skip;;string
+efaCloudUsers;Workflows;efaCloud;persons;workflows;copy;;int
+efaCloudUsers;Concessions;efaCloud;persons;concessions;copy;;int
+efaCloudUsers;PersonId;efaCloud;persons;-;skip;;uuid
+efaCloudUsers;Subskriptionen;efaCloud;persons;subscriptions;copy;;int

@@ -1,0 +1,1875 @@
+6qoA8U|#Error while opening the '%1' file.
+5qjixH|#Error: Target directory '%1' for unzipping already exists, aborted.
+XFt9AM|#Error: Zip path '%1' doesn't exist.
+Tu6j0f|%1 Bytes were uploaded.
+8tmTMH|%1 file write failed.
+MMIW9a|%1 records in %2 tables found.
+O0EFCI|'%1' is too big. Replaced by upper limit '%2'
+IL4ihl|'%1' is too small. Replaced by lower limit '%2'
+RNkGtP|(%1 data records with %2 columns each).
+RyaYQ8|(Can be made available on request).
+HpsAcF|(empty)
+WjRsQw|(empty)
+izUp6M|(empty)
+gEQmZw|(Number: %1)
+ETueWs|*import this zip archive:
+pl1k9D|[Edit concessions]
+A1Owa3|[Edit workflows]
+dJvuUP|[Send token]
+ZTKMhv|[Show]
+XtZapR|A change from context: %1 to %2 is not allowed. The session was terminated.
+AcXUXP|a clock display
+pCUN5Y|a compilation of the modification type and the changed values
+r9FCt7|a configured ranked list
+pqr2AS|a configured statistics
+LhJFv2|a connection status display
+xN8W5B|a contact for checks
+WAIZ9Z|a date without the time fraction between 1000-01-01 and 2999-12-31
+VeaNed|a description of the work done
+OJyI8o|a dilbo (user) Preferences object instance
+uCpZSW|a dilbo ‚Application‘ object instance
+NkAxDv|a dilbo ‚Associations‘ object instance
+oxrvY3|a dilbo ‚Client synchronisation‘ object instance
+Dx4OBv|a dilbo ‚Club‘ object instance
+WUshOF|a dilbo ‚communications‘ object instance
+pDoBx4|a dilbo ‚PDF‘ object instance
+8NQluN|a dilbo ‚Personal logbook‘ object instance
+buM3DY|a dilbo ‚publicaly visible tripdata‘ object instance
+TvbhVS|a dilbo ‚Type catalogs‘ object instance
+UQRns8|a dilbo ‚Workflow notifications‘ object instance
+pdfAGv|a high precision floating point number
+ncH3n3|A is a number, B not.
+Bczhcw|A is a single value, but B an array.
+sF4MkY|A is a single value, but B an array.
+QYQwlG|A is a string, B not.
+y5iS0B|A is a string, B not.
+B8udF2|A is an array, but B not.
+Q3220i|A is an array, but B not.
+KH8xj4|A is boolean, B not.
+xitScV|A is boolean, B not.
+lEUpOn|A is Date, B not.
+K8RkEM|A is DateTimeImmutable, B not.
+qQXEIR|A is float, B not.
+YA9xLD|A is integer, B not.
+EMt2mp|A is null, but B is not null.
+kSCib2|A is null, but B is not null.
+8qn1n1|A is object, B not.
+JiCPzn|A is object, B not.
+wMABQI|A is object, but not a Date. No comparison implemented for other objects.
+OHYGer|A is object, but not a DateTimeImmutable. No comparison implemented for other objects.
+snrtbT|a list of records
+lBhtsX|a list of some integer values
+U8F8cO|a list of some string values
+Q56gwn|a list of some UUIDs or names
+PXO4ka|a list of some UUIDs
+NEsOss|a listed guest of the club
+LEswoB|a long integer number - in PHP represented as String ! (max: 9223372036854775807)
+H4jV4o|a member of the club
+hYR1lf|A more recent program version %1 is available.
+wErv4U|a normal user
+idAn0P|a program option for content to be displayed at the user interface
+yxn8R3|A record with %1 '%2' already exists in table %3.
+iHgePQ|a reservation number
+xvSOCz|a set of fields to use in forms which are not table record fields
+PJaxsz|a standard 128 bit UUID, like ‚6ba7b810-9dad-11d1-80b4-00c04fd430c8‘
+NleMXL|a String of less than 4096 characters
+Kf38QT|a String of less than 65536 characters
+hGYIpr|a technical user to reflect the option for entry a the boathouse site
+Rm2hbJ|a template of an item branch
+N7zwJX|a time, either time of day or period between -99 and +99 hours
+waAoy8|a twelve characters random unique id
+lt3gwh|a unique object identifier of the work done (efa legacy)
+IvtKey|A user record must not be modified without providing the user's Id.
+0ICPQx|A user record must set the user's role for insertion.
+wYd9bK|a user who has identified, but nor rights at all except seeing its own data
+yFH7vj|a user who has not yet identified itself
+X3tFbN|a user with read access to anything, but no write allowance beyond that of the member
+joR2KU|a user with write access to all except the system generated fields
+HcIlHr|A-Gig
+3XfFZR|Abmelden
+zD9aCz|Abort now.
+uhcKky|aborted, see sys_db_audit.log
+SXFCcM|about
+QqsVTJ|abzeichen
+Xz3Mt2|abzeichenab
+l5E880|Access statistics
+8JnBLB|access
+UU8ZrV|Accesses last %1 days
+DYvvBo|Acronym
+hib5Yr|action links
+F7t6Jn|Action
+uRHqUh|actions
+Z4VNs0|Active clients
+JolXHh|Add
+kx8iiD|Added admin record.
+tNKKVB|Added admin record.
+H5p5xA|Added auto increment property to `%1`.`%2`.
+xw01aj|Added column `%1`.`%2` with current definition.
+S1nQio|Added unique property to `%1`.`%2`.
+1I7q2d|Adding not permitted to: '%1'
+RWzyuw|addr additional
+54Nc4L|addr city
+HNlaBt|addr country
+OyuQS0|addr street
+I8Qe4e|addr zip
+nxtlx7|address: city
+kLBpHw|address: street
+GX2BRC|Administer
+tNYLhI|administration
+66jsOU|Administrator
+jBHUla|Administrator
+dQ3PQG|Administrators are also deleted with the exception of '%1'.
+mIJlp8|administrators
+31PJH2|Admins imported
+ygOOPk|admins
+1SeWJN|After deleting the password, please log-in with a one-time password and set a new permanent one.
+1yDSbE|After the test mailing the message can be edited further.
+JmUHGQ|Afterwards, logging in with a NEW one-time password is possible again, which also gives you the option of setting up a new permanent password.
+JkFi3j|all trips
+JO9XOp|all users
+cd71Yk|allow display of the boats available report
+8Zd75V|allow display of the boats not usable report
+Xn0KFG|allow display of the boats on the water report
+9P1aDt|allow display of the boats reserved report
+entgRR|allowed group uuids
+6EoZZ1|an affix to the name
+N3ClPw|an affix to the name
+Kr71pH|an identifier String, containing only a..zA..Z0..9_, it shall not start with 0..9, but due to efa legacy this is allowed.
+1hmAzF|an integer number (default is 32 bit)
+usHKvV|An invalid form sequence number or form sequence token was specified.
+3Ju6sc|An overview of the currently assigned permissions
+5pIFfg|An up-to-date security concept is created from the application, which can be used for documentation in accordance with the GDPR. Please note that the security concept only concerns the application. The security of the web server must be documented elsewhere or secured by an appropriate GCU.
+9dBgWW|An upgrade cannot be undone. It is therefore recommended to pull a backup of the code beforehand
+HS5S4A|analog clock
+Q3Kiql|Analyse or modify tables and records
+OLdvxO|analysis
+wqfjYX|Analyst
+CW7uhM|anonymous request for not a form: %1/%2
+Kh3f7P|anonymous role
+dW5Evo|Anonymous user
+8FHeg0|anonymous
+5ncXLv|any other
+r70jt7|API status
+PcFnaZ|API
+3MjQY3|Application configuration error: list not defined. Please check with your administrator.
+4t2ytU|Application configuration error: list not defined. Please check with your administrator.
+eG3R6d|Application configuration error: list not defined. Please check with your administrator.
+p9OsWq|application information
+KyRHUN|application name
+vQqH1u|application settings
+sVDlYy|Application setup
+hYCay2|application url
+Uh7mnT|application version
+KWQvhQ|Application
+GL5oKY|approval mark
+LcjQdN|approved by
+XMqs5E|approved on
+TKKGMK|approved
+dhimlx|arbitrary comments
+vQfPRI|archived records of a table
+LFjF4k|archived uid
+F5yg2s|archived
+k1f72d|archive
+oueYSV|Archive
+hRa7Lj|ascending number provided by the database and used for change control by the tfyh framework
+I99caQ|ascending number
+moYtc5|ascending number
+Un4xdT|asset owner
+Th1rpd|Asset status options
+IVmONR|asset status
+fZxA3b|asset subtype
+jZcTh9|asset subtypes
+XCI9Vj|asset type
+lxAoLm|asset types
+OoJaFH|asset variant
+7wLp7B|asset
+MEJn0T|asset
+fuGic5|assets
+iLRBEh|assets
+6h5SfZ|association
+YNWYRr|Associations
+mlOh7N|Attachment 1:
+8dh5sK|Attachment 2:
+hv0TyN|Attachment:
+rHyH4e|ATTENTION: After 10 minutes the session ends, if no a new page is called up.
+6ePLG9|Audit for database %1
+3bUCT8|Audit the database
+UkRFrA|Authentication failed no password is set in user profile
+nVVYew|Authentication failed, wrong password
+3aIZhf|author
+WP2gSG|Author:
+dOH4gJ|author
+1GPSPQ|Authorisations overview
+UW9vbC|Authorisations overview
+nOchmJ|Author
+pwm01Q|author
+sfhaia|author
+yDZ1Sv|author
+yobG1D|author
+Pj1aLk|available boats
+rWiluj|available languages, linked to the language is the date time and number formatting
+yMIXHG|available languages, linked to the language is the date time and number formatting
+rV1nL0|Available lists of set %1
+98zonu|available time zones
+MYITc0|available
+xf8yxL|Average
+UHJlkG|B-Gig
+OdDC93|Back to previous setting
+j5CpiO|Back to standard colours
+jivK7Y|Backup import log
+BbmPwy|badges
+T4IzT5|badges
+iVNmLl|barque
+s0IJfr|Because this mail could not be sent to anyone, it was not saved in the sent mails.
+4T3kKl|Berlin/Paris
+ASO3pq|birthday
+xjIgJU|boat affix
+T7TS2f|boat captain (position)
+Zm1EQO|boat captain (position)
+kNVX2b|Boat coxing
+lKC9rN|Boat master
+wMG0QG|boat name
+RCBnd3|Boat rigging
+44UdCb|Boat seating
+fCVvmQ|boat type
+25iWqu|boat usage ban
+KJVdkc|Boat variants
+wdgrOA|boat with base status unavailable
+Pf0MrO|Boat
+dNfK2I|Boathouse
+poQR3u|boathouse
+lusU0e|boat
+xzhtwo|Boats not available
+mYiQgl|Boats not usable
+wAmxf9|Boats on the water
+lcKYi0|Boats ranking
+0qy3Ok|Boats reserved
+cDfe5p|Boats underway
+0ZpEIT|body
+QidFnd|body
+4igrr0|boolean A is not(boolean B).
+ofZjXx|boolean A is not(boolean B).
+Vyfkad|Boote reservieren
+0a0Es8|bottom menu
+LFWEMm|C-Gig
+1j0vu9|called by
+YESw6Y|Canadian team canoe
+Ugs9E9|Canadian Touring Canoe
+tGjTU8|cancel trip
+uSzD8H|cancel trip
+5uSD5Z|Cancel
+6GkrQI|Cancel
+rsPBxh|cancelled by
+0Jb2Qk|cancelled on
+AQ6jNh|Cannot insert record.
+4vF8NA|Cannot update record.
+fCWs9m|canoeing
+OZGFzr|CAUTION: A configuration import will always replace the complete existing configuration.
+fK6t7h|CAUTION: A data import usually will delete and reload the complete database.
+vM2BVe|Central European time
+YpUO6w|Change checked message.
+KDNuD3|Change colours and font
+boE0VN|Change logo
+IZjKgK|Change profile
+ezukBb|Change the 'valid from' date to create a new period. Edit the record for that new period.
+c1Kttz|Change the message.
+Sni5v9|Change the profile of %1
+Alpzz7|Change theme
+08PFcm|change
+0gI9lN|Change
+sNh3bq|Changed column `%1`.`%2` to current definition.
+gjYPBf|Changed ID:
+MZUBHS|changed uid
+g4L7FG|changed
+MHMkLP|changelog name
+ejtoDx|changelog
+jkjFR8|Changes to data
+whDEyZ|changes within records of a table
+84qqTb|Changes
+E6z7DI|Changes
+eDlcRp|changes
+3MS3H9|Checkbox checked
+nMSzXi|Checkbox unchecked
+NgKZWV|Checking code archive
+2J3SjW|Checking database connection for: %1
+RHFSbA|Checking the result
+HLapWX|church boat
+ErZvL9|claim
+uecpM1|Client request.
+rAlbJT|client server interface
+TDuaQK|Client synchronisation
+EhzMrg|client
+JjtIVR|client
+u620iB|clock
+Vxjyo7|Closing anonymous session due to successful login
+5Ddt11|Closing session due to login failure
+vJWQTM|Club information
+CnBGsZ|club logo
+kScAYD|club logo
+mkQ56z|Club name
+oIdZfk|club settings
+CFTuTf|clubhouse
+h05I6K|Clubwork age in days
+rKTnK7|Clubwork age in days
+SfVSSr|color
+CS3ieI|colour application
+xmC7bW|colour value
+fK2tDd|Columns
+8njxdh|comments
+2zbzk8|common fields
+AxJOaB|common fields
+DZhl1F|common fields
+GnHaTt|common fields
+KCTsEV|common fields
+ODsxKh|common fields
+Qq4hXC|common fields
+QvAbxC|common fields
+UHoEWO|common fields
+WvdOw5|common fields
+rc02SG|common fields
+vJPo4g|common fields
+xaRk0g|common fields
+xopwK1|common fields
+zKNEos|Completed successfully.
+6QCftb|Completed update_table_layout(%1).
+HAqb4l|completed. File size
+PLIvFy|Concessions
+2S8Lmx|Configuration browser
+QES6P2|Configuration editor
+3VwQtV|Configuration error.
+YG4BuC|Configuration error.
+qaczPb|Configuration error.
+7BVGfL|configuration values imported.
+UETSE9|configuration values imported.
+lTdLce|configuration values imported
+H9tW8m|configuration
+VshrlN|Configuration
+c2S7Zr|configuration
+AAbSwk|Configure the database connection
+E2E47c|Configured jobs
+BN4UxH|Connected as
+YlIcRa|connection
+KjeCap|contact
+9MnTvU|contents provider
+BgxoH6|contents provider
+LB2VIH|contents provider
+MM3g7t|contents provider
+NVNePn|contents provider
+WERe3b|contents provider
+hutilZ|contents provider
+jllcnX|contents provider
+yZf4ai|contents provider
+zHtWix|contents provider
+gcFhev|Continue to edit user.
+nX2H3M|copyright
+MQEsnc|Correct now - Wait - takes up to 5 minutes!
+URJSm4|Correction failed for '%1'
+8N2N5h|Count of accesses
+8fGF1t|Count of non-privileged roles:
+OPc8WE|Count of privileged roles:
+MzZXhV|Count of records
+Yp1lPb|cox
+JWKPQO|coxing
+jwq0iS|Create a new user
+6tNZ2D|Create data protection concept for the application
+wpf4AI|Create table `%1` with all columns according to the current layout.
+qhZ5Sv|created by
+RO5t0k|created on
+WRvThr|Creating empty new table `%1`...
+gXMgBV|crew groups
+OMg9N8|crew
+7WScxb|crews
+XMwoo5|crews
+6hVh0p|Current version at dilbo server
+ZC5KSz|Currently installed:
+6yPD1e|D-Gig
+oTQpJP|Daily backup
+Ida7sx|Damage age in days
+mljXaE|Damage age in days
+769Yt3|Damage severities
+ZBuhvQ|Damaged boats
+50TLgp|damages
+MaVc5i|damages
+yaRbu4|DANGER ZONE!
+PW2Hz1|DANGER ZONE: THIS WILL DELETE ALL DATA IN DATABASE %1 !!!
+vCGSbJ|Data base connection error:
+R51PFL|Data base connection failed:
+s2Mkwj|Data base connection successful, but test statement 'SELECT 1' failed.
+h0EUOC|Data base reset was skipped.
+4YsmYP|Data base statement '%1 ...' failed. Error: '%2'.
+IJxXoI|Data base was reset.
+2Cdisv|Data changes
+7NaapI|data layout
+Zlg4qc|data privacy
+cN3sAX|Data retrieval error:
+yxtlEE|data structure
+PfeK14|Data
+7lryij|Database error. Unable to deleted record with uid '%1' of table '%2'. Not found.
+zhlDnH|Database error: %1. Failed to create a trash entry. The record was not deleted.
+6nchtK|Database error: %1. Failed to delete record in '%2'.
+tZT02P|Database error: %1. Failed to insert record into '%2'.
+Jq2YEP|Database error: %1. Failed to update record in '%2'.
+zMDnsc|database socket
+5pH8pE|Database update command failed. Error message:
+YwHPOy|database_layout verified
+ZTpM5O|date and time between 1000-01-01 00:00:00 and 2999-12-31 23:59:59
+GGZexg|Date and Time
+sJaCgN|Date of agreement for contract data processing, provided in the security concept
+GVwDG3|Date of agreement for contract data processing
+uSKtHu|date plus time
+6fCAua|date
+AHuXHg|date
+eCGctK|Date
+Gh6rpp|datetime A != datetime B.
+z5G34s|datetime A != datetime B.
+1PeXp2|day of week
+rtBEhk|Dear %1 %2,
+ihdtPy|Dear 1
+eEUD9N|Dear 2
+BuXeTn|Dear 3
+xhXR6R|DEBUG MODE
+zBPp3D|Debugging on
+DNkmyb|debugging slows down operations and creates a lot of stored data, but may be needed for bug tracing.
+vfeF47|default boat uuid
+wQseut|default crew uuid
+O5lHM8|default destination uuid
+FiBcau|default session type
+SJJb4H|Delete database %1 and rebuild it.
+P8NqjU|Delete database %1
+yu9T3e|Delete database '%1' at '%2' now
+MyjroH|delete directory, if empty
+wWNgrt|delete existing data tables
+c32XmM|Delete file
+6Eagok|Delete password
+Ju1Dog|Delete password
+RcjBnK|delete record
+oVRldL|delete record
+eaMVsh|Delete the permanent password for the your account. Afterwards you may request a new one time password.
+S0Ejhn|deleted records of a table
+kI31f3|deleted uid
+rve23X|Deleting old code
+sOovvb|Deleting the permanent password is only possible with the specification of a stored e-mail address.
+B9EOmx|Description:
+A0ac1c|Description
+Mm3AQ8|description
+OJFiWA|Description
+VezllF|description
+RPjUUE|destination areas
+we0nQ4|Destination areas
+D74J4B|destination
+MI1DGQ|destination
+HJ6A6c|Destinations ranking
+FAc5j2|destinations
+NdSmAs|destinations
+koWndZ|details on the waters record
+BbZKd9|details
+7U0aO6|Deutsch (17.12.2024, 1.234,56)
+aAPA7p|Deutsch
+Y0Rn4h|dilbo default for portrait
+ssebrB|dilbo default layout
+g6ljZr|dilbo home for %1
+VgQ6jU|dilbo home
+XhHFLK|diplay an image, loaded from the resource
+ZNvHsT|direct access
+hX0dDX|Directory
+CWyUVf|disability
+nyF9E3|display a formatted text
+CHVtwP|Display changed profile of the user.
+ySBlMg|Display of a system record in %1 originating from %2.
+RF1L2R|distance
+a75PCW|distance
+vtaU6d|distance
+RGjcvy|Done. For the audit protocol please refer to /log/sys_db_audit.log
+Z4Qu8U|Done.
+BcbLd0|Done
+UIhMz8|Done
+ag2Cwk|Done
+AB5WD4|don’t know
+O0UHBE|double fours-with cox
+trgoYu|double fours-with cox
+Qq5r0W|double fours-without cox
+9QtVqj|double fours
+0sSNXI|double scull
+ewfbMj|double sixes
+n8EyiH|double sweep
+t37q0M|double twos-with cox
+trjdW2|double twos-without cox
+cmjKme|Download file
+DUMRwv|dozble eights
+7VPHRj|Dragonboat
+TQrqJw|Drop table `%1`.
+TuOggl|Dropped obsolete column `%1`.`%2`.
+zQY162|Dropped obsolete index `%1`.`%2`.
+2p7kEh|Dropping table `%1`...
+uTPBBb|Duplicate child name %1
+2IFi0b|Duplicate local name %1
+ghD7eD|E-Gig
+jvNIEJ|Each change to data is recorded, the last 100 days are shown here. Use permitted only for the regulated purpose.
+s0Odak|Edit a %1-record
+OWSuib|Edit a record
+F7qnFQ|edit assets
+GS9KGM|edit badges
+OGz2MB|edit crews
+TXUDaM|edit damages
+Ma1l1r|edit destinations
+8ocz68|edit groups
+zC2FGN|edit logbook
+RbrQPd|edit messages
+9ph81g|edit persons
+D1OCmR|edit preferences
+0U5jy1|Edit record for new period
+LY4vGp|Edit record
+5nWQST|edit records af table assets
+AVr0go|edit records af table badges
+Y5nvhk|edit records af table crews
+x8Ci7H|edit records af table damages
+YopnNN|edit records af table destinations
+2yBrgz|edit records af table groups
+XZ2EfD|edit records af table logbook
+P3Ttve|edit records af table messages
+LgQOhJ|edit records af table persons
+cjw9XN|edit records af table reservations
+w7Af3R|edit records af table status
+QCZtbv|edit records af table waters
+vzSIeP|edit records af table workbook
+yFclWI|edit reservations
+VGCYGz|edit status
+wi2U3J|edit trip
+2BwYsS|edit waters
+JCTFGS|edit workbook
+DVfjoK|Edit
+hAq1LW|efa damage number
+64hzBR|efaCloud password to retrieve efaCloud configuration and data, if available
+JwyWs2|efaCloud server connnect failure %1: %2
+MgQGLb|efaWeb: Reservierungen lesen
+7JSa5m|eFB ID
+NcwQSc|eFB ID
+j74zFU|eFB ID
+4huRFN|eights-with cox
+denQKB|eights
+6vwG5v|email
+eiCoTk|empty data fields
+7zx0jm|empty Id and Name for '%1'
+HE2ICg|Empty identifier
+uLDW4W|empty
+8DhT84|Enabling of the daily backup. This will required significant time to perform.
+QSgzbn|end
+tGufyM|end
+hHy8fY|English (17/12/2024, 1,234.56)
+ua38OA|English
+H6xh5s|enter a value.
+lYQAls|enter trip
+9Eu3qa|entry id
+CbG7UM|equality check failed due to unrecognized type of A: '
+Wxhd4A|equality check failed due to unrecognized type of A:
+5HZbuy|Ergo
+uv10GI|Ergo
+edML3Q|Error executing database SELECT statement.
+sTQcju|Error in sequence of forms.
+EvZXbc|Error updating record in %1. Could not find record with key:
+nHhQOA|Error when saving temporary file %1 to target location location %2.
+1Uo8a4|Error
+6HrzgB|Error: File '%1' not found.
+8XihSu|Error: File '%1' not found.
+vB1jX7|Error: User does not have sufficient rights to initialise the database.
+NLNSFH|Error:
+AsOtjr|Error
+UCOyeY|Error
+iX6ImJ|Example Headline 1
+DybBcu|Example Headline 4
+HsHWSA|Example Link
+2x5WNx|Exception raised when parsing %1 into %2
+vyIEGu|Exception raised when parsing %1 into %2
+8DfXOI|exclude from clubwork
+NcFzNZ|exclude from competition
+5RYjmC|exclude from statistics
+DIIwUV|exclude from statistics
+w96wp3|Expanding %1 files from zip archive
+d0z4Oi|Expert fields
+XRBVGE|external id
+6H3gWj|Extra field in B.
+XPWCVX|Extra field in B
+2trQTF|Extracting boat variant options out of %1 boat records.
+AyLVcb|Fahrtenbuch anzeigen
+GKykYZ|fahrtenheft
+bUhlFK|Failed - what a pity. The error is: '%1',
+N2Co3F|Failed to add default admin No 1142. Table '%1' not empty
+7vRDMJ|Failed to add default admin record:
+QR0NE4|Failed to find record with Id '%1' in table %2 for update.
+geDnMi|Failed to load efa2boats-file. There will be no boat variants.
+lFtrxn|Failed to put child to %1
+3cuTrK|Failed to read ../%1
+6QCVNs|Failed to regenerate session.
+GP3RV9|Failed to retrieve data %1.
+kzd3DP|Failed to start session.
+hVTaaQ|Failed
+wqLUx1|false
+GEqrkL|female
+0SC9ay|File does not exist.
+Wy3oFO|File size limit exceeded. Maybe you need to check the limits with your web service provider.
+5gYbSn|files parsed
+sKqkK4|files to remove at housekeeping
+wdLerX|File
+Rhz5mZ|Filter in column:
+6M8iob|Find a dilbo person
+twKTVn|Find occurrences
+6SbTVr|Find
+Kw1h6C|find
+QcKAAP|Find
+jm0ymC|Find
+zu2YnS|Find
+U0R4Op|first name first
+z1iH2X|first name of administrator person
+1plUcT|first name
+q3IQ5g|fives-without cox
+kzSxm8|fives
+wCxK28|fixed by
+5Kmxvp|fixed on
+twupc5|fixed
+tf4jR2|flag
+YgV1U0|float A != float B.
+qBIi8s|floating point number (64bit)
+gbnKmi|Folding Canoe
+jxhLJ9|Footer text
+dlPdPH|for boats the built, for other not used
+UTmyA8|For importing an ID must be specified in each record. Records that have an existing ID will be overwritten, including deletions. Records with an empty ID will be created.
+ymefAc|for standard catalogs and UI icons
+ffkuoc|For the search, at least one field must contain an entry.
+mwgz0K|For the still existing configuration of the client %1 there is no efaCloud user anymore.
+K7m1tH|for weekly reservations
+peiDrk|For your uuid no tabke could be matched.
+AAJv1G|Forbidden session context switch
+tysZww|Forbidden session context switch
+S81unZ|Forbidden to use reserved name %1
+A80LAS|form fields
+Im6RzC|Format error in '%1'.
+Dp1r1c|Format for ‚td‘
+xyM8WL|Format for ‚th‘
+FoUakd|Format for ‚tr‘
+IUXcdG|fours-with cox
+i9fWFb|fours-without cox
+hlxO3N|fours
+TedbHp|framework
+7NqePe|Français (17/12/2024, 1.234,56)
+sUW54d|Français
+WMfvNl|free use 1
+oRgZBm|free use 1
+Ii46wC|free use 2
+y4Dz9K|free use 2
+zPSkix|free use 2
+zeOCoD|free use 2
+10BTtm|free use 3
+EJYjbK|free use 3
+YIC5iv|free use 3
+zUhQ4u|free use 3
+JaGU45|free use
+umGml6|free use
+EIQA63|from when
+yhYGfZ|From:
+X3aEex|fully usable
+kgufgC|Function
+pn9DHz|Future reservations
+O0JWry|gender
+V3lCLm|get a list of all own trip sent to me regularly per mail
+OrvMhQ|get as csv-download file:
+k2AOXj|Get for Javascript
+DiqqXC|Global association name
+Be16mx|groups
+kZ2lm5|groups
+6QM1Pk|Guest
+uDYCoB|Guest
+IIOLVn|gui_anzabzeichen
+gdPIbc|gui_anzabzeichenab
+WXvYQC|gui_anzkm
+qo64TK|gui_anzkmab
+hoK0OF|gui_jahrgang
+dHQ1Jw|gui_letztekm
+8yH0MS|gui_letztesdatum
+1jl7HW|gui_letztesjahr
+Ry4sSi|gui_nachname
+l6eOSb|gui_schluessel
+H6ZnGJ|gui_signatur
+ZZO6hH|gui_status
+BYYsFO|gui_version
+nztTHX|gui_vorname
+jRBat5|Habits
+UcowVm|Handle api session
+UgRFql|Handling error. You are not allowed to delete your own person record.
+SCFM0U|Header bar
+dF0DWJ|Hello %1 %2,
+9fGTH0|Help on application usage
+5NwTuL|Help
+NAOKEm|Here are the last %1 mails to %2.
+ImbQDK|Here is the result of the audit of the database.
+c7f8JL|Here you can find a cloud user by entering some user related information.
+IXoLto|hide
+c02HGj|Hints:
+EkAEBW|history field name
+ufSvki|history
+Ymh3Us|Home
+e5f94Q|Hoster
+M3qtH4|hours
+Hq01RN|housekeeping
+qrMNsF|html download
+RZZubx|I am also happy to receive feedback on the application, suggestions and requests. This form goes to 'dilbo.org'.
+CxPfCd|I am sure and I know what I do.
+MOvHFw|I don't really know.
+S5CCm3|I'm afraid there is nothing to show.
+hpKnGj|I'm afraid there is nothing to show.
+xcuBnc|I'm afraid there is nothing to show.
+k0uqfc|I'm afraid there was no match at all.
+L8CEpv|I'm afraid, there is nothing to show.
+MXs2hL|ID
+2qP34d|identified
+Um89xR|identifier
+gvdW5g|If a permanent password is defined, you cannot use a one-time password.
+4U5kRy|If this occurs again, you can help the development team by notifying this error.
+A4xtRJ|If this occurs again, you can help the development team by notifying this error.
+GEk5T2|If this occurs again, you can help the development team by notifying this error.
+GgOUUE|If this occurs again, you can help the development team by notifying this error.
+KN08tD|If this occurs again, you can help the development team by notifying this error.
+LRXfv7|If this occurs again, you can help the development team by notifying this error.
+PIA0aA|If this occurs again, you can help the development team by notifying this error.
+PKlSpe|If this occurs again, you can help the development team by notifying this error.
+QOTtgG|If this occurs again, you can help the development team by notifying this error.
+QS7RWw|If this occurs again, you can help the development team by notifying this error.
+QzYgST|If this occurs again, you can help the development team by notifying this error.
+RDNGNR|If this occurs again, you can help the development team by notifying this error.
+U86aMs|If this occurs again, you can help the development team by notifying this error.
+WB7IlD|If this occurs again, you can help the development team by notifying this error.
+ceLd6k|If You go for it the data are gone and lost, no way to restore.
+miqSM3|image view
+FVkWAh|Import an efa backup archive
+o1uX4R|import configuration
+8c2YpB|import data
+dj2gr0|Import efaBackup
+17392l|Import table
+elFKdn|Importing %1. %2 records:
+LKteOp|Importing the admins configuration
+MVk9OQ|Importing the configuration-configuration
+L4Mkdc|Importing the efaCloud configuration
+8c3xMn|Importing the projects configuration
+O19Vr8|Importing the types configuration
+rhfArk|imprint
+o6WA71|In the first step, please select the distribution list to receive the mails with this addressee.
+FFjdFF|In the next step, the table is uploaded and imported as shown. Please confirm that the import should be carried out.
+Kzbcet|In total %1 tables with %2 records
+5Bd5LG|In Total %1 users.
+AkTh7r|In Total %1 users.
+qHF8o7|in total:
+G8MQnr|include the logs (recommended for support problems)
+NWE4ur|Information on data protection
+qNp1Rk|Initialize this versiion
+vm7D8e|Inrigger
+SclI3O|insert ok.
+MmPEku|insert record
+ji7ea7|insert record
+wwM2JD|Inserting admin %1 record into '%2' table
+qC9XHB|Installed on:
+kfB6Rx|Installed PHP modules check ...
+WE4FYR|insurance value
+yobRgF|integer (64bit)
+jCvlcK|integer A != integer B.
+LHWWfP|integer list
+jFc7LF|integer
+GWrjW8|Invalid child name %1
+piSUBy|invalid from
+WVta4w|Invalid identifier: %1.
+2D9pBg|Invalid mail distribution list
+hfr2Zo|Invalid mail distribution list
+WfIwn5|Invalid mode.
+bdF7u8|Invalid mode.
+lCOAvM|Invalid mofification mode %1
+X6z2gz|Invalid name of set in record
+IRf2pK|Invalid name or label.
+ORUUoH|Invalid path '%1'
+wULfQO|Invalid table name
+43SSV8|It does not matter whether the letters are written in upper or lower case.
+HxsB1x|It is possible that %1 also runs without these modules, but this has not been tested.
+nQuCEf|Italiano (17/12/2024, 1.234,56)
+zXO8gC|Italiano
+c92P96|Item deleted.
+Ck2Nrk|Item moved.
+eiIavr|Item Name
+YYb502|Item to modify not found at '%1'
+hCOXX2|Its global assocoation, like DRV
+wdaPnt|Its regional association like NRWRV
+MhDtjY|kilometer
+mRmxz6|kilometerab
+P3HxMO|Label
+ZQGhyK|Language
+ZbOrwR|languages
+4fsAVc|last activity not known
+z1kw92|last activity:
+IvuNc8|last name first
+yX4D1v|last name of administrator person
+UvHgWB|last name
+vAmruh|late entry
+AT55Zi|leave a message
+xYyGTN|left part of body
+Z3wfSV|left side list
+wTMwjC|like Doe, John
+3y0SKI|like John Doe
+rdpocs|limited usable
+ZmqZlm|List capped after %1 records.
+CBjPta|List configuration not found. Application configuration error.
+5jD9Z0|List definition error. FirstOfBlock column missing in select part.
+SqtY4N|List of tables by size
+RaOL1v|list records
+f4VfE8|list
+druiJz|lists for records which were created by the system on chnge and delete actions
+ZfVuYM|lists for the boathouse display
+ajsoPz|lists for the boathouse display
+1KdLMU|lists
+zLY6b2|list
+Bwa5WS|Loading the source code from
+GoIpXR|loading to %1 configuration branch at '%2'
+gj5lRY|location of end
+QfU2dm|location of start
+slf0VZ|Location types
+Lo8RAS|Locations
+p8ECvo|log in
+SirIlb|Log out
+D3RpCa|Logbook information
+vBZ3ID|Logbook Information
+1H5XXs|logbook text
+DkYaZp|logbook
+Fc4Dgy|Logbook
+JAxjna|logbook
+XCX6sa|logbook
+KYpTxU|logbookname
+SBPtZz|Logbooks
+XRkVQO|logged in as '%1'
+cxAly0|Logged off
+RzbZK8|logger
+9Wjdwv|Login account (user Id, mail or account name)
+cGim1i|Login error. Already %1 failed attempts. Please try again, but it takes longer with each attempt.
+XPLjLc|Login for registered users
+bvy48a|Logoff was successful.
+4RX8ec|Logout
+PD9Mpq|lower list
+rG1Dp9|lower
+ZS8fGZ|mail adress to reply to
+dUWl3D|Mail distribution
+im6qRb|Mail footer
+MnB369|Mail subscript
+T5e4XF|mailer
+QvmvUh|Mails to the selected mailing list may not be read by the currently registered user.
+kEhmLD|main body
+I9cjtm|Main location
+zr2idi|Maintenance
+q14bUB|male
+RFQsGA|manufaction date
+dn8HGw|manufacturer
+T1s1x8|Mapped %1 damage numbers.
+LSGlmE|Margins
+sFrCdD|max crew weight
+jpdBlQ|max errors per hour
+ois9NU|max inits per hour
+ZzIvFv|max not in group
+jE9het|maximum concurrent sessions
+5qeszT|maximum session duration
+GYrSxU|maximum session inactivity
+7e8XGU|Maximum
+tP9luf|maxsize
+cdzKPW|maxversions
+gigCYX|Me
+RhddWw|Member Of DRV
+V9gVLM|Member
+oL3cee|Member
+53QFpB|members
+5bpQ0L|members
+UUzdU8|membership number
+jfXG1z|menu for the client
+1LPdGM|Menu
+ZbCDu2|Menu
+WOTRnb|Menus
+hYT7i4|Message age in days
+opmIs7|Message age in days
+rlk5hE|message body
+9U1xAJ|Message destinations
+PXE0oL|message number
+2WKday|message subject
+OMRZJ7|Message:
+RsZcKe|Message
+Vismxk|messages
+xgI518|messages
+AN3idU|Missing layout '%1' in UI profile
+DLE6i3|Missing layout '%1' in UI profile
+SnMP3I|Missing layout '%1' in UI profile
+Src5GU|Missing layout '%1' in UI profile
+TjSSTL|Missing layout '%1' in UI profile
+UXVJ9F|Missing layout '%1' in UI profile
+XXYUtj|Missing layout '%1' in UI profile
+ZK8QS3|Missing layout '%1' in UI profile
+b25lke|Missing layout '%1' in UI profile
+hNQSjQ|Missing layout '%1' in UI profile
+jd3R6q|Missing layout '%1' in UI profile
+nEo1z8|Missing layout '%1' in UI profile
+pkC1Vl|Missing layout '%1' in UI profile
+tJ24KR|Missing layout '%1' in UI profile
+2JGh7P|Missing layout type '%1' in UI profile
+5HQKU8|Missing layout type '%1' in UI profile
+8TLkza|Missing layout type '%1' in UI profile
+8gldgy|Missing layout type '%1' in UI profile
+BV5oHU|Missing layout type '%1' in UI profile
+J5mTVi|Missing layout type '%1' in UI profile
+O30mI3|Missing layout type '%1' in UI profile
+O7AHEJ|Missing layout type '%1' in UI profile
+SVi9bN|Missing layout type '%1' in UI profile
+WzLCSp|Missing layout type '%1' in UI profile
+kLW4M8|Missing layout type '%1' in UI profile
+nTNeD8|Missing layout type '%1' in UI profile
+qzMYT3|Missing layout type '%1' in UI profile
+wpjbS4|Missing layout type '%1' in UI profile
+dAwKF1|Missing name of set in record
+QrQ9UO|Missing record uid
+1wDq5j|Missing UI profile '%1'
+3WYMhM|Missing UI profile '%1'
+9f4obg|Missing UI profile '%1'
+AbQJ6b|Missing UI profile '%1'
+G0xlW9|Missing UI profile '%1'
+Rn8Ll8|Missing UI profile '%1'
+TrTWjh|Missing UI profile '%1'
+VPbepQ|Missing UI profile '%1'
+Vv6Z5f|Missing UI profile '%1'
+W0S9bQ|Missing UI profile '%1'
+fneUmr|Missing UI profile '%1'
+rKgtvM|Missing UI profile '%1'
+tup1mT|Missing UI profile '%1'
+zAd7z6|Missing UI profile '%1'
+dvGVan|missing unit 'km' or 'm' in '%1' for '%2.%3'. Assumed km.
+dSwD50|mittlere Liste
+Pww8Pl|model
+ynBNkU|modified on
+srezpx|Monitoring
+ZkvC3i|more versions
+4f13QL|motor boat
+lpmzsR|motor boat
+ZNLZE6|Move forbidden for this configuration item.
+2A3jgB|Multiple records with %1 '%2' already exist in table %3.
+3fFURY|Multiple trips for logbook '%1' with number '%2' on '%3' in the dilbo logbook table.
+fu97I0|Name '%1' is already used by uuid '%2'
+CP8U38|name affix
+PfVnYd|name affix
+KKC05J|name as reference to the provider of the contents
+MqQgeT|name as reference to the provider of the contents
+jTLIy0|name as reference to the provider of the contents
+k1dV2C|name as reference to the provider of the contents
+xPNJEc|name as reference to the provider of the contents
+2bt21a|Name format
+ty9VTg|name format
+DTkSIs|name of the technical user to directly access the database
+U5GPxO|name
+Y2xSOB|name
+YeYtpw|name
+Z4cDbe|name
+cl6L3f|name
+l7dLzx|name
+rNpC90|name
+SAtKfj|Nederlands (17-12.2024, 1.234,56)
+24djmw|Nederlands
+2xog20|never
+DBX9sP|new
+SMOZBB|No changes logged.
+26WMwL|no content found.
+PE801L|no content. This is the case, if a container contains itself containers
+mliI2K|No data type declared to add.
+pZ1nbk|No efa config files provided.
+cNDfYs|No efa config section provided.
+5gZmqR|No efacloud credentials provided
+8QpdLl|No efacloud project
+4Vpkuw|No file given. Please try again.
+UGYekG|No file name provided. Please try again.
+mYd52x|No file specified. Please try again.
+ziigIX|no import required.
+U24lUJ|No matching user found.
+JjCWn9|No modified data has been entered or there are errors. Therefore, nothing has been changed.
+3dNfLl|No more one time passwords available. The maximum count per user and day is 10.
+EONiUI|No more one time passwords available. The maximum count per user and day is 10.
+355gfL|No one
+DEPfjp|No one
+nsXBwL|no operation
+QDFgHt|No password provided
+d4yKBL|No projects provided.
+BwU3GN|No server version found. Is this perhaps the localhost?
+M4AobL|No storage, test mode.
+VTLYoN|no such table.
+ynq0Ng|no table configuration available for '%1' table.
+TkfnPp|No update for non-logbook data files. Skipped %1.
+4C9I5e|No users for
+wyHjxb|No users for
+njV4BP|No valid session command: %1.
+He8Npc|no value type, i.e. for configuration nodes with a value will always being null.
+AYpSu8|no values within
+Xn806o|No version history available.
+lIzc0X|noListForThisRole
+yGorGi|noListForThisRole
+IF1cIg|none
+twQEii|none
+xhLziQ|normal session
+KjzmnU|Not allowed.
+lTNFEv|Not allowed.
+yMxAqF|Not allowed.
+jA4eJf|Not allowed
+WQnTwK|not available
+Tt7zlq|Not found.
+FHyizx|Not found
+L2LcBL|not found
+Vicmvm|not found
+1Pq6VT|NOT OK.
+8MAcUu|not set
+QwAiyc|not unique damage number from efa import
+xDE1cA|not usable
+LlqlPF|not used.
+N2DEyA|NOTE: Attachments have been removed and need to be reattached.
+Z1rWgP|Note: Usually the browser caches the colour settings, then the change does not have a visible effect at first. With F5 or &lt;Ctrl&gt;-F5 after the update, the cache can be cleared in most browsers and the new colour setting be applied.
+p71s5H|Note:
+AhDzmR|notes
+S6HlK8|Nothing changed. Abort with top level cross.
+NehXwd|notification copy to
+WquAqp|notifiy damage to
+aY3FHB|notify if not usable only
+R22xcy|notify message to
+jn5WN8|notify reservation to
+rT8wtF|not
+8qQEHT|noValues
+bNnasv|noValues
+1l4ZE2|number A != number B.
+Jl8rPJ|Number
+e2CD9A|number
+eBgDM8|number
+oDccWh|number
+w171tR|number
+cVYtkK|Numeric start character in identifier: %1.
+4j2U0W|Numeric value required in '%1'
+Qn9X22|Occurrences of %1
+efYsEa|Offene Fahrten
+sQuH9Y|Ok.
+vI1rIC|Ok.
+Zg9SKd|ok
+03k0iK|on the water
+CBxZVW|One level higher
+QV5dHL|one time or weekly
+hUYIPd|one time or weekly
+bN3xHf|one time
+M4m15E|One-time password for %1 '%2'.
+SUuG3E|One-time password for deleting the password of the application '%1'.
+8z7mQ0|One-without cox-scull
+2m3N8J|One
+dvOhA1|only in boathouse id
+Hxsuol|only notfy damages which prohibit further usage of the boat etc
+zxFKkM|only with boat captain
+Pj5VdW|Oops! A fatal error.
+F3yUPA|Oops, unfortunately the application has crashed.
+Nmjt8R|open damages
+SNXt8L|open damages
+35SG0h|Open reservations
+u4E7HU|open reservations
+D0VM1M|Open sessions
+lYNvlF|open trips
+7rViLS|Opening the code archive failed. Aborting upgrade.
+9v6qNa|Operations responsible
+FVuVpT|Operations Tasks
+xqJFkS|Operations Tasks
+MwVqNf|Operations
+lYBmSv|Operations
+5qx7Bd|option
+Rqkqic|option
+ZiS5as|option
+mWcht6|or to the homepage
+xF5oPr|other people
+ABXd9f|other
+Mq4mkn|other
+NbRfNS|other
+NkGPBr|other
+P5ZVN7|Other
+PlKD7C|other
+Y3mUTK|other
+bpH6Mx|Other
+zPPByG|other
+FalTMo|Overview
+10HnEo|Paddle
+b1CfJu|Page '%1' must be called as a subsequent page from Find record.
+crDZRs|Page '%1' must be called with an existing table name which '%2' is not.
+98iCZZ|Page '%1' must be called with an existing uid which '%2' is not.
+KdLw1V|page calls (init), errors, and logins
+6yuDuU|Parameters missing
+aveC01|Parsing configuration files
+JNawOP|passed locks
+Alcaqq|password for administrator account, PLEASE REMEMBER!
+SjwGi5|Password forgotten?
+stSdEq|password of the technical user to directly access the database
+yUqlic|password repeated for administrator account.
+bM3xyE|Password repeated
+Cb4KtN|password
+VPmVTm|Password
+y6e6Im|password_hash
+VnA6V0|Path in Configuration
+kS4t6V|PDF download
+GzXocl|PDF
+hfCAVH|Period validity
+pYGgkq|Permission
+VCcc4J|Permissions per role
+F1eO35|Person gender
+D9IRZd|Person status
+9GipPe|person UUID
+UMvvEm|person uuid
+QupcS9|person
+QfyaT6|Personal logbook
+dcNA1F|personal logbook
+wfRmav|personid
+UkHpF2|Persons age in days
+r5rY6e|Persons age in days
+OzeECc|Persons ranking
+2reLjS|persons
+CNjIbc|persons
+aG0EhE|places
+AdwVBx|Please at "
+voVsDM|Please build the database now.
+88nTjP|Please do not reload this page, but:
+arUUZe|Please enter a valid date at "%2" (not "%2")
+6ytHoP|Please enter a valid email address at "%1".
+0qqJ5g|Please enter a value in %1
+b33lk9|Please enter a value in %1
+LTZcG4|Please enter the administrator of the newly set up database here. This is then the only user of the new database. This user can then carry out all further administrative procedures in the application.
+CLnsaZ|Please enter the one-time password just sent to you by e-mail to authorise yourself.
+IGCugZ|Please help to improve the software by providing a support request.
+JjAfRD|Please let me know your request or wish regarding the functionality of the application. I will try to help as soon as possible. During holiday periods there may be delays, but normally you can expect a reply in about a week.
+fCWHZq|Please log out and log in now.
+hmrHzL|Please note, that any documentation is provided at %1. There is no separate help information available here.
+d0xnMU|Please note: the process starts with the click on the button immediately and takes only a few seconds.
+TxBnFe|PLEASE NOTE: Use the information provided only for the intended purpose. It is not permitted to pass on lists exported here.
+Fiwrt1|Please note
+1UW7zW|Please provide a table name when calling %1.
+VMcexT|Please provide an email address as login to get a one-time-password.
+f8WSn3|Please provide at least three characters to search for.
+6Ln3Bn|Please provide the database connection information.
+Nbl5vE|Please provide the unique identifier of the record which shall be edited.
+9nyiSN|Please run an audit and execute all recommended improvements.
+sN71rx|Please select the distribution list of which you wnat to read the previously sent mails.
+qfCs0a|Please select the log to display. Loading may take a while, please wait after selecting.
+eMKeDR|Please terminate the installation process.
+1ci7d1|Please use the filter or download the complete list.
+5n89du|Polo Boat
+uD3eA6|Post for Javascript
+7h26Hb|Preferences
+FE2u7P|Privileged roles must use proper credentials. Login tokens are not allowed.
+ozBq2M|privileged
+j8pXJK|Profile of
+xgwLOU|Profile
+M3LyZI|projects
+T9viNy|Properties
+dFEmkC|Properties
+0Cdq2W|Property
+sC5sYJ|property
+JX2kP6|Provided on %1 by %2 to %3. Forwarding and copying of this list is not permitted.
+L5LuMQ|Provided table name has no match.
+CMC17q|PS: In the user profile, it is possible to store a permanent password.
+HQJsHw|Public event lists
+ZpY8Mk|public information
+R4DpRg|Public rankings
+OYUP1J|public
+JuEtZD|publicaly visible tripdata
+T1Xqi0|publicly available information
+8mpYCq|purchase date
+bfTln2|purchase price currency
+dE2VfR|purchase price
+UaLOHn|purge deleted, age in days
+42tG1v|Racing Kayak
+Mig5Qp|racing
+rTgJH2|Radio button checked
+SYuuyO|Radio button unchecked
+vGbtkt|ranking
+ip9DDg|read a message
+99XIGm|Read previousl sent mails
+vp2UUx|ready.
+5Nu1O6|reason
+8HBvnC|Rebuild the index to include recent data changes.
+nTIsc0|Rebuild the word index.
+ZmVUvv|Recipient:
+nHAnn0|Record content
+ivK7vo|record history
+sTP6cS|Record history
+TTKxOm|Record not found.
+FpMhl1|Record not found
+Zc1xZ8|Record of table %1 for %2
+S9MHHT|Record to delete was not found.
+NCGgdt|record
+qgCMZi|Record
+C94hEq|Records found.
+jnzy2g|Records
+xhYaXI|Records
+zQeBQz|regatta
+67aHAM|Regional association name
+B9Tygk|removing files that are no longer needed.
+a1tdb6|repair costs
+dKvaHQ|Repeated occurrence (%1 times) of value '%2' in column '%3' of table '%4' is skipped.
+oKmnNP|reply to
+XQi6mR|report damage
+8DRVve|reported by
+iEk4vt|reported on
+HxkS2Y|request information
+4i8w30|request reservation
+L56Cvy|required group uuid
+ASEoCr|Reservation age in days
+dhMW65|Reservation age in days
+lOh6TH|Reservation types
+wJ2Ds6|reservations
+yF2q7D|reservations
+Nn5wAm|Reset database
+OiGYLb|Resetting database. Please Wait.
+AmEL6s|restoring the existing configuration
+e5VOu1|Result of layout check
+rSEEGA|results for '%1'
+FkgqCN|rigging
+RO36fS|right part of body
+bhOBpA|right side
+z7eGHS|Role not allowed.
+8RhH9W|Roles
+Vkz1Y2|Roll
+MHi2Lg|roundtrip
+uBiP9l|rowing
+B9ys2A|Run database audit.
+TdJY1c|Run housekeeping
+Er1g83|Save changes
+NRGTZC|Save
+iM0FxL|Saving the existing configuration
+m1EUK5|scull
+VRFk1g|Seakayak
+HyPev7|search for full text
+xJZxGb|Search the configuration
+XZ0WtK|Search the database
+oCPI1E|Search the database
+K0gmHX|seating
+mPoU63|Security Concept
+P0YpJt|select config_error
+7fdAj3|self registered role
+Hjgriv|selling date
+fkFH1n|selling price
+W5VoZs|Send mails to a distribution list
+Zb13sS|send message
+wzM12X|Send support request or feedback
+FVQVIW|Send
+zmsFb6|Sending failed for: '%1'.
+qnVLLU|sent from
+QJMq5Y|sent on
+3nLdNA|sent to
+1393xk|Sent:
+DsOREl|serial no
+kffirf|Server error
+ANbCrI|Server logs
+rjunmx|Server logs
+fUNLos|server timestamp
+LMP2yc|server URL
+VZrcen|session start/stop
+Wkz0N4|Session terminated.
+5p5bJU|session type
+oazRhT|Session types
+gNG2qb|Sessions
+TVNHaX|Set club logo
+LjCmY9|Set Default for `%1`.`%2` from NULL to %3
+afDI5Q|Set parameter missing
+zbdLZ5|Set specific object values
+a1SFGQ|Set the 'invalid from' date to end the validity of the record or clear the date to prolong the period.
+iPXyEn|set the tick.
+6HRhB6|set
+B1rHcp|Settings
+PYRA5W|Setup database from scratch
+9mIR2E|Severity
+Ep3322|severity
+yz3Hwq|Show a record
+owhdS6|Show all
+efjxwi|show filtered list
+feQVi3|Show History
+P9P4EV|show my profile
+zRdTL4|Show occurrences
+bY7MJh|Show PHP
+UcNTLA|show versions
+tIUwtU|show
+ZoXdN3|simple layout
+uJUggz|sixes
+NKmdC2|Size check: Tables and records
+s2UBkR|Software Upgrade
+lDSTHw|Someone tried to create a user with a role different from '%1'
+SPIwPm|Sorry, but password and password repetition do not match.
+0dHbIb|Sorry, but the password does not comply to the password security rules.
+JmUvue|Sorry, that didn't work.
+nLel3k|Sort with one click on the column header (only partial), change from ascending to descending with a 2nd click.
+QJVT5W|sports type
+zGILzB|sports type
+dL8PNe|Sports year start
+CGKrQ9|Stacktrace
+oCZhmi|start audit
+Isyis4|start housekeeping
+8JSjYh|start is boathouse
+LqsK5O|Start the new version
+0pdLA1|start time
+gkRHZQ|start
+8hPspQ|Starting
+YPmPF9|Starting
+yRmL3D|start
+bpUGCh|statistics
+17jwa5|status UUID
+7TmEzI|status
+QxMwgm|status
+Ym0sqt|status
+hbyYEk|Store
+fWxdb7|String '%1' too long. Cut to maximum size of %2
+fkVBQK|string A differs from string B
+gCk9cA|string A differs from string B
+ELB52L|string list
+Qig0i8|string
+2yWFRU|Subject:
+XMHPag|Subject:
+sGbUKF|Submit claims
+dBPdwi|Submit
+jQB4Kt|submit
+epw5RT|subscriptions, mask
+6PfDNd|Subscriptions
+XtU29P|Success.
+Xl2t9D|Summary
+lwuYMn|Summary
+BVNSCJ|Support request
+L8QRea|Support token
+m2XHYS|support URL
+GHlY4y|sweep
+CATRWa|Synch check period
+2YqJmX|Synch period
+KKbFTN|System fields
+F01jyL|System mail sender
+ZHgZ3p|system records
+0i10mg|Table name;Column name;Data type;Data length
+7HfELM|Table of user-driven activities
+9uQTkS|table to which the archived record belonged
+H0mO4k|table to which the deleted record belonged
+k55LAo|Table:
+WWOePq|Table
+pbnWGq|tablename
+7m2DRQ|Tables and records
+bJ44LM|Tables and records
+nBgz5e|Tables to be imported must show the field names of the database table in the first line, upper/lower case is relevant. If invalid field names are used, the import cannot take place.
+A0zktK|Tables to be imported that consist of exactly one column in which the ID is given will result in the deletion of the complete records with the respective ID.
+CG71TM|tables
+HRxAqO|tables
+IibzTI|tables
+YtpkIq|tables
+dY31rb|tables
+f9It0z|Tables
+vODhXd|Table
+nzHYMa|template
+kqaxGb|Test the interface
+jMEMEQ|text View
+dNEp9w|text
+oslDj7|Thank you for updating!
+02SBJ9|Thank you for your request. The efacloud.org server reports:
+9tMKlx|The '%1' page must be called with the id of the record to be displayed.
+1SbPIM|the abbreviation of the clubs name
+mNr8kc|the address to notify damages to
+WEbWAm|the address to notify messages to
+CUBg0z|the address to notify reservation requests to
+FbIHzF|the application database tables
+YQ9znM|the application’s maintenance settings
+C87JcE|the application’s operations settings
+N5iYBO|the approver
+F7eWEG|the archived record last values
+wsgJ20|the archived record's unique identifier
+bW1AWB|the archived records change history
+deHQT3|The archiving of record out of the main activity tables
+3ycORz|the ascending number of the session per sports year
+Fm1y3F|the asset is to be excluded from statistics
+aPetx5|the asset may only be used with boat captain
+tZ0Nqq|the assets subtype (e.g. A-Gig, racing)
+EfjjJz|the asset’s allowed groups
+QZ5Yo3|the asset’s default crew
+5AMB0A|the asset’s default destination
+sWmt0i|the asset’s default session type
+7W0yee|the asset’s insurance value
+Am9pPm|the asset’s manufaction date
+Av1OHi|the asset’s manufacturer
+jitRNr|the asset’s max crew weight
+yNhYIA|the asset’s model
+MM2iqK|the asset’s name
+YjKVAF|the asset’s purchase date
+v3q97C|the asset’s purchase price currency
+oSamSF|the asset’s purchase price
+Izm1WG|the asset’s required group
+XHoDkQ|the asset’s selling date
+UC1NZv|the asset’s selling price
+xMqsx3|the asset’s serial no
+pmMTzE|the asset’s status (available, on the water, booked, etc)
+l5lCHN|the asset’s type (boat, vehicle, trailer)
+pZOaBj|the asset’s type variant options
+L3cge1|the boat captain list position
+AebG0R|The boat is occupied with the booking: %1 from %2 %3 to %4 %5.
+PpJbrz|the boat or other asset damaged
+HCJDdK|the boat or other asset reserved
+g27eyQ|the boat used
+CVUGXF|the boat variant used (different from efa: not the boat variant index, but the boat variant name)
+qIWVfw|the cancellation time
+rFsm3l|the cancellaton executor
+XEqfJN|the carbon copy address for all notifications sent
+M7N2ns|the catalog of usable UI content providers
+olANid|the catalog of usable UI layouts, listed as root containers
+Sg8qur|the catalog of usable UI profiles
+Gztz2T|the changed record’s unique identifier
+gPuio3|the club habits like language, spots year start etc.
+MXb6Vp|the club the person is associated to, typically if not the own club
+uQMtKd|the club's full name
+AC6hqs|the clubs homepage URL
+3TiVZ0|the columns to display in the personal logbook report
+dsRzOm|The configuration of the database access was stored.
+HMZGRm|the copyright information as html encoded String
+B5jPlc|the coxing of this boat, i. e.with or without cox, for options see catalogs
+qsQ71B|the crew names or UUIDs
+4563fT|The daily maintenance routines have been carried out.
+gvvK8s|The data change is %1performed.
+3SIWc4|The database access configuration was not stored.
+z9JLLb|The database has been recreated. The only admin user is %1.
+vTZC3z|the database host server
+qiUbiD|the database layout was upgraded
+3fJWt1|the database name
+3xwsuW|The database was deleted and rebuilt. Please %1complete the installation%2 now.
+jnUMvz|the date and time of the session end
+34ThB3|the date and time of the session start
+E6xABq|the date of the work done
+J0PGb3|the deleted record last values
+yt29Oi|the deleted records change history
+eMT3h1|the deleted record’s unique identifier
+ceZU15|The deletion of the password in the database failed.
+GK9tfc|the destination UUID or name
+9hYX9D|the different options for Asset status
+VVLokL|the different options for Boat coxing
+B9zJnz|the different options for Boat rigging
+ft49sK|the different options for Boat seating
+JNDKS5|the different options for Damage severities
+SNnUt4|the different options for Destination areas
+8x4ec0|the different options for Location types
+rxBROI|the different options for Message destinations
+xN1pkc|the different options for Person gender
+VWN7Up|the different options for Person status
+RRVXOt|the different options for Reservation types
+67zrfh|the different options for Session types
+I4mJX6|the dilbo default profile
+NNd6Kq|the dilbo server URL
+mZBGfN|the dilbo user id for that person for login asf
+TAiDHN|the dilbo user role
+baN5tA|the dilbo user’s concession
+piBH0n|the dilbo user’s password hashed
+NLyGCo|the dilbo user’s settings like language, logbook, UI-profile etc.
+UKBru6|the dilbo user’s subscriptions
+YCU44v|the dilbo user’s workflow admissions
+6PGNEG|The display and editing options are shown as links in the result of the search.
+lyrjhq|the distance passed in km
+Gq4P1b|the document's margins
+v9GLZd|the document’s footer text
+EuAbdu|the eFB ID of the boat
+SYSAxI|the eFB ID of the boat
+e4H1FJ|the eFB ID of the boat
+HrGYEo|the end of the validity period of this record. Sort records by this field in descending order to get the most recently valid record first.
+bM4Hxy|The file 'install.php' was deleted from the application root folder and the application folder 'install' was blocked for access.
+KLYCCf|The file import was carried out. See what was iomported.
+Lk3S4w|The file upload was successful. Please check left hand side, whether it fits.
+Fg6pWu|The file upload was successful. See what is to be imported. Please pay attention to import errors.
+9dSKwb|The file was only partially loaded, please try again.
+WOnK0g|The following activity result was recorded:
+9mww2x|The following changes have been made:
+c8I94h|The following configuration items showed a match:
+4SVUF8|The following modules are missing on the server compared to the reference installation:
+w7fPZs|the footer of all generated mails
+7m4ZED|the full name format
+lSrBza|the hoster, i. e. service provider, running the application, named in the security concept
+CwcQGv|the hours worked
+MmDF9y|the html format of the table tag
+LOqM7C|the html format of the td tag
+CT3fXP|the html format of the th tag
+Biq8LE|the html format of the tr tag
+B8QA1g|The IBAN length doesn't match the country requirements.
+slMQwZ|The IBAN length doesn't match the country requirements.
+PFcm3H|The IBAN must start with uppercase letters.
+aYo4k5|The IBAN must start with uppercase letters.
+hQOB0B|The IBAN parity check failed.
+xI1ac4|The IBAN parity check failed.
+H3jSfa|The implemented data structure
+E3zqvC|the interface to synchronize configuration and data between client and server
+m0N2tS|The layout of the database matches the current application version.
+Fd0p0U|the left menu bar
+slCqRl|The list '%1' must not be output for the role '%2' or the subscriptions or workflows (%3 %4) allowed for the current user.
+cwpbfK|The list is empty or no record matches the filter criteria.
+K2xXwe|the list of boat variant types of the club
+xGN4rr|the list of books on clubwork of the club
+uWxE5s|the list of daily jobs to configure
+NznOXv|the list of locations of the club
+NpDT5P|the list of logbooks of the club
+GyWake|the list of publicly available event lists
+ApskpP|the list of publicly available rankings
+HQYFyU|the mail address to be used as „from“ for system generated mails.
+OSpHxl|The mails are sent individually, always with only one 'To' recipient. Depending on the quantity, this can take a while and also lead to spam classification on the recipient page. Therefore, please use modestly.
+g5sgQX|the main location of the club to which to go
+SNvCEQ|the main part
+VfEQj7|The maximum identifier length is 64 characters
+lgDz45|the maximum number of people not in group using this asset
+JfO4Mf|the membership status of the person
+83IJFt|the menu for access of identified users
+CfncVA|the menu for API access
+eirmvN|the menu for public access
+q6Fb6f|the menu
+6LrDNO|the menus according to the access situation
+RxkkKI|The message was sent to %1 members and saved in the database with the result:
+2d5gUe|the name of the application
+o8Da6f|the name of the club’s work book
+5JgHWu|the name of the logbook. Text only, please, no year
+JFBjiB|the number of days after which deleted records are purged from the rubbish bin
+wubamX|the number of people who can enter this boat
+mi5ugY|the number of seconds between two change occured checks
+ifN5oc|the number of seconds between two synchronisation requests
+H6nWWu|The one time passwrd could unfortunately not be sent.
+Nz8G7x|The one-time password '%1' can be used to delete the permanent password of the application for the next %2 minutes.
+ULBtgs|The one-time password could not be sent.
+1HuxvX|The one-time password is incorrect or has expired.
+K7CeYe|The one-time password is incorrect or has expired.
+PeJo45|The one-time password was sent to '%1'.
+9qnBHc|the options for concessions for a user (maximum 31 different ones)
+ZWdewv|the options for subscriptions for a user (maximum 31 different ones)
+vckHD7|the options for workflows for a user (maximum 31 different ones)
+dSsfbD|the owner of the asset
+yR7zed|The password can only be set for new users and users with the role 'bths'.
+b25fYT|The password has been changed.
+W37MTN|The password is not secure enough in "%1". %2
+aJ5Cy9|The password must be between 8 characters and 32 characters long.
+iJUmCH|The password must contain characters from three of the following four groups: Numbers, lower case letters, upper case letters, special characters. Permissible special characters are !"#$%&'*+,-./:;<=>?@[]^_`{|}~.
+xVSLCZ|The passwords must match. The password is not changed.
+5fKVft|The permanent password can be deleted here.
+BgxEQA|the person requesting the reservation
+UwzBpl|the person responsible for operation in the club, named in the security concept
+rWtsmX|the person responsible
+57TN89|the person’s adress
+K6v6Rw|the person’s adress
+gk3rGE|the person’s adress
+gx1r9Z|the person’s adress
+ocMCkZ|the person’s adress
+y3KKU4|the person’s birthday
+gqdH1B|the person’s email
+kSbWaI|the person’s first name
+MpDXk4|the person’s gender
+RgucWs|the person’s last name
+60XJqo|the person’s title
+DA6MeJ|The process can take 10-20 seconds.
+4hdqAF|The process is now complete.
+HdnMsl|the provided user uid is not valid
+3T2ib4|the reason for the reservation
+H3YhVM|The record has been changed.
+ao5elo|The record has not been changed.
+GkURzg|The record in table '%1' with the record ID '%2' could not be found.
+CQieDL|The record with Id °%1° was not found in table %2
+ebNcoK|The record with uid %1 was not found in table %2
+DOxMof|the records unique identifier
+fZg2zo|The registration must still be completed by the administrator. Only then can a one-time password be sent.
+nKI7OJ|The required field '%1' cannot be updated with an empty value.
+ycNSKI|the resourcce’s globally unique Id
+D7SPTM|The role '%1' has no permission for action '%2'. Nor within the subskriptions nor workflows a matching permission could be identified.
+G1zcne|the seating like 4x for a skull 4-rowers boat or 8+ for a sweep eight rowers boat, for options see catalogs
+gbm29m|the selected language
+FDZrap|the selected logbook
+xS4f0M|The selected mailing list was not found.
+ixCIoQ|the selected UI profile
+mHga8e|the selected workbook
+WlaoZG|the server responded with
+YwUSws|the server responded with
+DpOAmY|the server time since the epoch in seconds as float. See PHP microtime. Maximum value must be larger than maximum of millis / 1000 to work properly
+9mmdUG|The session is still active, continue with any action from the menu.
+EGWtVL|The session was terminated or the action is not allowed for an anonymous user.
+5dqGwa|The session was updated.
+Kmj5St|The setup is completed.
+uuZ8U8|The size of the source code archive is too small. Something went wrong with the download. That's why the process stops here.
+c4h4Rj|the sports this logbook is used for
+Lj3Tbd|the start of the validity period of this record
+MijYWH|the starting month of the sports year (1 for January, 10 for October)
+ZKyyt1|the status is only used for efa compatbility. Never to be used as base status
+fqvnh2|the status is only used for efa compatbility. Never to be used as base status
+Q2CMAB|the subscript to system generated mails
+IEHrUx|The system record fields are:
+o6XxMP|The table name '%1' is not a valid technical table name.
+xo9xjE|The table shows all lists available in the role %1 with the authorisation required to display the list. The list can be accessed by clicking on the description.
+2WbAyY|the table which was affected by the change
+v0ntYf|The task '%1' was completed.
+eM6eDc|the time of approval
+1cQ44R|the time zone used
+s2Yv4N|the token provided by the dilbo support to identify the support customer
+hGxTLD|The transfer of your request un fortunately failed.
+LaxHyH|the type of rigging, i. e. scull or sweep, for options see catalogs
+2dEMFI|the type of the contents displayed
+9RLbtj|the type of the contents displayed
+IhdWY9|the type of the contents displayed
+SIBxi4|the type of the contents displayed
+fpvxFx|the type of the contents displayed
+udPhy8|the type of the session
+ChYtZx|The uid $value is invalid
+kU4p9n|the unique id of the person status
+6RkvhN|the unique id of the person
+YYlWr8|The upgrade unpacks the code, overwriting the existing code files. All inventory data, such as logs, uploads, backups, etc. are kept. The database is not modified.
+xPiZNQ|the URL of the application source package
+vzoXst|the URL of the application's support team
+EIFe2G|the URL of the homepage of the application
+ZQSvHw|The user could not be identified.
+Tk1Zuc|the user interface
+Zd3WDX|the user is allowed to enter trips into logbook A
+BWUYMd|the user is allowed to enter trips into logbook B
+irSnTs|the user is allowed to enter trips into logbook C
+URsNhZ|the user is allowed to enter trips into logbook D
+a28lWt|the user is allowed to enter trips into logbook E
+xf8bTS|The user may not use the role %1.
+BGJkSQ|The user record for ID '%1' could not be found.
+EaCDI2|the user role hierarchy settings
+sbMbvX|the user’s plain text password - only for the sign-in form
+IBKOYL|The uuid $uuid is invalid
+4IcuWD|The validity was changed, but the new period record could not be inserted.
+R3IpuB|The value's data type '%1' does not provide a 'parse as' definition.
+FHFWAq|The value's native type does not match its data type.
+rGyRdy|The very last user must not be deleted from the users table.
+K6E7qi|the water's object Id
+BF6UZB|the waters, UUIDs or names
+BSfmVE|the water’s name
+ATSnFO|There are too many users logged in at the moment. Please try again later. We ask for your understanding.
+ov6KSI|There is a table of users in the database.
+OVDL2X|There was an error during file upload.
+7TZdGF|There was no table found in the database.
+p4vCuA|This form is import a table into the database.
+RBI9tL|This form is import an efa backup archive, e.g. efaBackup_20200307_210001.zip. This may take considerable time.
+Agxr6E|This form is to change an existing user.
+GNGdV1|This form is to create a new user.
+u34D4y|This information is provided exclusively for the control purpose for function holders in the authorised administration. It shall not be forwarded.
+mw21ct|This is the option to delete the database completely.
+e2gF2y|This is the result of a SQL call to the database, as it is currently.
+Alao36|This is your personal profile stored by the application.
+ruWtay|This page is the entry page for any form of user editing.
+UfY9dV|threes-with cox
+iPFpX3|threes-without cox
+kTWaoZ|threes
+D0ASLw|time of archiving
+eRqccM|time of change
+fMlkpx|time of deletion
+kYzDQD|Time zone
+R9sv8M|Time:
+UvfVMp|time
+x8hxVv|Timeout due to inactivity.
+reFIOv|time
+qotcYy|timezone
+GP7E8q|title
+lWOr2T|to be mailed
+s8LPqe|To the application login.
+bxyfwZ|to when
+6KXRE6|To:
+MMoUVY|Too many sessions open for this user.
+eCFN71|top bar
+mlzgYp|top end
+j6Zbfl|top left
+Uy11UA|top right
+nDBbCc|Total
+wNrHCN|Total
+COJ2c6|Trailer
+5IYzrM|training camp
+lluRbP|trash
+AhWPwp|trimmy
+1pJnML|Trip age in days
+EGsuao|Trip age in days
+7biR4D|true or false, in SQL 1 or 0 respectively
+q8lMgp|true, if member of DRV
+kDSe5i|true, if the first crew member is the cox
+pQmiSd|true
+t8bKYn|two bars and bottom menu
+AyrdcI|twos-with cox
+85Dkbv|twos-without cox
+D5ewAH|Type catalogs
+ZKulOJ|type of contents
+mr7H1T|type of contents
+pkdlIb|type of contents
+swnEhB|type of contents
+tfpz5Z|type of contents
+44XRtA|type values imported
+5yN29k|Type
+BSaARO|type
+OfzbIi|type
+BZTGSR|types
+obT5wK|UI content provider
+e5MqfM|UI layouts catalog
+vAqrgq|UI profiles catalog
+Fi09DC|UI provider catalog
+Kg17Hs|UI
+aaTKWe|uid as reference to the provider of the contents
+c3K9R6|uid as reference to the provider of the contents
+dGZZZy|uid as reference to the provider of the contents
+ho34HP|uid as reference to the provider of the contents
+nsbg7U|uid as reference to the provider of the contents
+RQNRTZ|uid
+egsf47|Uncheck to only add further logbooks.
+OcbYIX|Undefined error on upload. Please try again.
+phvRfA|undefined
+yf8erz|Unfortunately, form processing cannot be continued because a form page has not been saved for too long.
+IVM45L|Unfortunately, something went wrong.
+pH7Sis|Unfortunately, there is no change history for this record.
+BnxvUl|Unfortunately, this did not work. The login token provided is not or no longer valid.
+zxg9i4|Unfortunately, this did not work. The user '%1' of the login token is not (any longer) registered.
+teKQFr|universal record id
+cZoVKb|universal unique id or a plain text name, if no uuid format
+3HQTXe|universal unique id
+jN5Dvb|Unknown data type / validation type. '%1'
+a5koMa|Unknown error during upload. please try again.
+xJsUjf|Unknown error during upload. please try again.
+w2qoFy|Unknown error while uploading to '%1'.
+TjA5DZ|unknown ID
+ZV56RU|unknown ID
+OuG821|unknown
+VCdF1p|unknown
+tWIACB|unknown
+GuEiQo|Unpacking and copying the source code archive
+qqWydo|Unzipping completed.
+rSrSm0|Update failed for table '%1'
+a7FsP7|update ok.
+BPTyxA|update record
+O1YH4O|update record
+M4MjRw|Update to version - %1
+w2PJel|Upgrade of the %1 application
+LGyNmA|upgrade URL
+7lipsQ|UPGRADE
+igMooE|Upload logo file
+tcyZNe|Upload of your club logo for the menu
+0QmP94|Upload
+t7YNl9|Upload
+TEh5j9|upper list
+bUkzCn|upper
+THfsbA|use the boat_affix field within the public trip data display
+tXmsvK|use the boat_name field within the public trip data display
+tt0Asq|use the boat_type field within the public trip data display
+vd6ICS|use the crew_groups field within the public trip data display
+14ihGe|use the destination field within the public trip data display
+1o6xTa|use the distance field within the public trip data display
+jkKR7G|use the entry_id field within the public trip data display
+Wxz52t|use the start_time field within the public trip data display
+XPbBHm|Used Parameter of list:
+WdiaX5|User %1 tried to modify user %2 without sufficient rights to do so.
+fP8UEm|user account field name
+0KiR9R|user concessions
+3vzTmN|user email field name
+V3WJii|user firstname field name
+NUe8AF|user id field name
+bX2gGZ|user id for administrator person (integer number between 100 and 1000000000), PLEASE REMEMBER
+wOj3jc|user id
+a9d5U7|User is no admin and thus not allowed to change anything. Aborting.
+ZAw7g1|user lastname field name
+nNGaVa|User mail unknown.
+BPrcKu|user module
+aCa6RR|User name
+DNPBkr|User not found
+PsYa8c|User not found
+V2J8Fi|User not found
+YIFe1s|User not found
+gAFiMp|User not found
+gofuig|User not found
+ldOSxM|User not found
+oaOfo2|User not found
+zOZlkQ|User number
+h2ZNY7|user roles
+OLu71P|user subscriptions
+MuP1As|user table name
+gI7hvr|User tried to modify own access role without useradmin role
+T5N6rh|User tried to modify own Concessions role without useradmin role
+4RIp1F|User tried to modify own Workflows without useradmin role
+vrv4Ia|user workflows
+HVl6HK|user
+raDyZo|useradmin role
+WK1EtH|useradmin workflows
+uRYSvr|Users
+Zj5YpY|usually boats, trailers or vehicles to use and log their usage
+JsWlWf|uuid list
+4FxFdV|uuid or name list
+VM7UAz|uuid or plain text
+7IH2fU|uuid
+B1poz5|uuid
+Cd0Su6|uuid
+IxXF5j|uuid
+lUE59o|uuid
+qlfRcK|uuid
+xDfDo7|valid from
+sBg7LI|Value limits can not be adjusted in lists of %1.
+vxuspU|Value limits can not be adjusted in lists of %1.
+Y3rWps|Value
+afDbIr|Value
+o474TC|value
+p31A4j|value
+rqHqM3|Value
+ZBFc6w|variant options
+A1tKnO|Verification failed for '%1'
+rSGs5f|Verification failed. auto increment missing.
+ulIoAv|Verification failed. Column %1.%2 extra.
+rxMN98|Verification failed. Column %1.%2 is missing.
+3EWY5V|Verification failed. Column %1.%2 with size %3 instead of %4.
+mwaK4O|Verification failed. Column %1.%2 with type %3 instead of %4.
+nPmhjO|Verification failed. Index %1.%2 extra.
+9mUNZn|Verification failed. Index %1.%2 not in indices of %1.
+9g3u60|Verification failed. Table %1 extra.
+KprqM0|Verification failed. Table %1 missing.
+DQYc1I|Verification failed
+P1TqTx|Verification failed
+gLdeJY|Verification successful for '%1'.
+5kpp1Q|Version %1 is no ready to run.
+E8Dd4Q|Version history of a '%1'-record
+ALjJNh|versioning fields
+XuTvfw|versioning fields
+bQgFGC|versioning fields
+tInl6V|versioning fields
+vU6i7x|versioning fields
+fpHDr9|View claims
+2G9KEy|View now as web page
+Bz2C2z|View record
+hpnkpX|was read
+KX00ye|waste basket
+GBSJMD|Waters ranking
+IF8KUp|waters
+Nb07t1|waters
+hA7eVt|waters
+qAXZBx|waters
+1sxjGW|Web access statistics
+1Mzjw9|Web homepage
+GY59tz|When checking the database it was identified, that its layout is not prepared for this version.
+VykcaV|wherry
+I0yBi9|White Water Kayak
+AcZSJ0|with cox
+r6Efpn|with cox
+a6h3Ou|with the ID %1
+OKImlH|With the one-time password '%1', it is possible to log in to the application for the next %2 minutes. After that it is invalid. Upper or lower case is not important
+grnRY1|without cox
+8dPpRp|Word index built.
+uA74t7|workbook name
+CoKpst|Workbook
+e10rEf|workbook
+fbiboA|Workbooks
+ucHbuJ|workbook
+JLdYZP|Workflow notifications
+IVseh0|Workflows, Mask
+FbnP2p|Workflows
+xo2a9m|write into logbook A
+IoirAf|write into logbook B
+KKYwTw|write into logbook C
+WlhOPA|write into logbook D
+mKPiFX|write into logbook E
+brci3Z|writing configuration
+yqXP9E|Writing settings/efa2config file
+Cu2G1y|yes/no
+NI7Bvs|You can get started now.
+7aHKoI|You have to provide a set parameter in the URL
+GIYKaI|You have to provide an id to look for occurrences.
+NiYUV5|You have to provide the user id to change or add a user
+Onf4wv|You may %1try again%2.
+mFJD4W|You may %1try again%2.
+WxKo5h|You may try again.
+HBcQsm|Your backup has been imported. Please check the log below for details.
+GHA0On|your club's dilbo server URL
+CJORsu|your club's name
+TaDJo1|Your logo must be a .png file, use an online converter to create. Aspect ratio of 4:3 is best, with 400 px width.
+VL1hAM|your name
+TzCMHn|your request or feedback
+Vhea3D|Your server application is up to date.
+Lg2U2h|your support token
+BznhBV|Your words to search for
+KtXJLq|{invalid parameter with semicolon}

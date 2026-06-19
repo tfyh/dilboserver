@@ -1,0 +1,22 @@
+_name;default_label;default_description;parser;default_value;value_min;value_max;value_size;validation_rules;sql_type;sql_null;input_type
+none;twQEii|none;"He8Npc|no value type;  i.e. for …";none;;;;;;;;none
+template;nzHYMa|template;Rm2hbJ|a template of an item br...;none;;;;;;;;none
+boolean;Cu2G1y|yes/no;"7biR4D|true or false; in SQL 1 …";boolean;false;false;true;;;tinyint;false;checkbox
+int;jFc7LF|integer;1hmAzF|an integer number (defau...;int;;-2147483646;2147483647;;;int;true;text
+long;yobRgF|integer (64bit);LEswoB|a long integer number - ...;long;;-9,223372036854E+018;9,223372036854E+018;;;bigint;true;text
+double;qBIi8s|floating point number (6...;pdfAGv|a high precision floatin...;double;;-1.79E+308;1.79E+308;;;double;true;text
+date;6fCAua|date;WAIZ9Z|a date without the time ...;date;;1583-01-01;2999-01-01;;;date;true;date
+time;reFIOv|time;"N7zwJX|a time; either time of d…";time;;-99:59:59;99:59:59;;;int;true;text
+datetime;uSKtHu|date plus time;ZTpM5O|date and time between 10...;datetime;;1583-01-01 00:00:00;2999-12-31 23:59:59;;;datetime;true;text
+string;Qig0i8|string;NleMXL|a String of less than 40...;string;;;;4096;;varchar;true;text
+micro_time;fUNLos|server timestamp;DpOAmY|the server time since th...;double;;-9.3E+15;9.3E+15;;;double;true;text
+text;dNEp9w|text;Kf38QT|a String of less than 65...;string;;;;65536;;text;true;textarea
+identifier;Um89xR|identifier;"Kr71pH|an identifier String; co…";string;;;;64;identifier;varchar;true;text
+uid;teKQFr|universal record id;waAoy8|a twelve characters rand...;string;;;;12;uid;varchar;true;text
+uuid;3HQTXe|universal unique id;"PJaxsz|a standard 128 bit UUID; …";string;;;;36;uuid;varchar;true;text
+uuid_or_name;VM7UAz|uuid or plain text;cZoVKb|universal unique id or a...;string;;;;128;;varchar;true;text
+password;Cb4KtN|password;sbMbvX|the users plain text pa...;string;;;;128;password;varchar;true;password
+int_list;LHWWfP|integer list;lBhtsX|a list of some integer v...;int_list;;;;4096;;varchar;true;text
+string_list;ELB52L|string list;U8F8cO|a list of some string va...;string_list;;;;8192;;varchar;true;textarea
+uuid_list;JsWlWf|uuid list;PXO4ka|a list of some UUIDs;string_list;;;;8192;uuid;varchar;true;textarea
+uuid_or_name_list;4FxFdV|uuid or name list;Q56gwn|a list of some UUIDs or ...;string_list;;;;8192;;varchar;true;textarea

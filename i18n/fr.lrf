@@ -1,0 +1,1875 @@
+6qoA8U|#Erreur à l'ouverture du fichier '%1'.
+5qjixH|#Erreur : Le répertoire cible '%1' pour la décompression existe déjà, abandon.
+XFt9AM|#Erreur : Le chemin zip '%1' n'existe pas.
+Tu6j0f|%1 octets ont été téléchargés.
+8tmTMH|Échec de l'écriture du fichier %1.
+MMIW9a|%1 enregistrements trouvés dans %2 tables.
+O0EFCI|« %1 » est trop volumineux. Remplacé par la limite supérieure « %2 ».
+IL4ihl|« %1 » est trop petit. Remplacé par la limite inférieure « %2 ».
+RNkGtP|(%1 enregistrements avec %2 colonnes chacun)
+RyaYQ8|(Peut être mis à disposition sur demande).
+HpsAcF|(vide)
+WjRsQw|(vide)
+izUp6M|(vide)
+gEQmZw|(numéro : %1)
+ETueWs|*Importer cette archive zip :
+pl1k9D|[Modifier les concessions]
+A1Owa3|[Modifier les workflows]
+dJvuUP|[Envoyer le jeton]
+ZTKMhv|[Afficher]
+XtZapR|Le passage du contexte : %1 à %2 n'est pas autorisé. La session a été interrompue.
+AcXUXP|un affichage de l'heure
+pCUN5Y|une compilation du type de modification et des valeurs modifiées
+r9FCt7|une liste classée configurée
+pqr2AS|des statistiques configurées
+LhJFv2|un affichage de l'état de la connexion
+xN8W5B|un contact pour les vérifications
+WAIZ9Z|une date sans fraction d'heure comprise entre le 01/01/1000 et le 31/12/2999
+VeaNed|une description du travail effectué
+OJyI8o|une instance d'objet dilbo « Préférences (utilisateur) »
+uCpZSW|une instance d'objet dilbo « Application »
+NkAxDv|une instance d'objet dilbo « Associations »
+oxrvY3|une instance d'objet dilbo « Synchronisation client »
+Dx4OBv|une instance d'objet dilbo « Club »
+WUshOF|une instance d'objet dilbo « Communications »
+pDoBx4|une instance d'objet dilbo « PDF »
+8NQluN|une instance d'objet dilbo « Journal personnel »
+buM3DY|une instance d'objet dilbo « Données de voyage visibles publiquement »
+TvbhVS|une instance d'objet dilbo « Catalogues de types »
+UQRns8|une instance d'objet dilbo « Notifications de workflow »
+pdfAGv|un nombre à virgule flottante de haute précision
+ncH3n3|A est un nombre, B ne l'est pas.
+Bczhcw|A est une valeur unique, mais B est un tableau.
+sF4MkY|A est une valeur unique, mais B est un tableau.
+QYQwlG|A est une chaîne de caractères, B ne l'est pas.
+y5iS0B|A est une chaîne de caractères, B ne l'est pas.
+B8udF2|A est un tableau, mais B ne l'est pas.
+Q3220i|A est un tableau, mais B ne l'est pas.
+KH8xj4|A est un booléen, B ne l'est pas.
+xitScV|A est un booléen, B ne l'est pas.
+lEUpOn|A est de type Date, B ne l'est pas.
+K8RkEM|A est de type DateTimeImmutable, B ne l'est pas.
+qQXEIR|A est de type float, B ne l'est pas.
+YA9xLD|A est un entier, B ne l'est pas.
+EMt2mp|A est null, mais B n'est pas null.
+kSCib2|A est null, mais B n'est pas null.
+8qn1n1|A est un objet, B non.
+JiCPzn|A est un objet, B non.
+wMABQI|A est un objet, mais pas une Date. Aucune comparaison n'est implémentée pour les autres objets.
+OHYGer|A est un objet, mais pas un DateTimeImmutable. Aucune comparaison n'est implémentée pour les autres objets.
+snrtbT|une liste d'enregistrements
+lBhtsX|une liste de valeurs entières
+U8F8cO|une liste de chaînes de caractères
+Q56gwn|une liste d'identifiants UUID ou de noms
+PXO4ka|une liste d'identifiants UUID
+NEsOss|un invité inscrit au club
+LEswoB|un nombre entier long - représenté en PHP sous forme de chaîne de caractères ! (max. : 9223372036854775807)
+H4jV4o|un membre du club
+hYR1lf|Une version plus récente du programme %1 est disponible.
+wErv4U|un utilisateur normal
+idAn0P|une option du programme pour le contenu à afficher dans l'interface utilisateur
+yxn8R3|Un enregistrement avec %1 “%2” existe déjà dansla table %3.
+iHgePQ|un numéro de réservation
+xvSOCz|un ensemble de champs à utiliser dans des formulaires qui ne sont pas des champs d'enregistrement de table
+PJaxsz|un UUID standard de 128 bits, tel que « 6ba7b810-9dad-11d1-80b4-00c04fd430c8 »
+NleMXL|une chaîne de caractères de moins de 4096 caractères
+Kf38QT|une chaîne de caractères de moins de 65 536 caractères
+hGYIpr|un utilisateur technique pour refléter l'optionde saisie sur le site du hangar à bateaux
+Rm2hbJ|un modèle de branche d'élément
+N7zwJX|une heure, soit l'heure du jour, soit une période comprise entre -99 et +99 heures
+waAoy8|un identifiant unique aléatoire de douze caractères
+lt3gwh|un identifiant d'objet unique du travail effectué (héritage efa)
+IvtKey|Un enregistrement utilisateur ne doit pas être modifié sans fournir l'identifiant de l'utilisateur.
+0ICPQx|Un enregistrement utilisateur doit définir le rôle de l'utilisateur pour l'insertion.
+wYd9bK|un utilisateur qui s'est identifié, mais qui nedispose d'aucun droit à l'exception de la consultation de ses propres données
+yFH7vj|un utilisateur qui ne s'est pas encore identifié
+X3tFbN|un utilisateur disposant d'un accès en lecture à tout, mais d'aucun droit d'écriture au-delà de celui du membre
+joR2KU|un utilisateur disposant d'un accès en écritureà tout, à l'exception des champs générés par le système
+HcIlHr|A-Gig
+3XfFZR|Se déconnecter
+zD9aCz|Annuler maintenant.
+uhcKky|Annulé, voir sys_db_audit.log
+SXFCcM|À propos
+QqsVTJ|Insigne
+Xz3Mt2|Insigne
+l5E880|Statistiques d'accès
+8JnBLB|Accès
+UU8ZrV|Accès des derniers %1 jours
+DYvvBo|Acronyme
+hib5Yr|Liens d'action
+F7t6Jn|Action
+uRHqUh|Actions
+Z4VNs0|Clients actifs
+JolXHh|Ajouter
+kx8iiD|Enregistrement administrateur ajouté.
+tNKKVB|Enregistrement administrateur ajouté.
+H5p5xA|Propriété auto increment ajoutée à `%1`.`%2`.
+xw01aj|Ajout de la colonne `%1`.`%2` avec la définition actuelle.
+S1nQio|Ajout d'une propriété unique à `%1`.`%2`.
+1I7q2d|Ajout non autorisé pour : « %1 »
+RWzyuw|adresse supplémentaire
+54Nc4L|ville
+HNlaBt|pays
+OyuQS0|rue
+I8Qe4e|code postal
+nxtlx7|adresse : ville
+kLBpHw|adresse : rue
+GX2BRC|Gérer
+tNYLhI|administration
+66jsOU|Administrateur
+jBHUla|Administrateur
+dQ3PQG|Les administrateurs sont également supprimés, àl'exception de « %1 ».
+mIJlp8|administrateurs
+31PJH2|Administrateurs importés
+ygOOPk|admins
+1SeWJN|Après avoir supprimé le mot de passe, veuillez vous connecter avec un mot de passe à usage unique et définir un nouveau mot de passe permanent.
+1yDSbE|Après l'envoi test, le message peut être traité plus en détail.
+JmUHGQ|Il est ensuite possible de se reconnecter avec un NOUVEAU mot de passe à usage unique, qui vous permet également de configurer un nouveau mot de passe permanent.
+JkFi3j|tous les trajets
+JO9XOp|Tous les utilisateurs
+cd71Yk|autoriser l'affichage du rapport sur les bateaux disponibles
+8Zd75V|autoriser l'affichage du rapport sur les bateaux inutilisables
+Xn0KFG|autoriser l'affichage du rapport sur les bateaux en mer
+9P1aDt|autoriser l'affichage du rapport sur les bateaux réservés
+entgRR|UUID de groupe autorisés
+6EoZZ1|un suffixe au nom
+N3ClPw|un suffixe au nom
+Kr71pH|une chaîne d'identification, contenant uniquement a..zA..Z0..9_, elle ne doit pas commencer par 0..9, mais en raison de l'héritage efa, cela est autorisé.
+1hmAzF|un nombre entier (par défaut 32 bits)
+usHKvV|Un numéro de séquence de formulaire ou un jeton de séquence de formulaire non valable a été indiqué.
+3Ju6sc|Aperçu des autorisations actuellement attribuées
+5pIFfg|Un concept de sécurité à jour est généré à partir de l'application, qui peut être utilisé à des fins de documentation conformément au RGPD. Veuillez noter que le concept de sécurité ne concerne que l'application. La sécurité du serveur web doit être documentée séparément ou assurée par une GCU appropriée.
+9dBgWW|Une mise à jour ne peut pas être annulée. Il est donc recommandé d'effectuer une sauvegarde du code au préalable
+HS5S4A|horloge analogique
+Q3Kiql|Analyser ou modifier des tables et des enregistrements
+OLdvxO|analyse
+wqfjYX|Analyste
+CW7uhM|demande anonyme pour aucun formulaire : %1/%2
+Kh3f7P|rôle anonyme
+dW5Evo|Utilisateur anonyme
+8FHeg0|anonyme
+5ncXLv|tout autre
+r70jt7|état de l'API
+PcFnaZ|API
+3MjQY3|Erreur dans la configuration de l'application : liste non définie. Veuillez vérifier avec votre administrateur.
+4t2ytU|Erreur dans la configuration de l'application : liste non définie. Veuillez vérifier avec votre administrateur.
+eG3R6d|Erreur dans la configuration de l'application : liste non définie. Veuillez vérifier avec votre administrateur.
+p9OsWq|informations sur l'application
+KyRHUN|nom de l'application
+vQqH1u|paramètres de l'application
+sVDlYy|Configuration de l'application
+hYCay2|URL de l'application
+Uh7mnT|Version de l'application
+KWQvhQ|Application
+GL5oKY|Marque d'approbation
+LcjQdN|Approuvé par
+XMqs5E|Approuvé le
+TKKGMK|Approuvé
+dhimlx|Commentaires facultatifs
+vQfPRI|Enregistrements archivés d'une table
+LFjF4k|UID archivé
+F5yg2s|Archivé
+k1f72d|Archive
+oueYSV|Archive
+hRa7Lj|Numéro croissant fourni par la base de données et utilisé pour le contrôle des modifications par le framework tfyh
+I99caQ|Numéro croissant
+moYtc5|Numéro croissant
+Un4xdT|Propriétaire de l'actif
+Th1rpd|Options de statut de l'actif
+IVmONR|Statut de l'actif
+fZxA3b|sous-type d'actif
+jZcTh9|sous-types d'actifs
+XCI9Vj|type d'actif
+lxAoLm|types d'actifs
+OoJaFH|variante d'actif
+7wLp7B|Actif
+MEJn0T|Actif
+fuGic5|actifs
+iLRBEh|actifs
+6h5SfZ|association
+YNWYRr|Associations
+mlOh7N|Appendice 1 :
+8dh5sK|Annexe 2 :
+hv0TyN|Annexe :
+rHyH4e|ATTENTION : la session prend fin au bout de 10 minutes si aucune nouvelle page n'est consultée.
+6ePLG9|Audit de la base de données %1
+3bUCT8|Auditer la base de données
+UkRFrA|Échec de l'authentification : aucun mot de passe n'est défini dans le profil utilisateur
+nVVYew|Échec de l'authentification : mot de passe incorrect
+3aIZhf|auteur
+WP2gSG|Auteur :
+dOH4gJ|auteur
+1GPSPQ|Revue des autorisations
+UW9vbC|Revue des autorisations
+nOchmJ|Auteur
+pwm01Q|auteur
+sfhaia|auteur
+yDZ1Sv|auteur
+yobG1D|auteur
+Pj1aLk|bateaux disponibles
+rWiluj|langues disponibles ; la langue est associée auformatage de la date, de l'heure et des nombres
+yMIXHG|langues disponibles ; la langue est associée auformatage de la date, de l'heure et des nombres
+rV1nL0|Listes disponibles de l'ensemble %1
+98zonu|fuseaux horaires disponibles
+MYITc0|disponible
+xf8yxL|Moyenne
+UHJlkG|B-Gig
+OdDC93|Retour au paramètre précédent
+j5CpiO|Retour aux couleurs standard
+jivK7Y|Journal d'importation de sauvegarde
+BbmPwy|badges
+T4IzT5|badges
+iVNmLl|barque
+s0IJfr|Comme ce courrier n'a pu être envoyé à personne, il n'a pas été enregistré dans les courriers envoyés.
+4T3kKl|Berlin/Paris
+ASO3pq|anniversaire
+xjIgJU|affixe du bateau
+T7TS2f|capitaine du bateau (fonction)
+Zm1EQO|capitaine du bateau (fonction)
+kNVX2b|Barreur
+lKC9rN|Maître d'équipage
+wMG0QG|nom du bateau
+RCBnd3|Gréement
+44UdCb|Placement à bord
+fCVvmQ|Type de bateau
+25iWqu|Interdiction d'utilisation du bateau
+KJVdkc|Variantes de bateaux
+wdgrOA|Bateau dont le statut de base est « indisponible
+Pf0MrO|Bateau
+dNfK2I|Hangar à bateaux
+poQR3u|Hangar à bateaux
+lusU0e|Bateau
+xzhtwo|bateaux non disponibles
+mYiQgl|bateaux non utilisables
+wAmxf9|Bateaux sur l'eau
+lcKYi0|Classement des bateaux
+0qy3Ok|Bateaux réservés
+cDfe5p|Bateaux en cours de navigation
+0ZpEIT|corps
+QidFnd|corps
+4igrr0|booléen A n'est pas (booléen B).
+ofZjXx|booléen A n'est pas (booléen B).
+Vyfkad|Réserver des bateaux
+0a0Es8|menu inférieur
+LFWEMm|C-Gig
+1j0vu9|appelé par
+YESw6Y|Canoë de l'équipe canadienne
+Ugs9E9|Canoë de randonnée canadien
+tGjTU8|Annuler le voyage
+uSzD8H|Annuler le voyage
+5uSD5Z|Annuler
+6GkrQI|Annuler
+rsPBxh|annulé par
+0Jb2Qk|annulé le
+AQ6jNh|Impossible d'insérer l'enregistrement.
+4vF8NA|Impossible de mettre à jour l'enregistrement.
+fCWs9m|Canoë-kayak
+OZGFzr|ATTENTION : une importation de configuration remplacera toujours l'intégralité de la configuration existante.
+fK6t7h|ATTENTION : une importation de données supprimera et rechargera généralement l'intégralité de la base de données.
+vM2BVe|Heure d'Europe centrale
+YpUO6w|Déclaration de modification vérifiée.
+KDNuD3|Modifier les couleurs et la police
+boE0VN|Modifier le logo
+IZjKgK|Modifier le profil
+ezukBb|Modifier la date de début de validité pour créer une nouvelle période. Modifier l'enregistrement pour cette nouvelle période.
+c1Kttz|Modifier le message.
+Sni5v9|modifier le profil de %1
+Alpzz7|Changer de thème
+08PFcm|Modification
+0gI9lN|Modifier
+sNh3bq|Colonne `%1`.`%2` modifiée avec la définition actuelle.
+gjYPBf|ID modifiée :
+MZUBHS|uid modifié
+g4L7FG|modifié
+MHMkLP|nom du journal des modifications
+ejtoDx|journal des modifications
+jkjFR8|Modifications apportées aux données
+whDEyZ|modifications dans les enregistrements d'une table
+84qqTb|Modifications
+E6z7DI|Modifications
+eDlcRp|Modifications
+3MS3H9|Case cochée
+nMSzXi|Case décochée
+NgKZWV|Vérification de l'archive de code
+2J3SjW|Vérification de la connexion à la base de données pour : %1
+RHFSbA|Vérification du résultat
+HLapWX|bateau de l'église
+ErZvL9|réclamation
+uecpM1|Demande du client.
+rAlbJT|Interface client-serveur
+TDuaQK|Synchronisation client
+EhzMrg|Client
+JjtIVR|Client
+u620iB|Horloge
+Vxjyo7|Fermeture de la session anonyme suite à une connexion réussie
+5Ddt11|Fermeture de la session suite à un échec de connexion
+vJWQTM|Informations sur le club
+CnBGsZ|Logo du club
+kScAYD|Logo du club
+mkQ56z|Nom du club
+oIdZfk|Paramètres du club
+CFTuTf|Clubhouse
+h05I6K|Âge du club en jours
+rKTnK7|Âge du club en jours
+SfVSSr|Couleur
+CS3ieI|Application de couleur
+xmC7bW|Valeur de couleur
+fK2tDd|Colonnes
+8njxdh|Commentaires
+2zbzk8|Champs communs
+AxJOaB|Champs communs
+DZhl1F|Champs communs
+GnHaTt|Champs communs
+KCTsEV|Champs communs
+ODsxKh|Champs communs
+Qq4hXC|Champs communs
+QvAbxC|Champs communs
+UHoEWO|Champs communs
+WvdOw5|Champs communs
+rc02SG|Champs communs
+vJPo4g|Champs communs
+xaRk0g|Champs communs
+xopwK1|Champs communs
+zKNEos|Terminé avec succès.
+6QCftb|Update_table_layout(%1) terminé.
+HAqb4l|Terminé. Taille du fichier
+PLIvFy|Réductions
+2S8Lmx|Navigateur de configuration
+QES6P2|Éditeur de configuration
+3VwQtV|Erreur de configuration.
+YG4BuC|Erreur de configuration.
+qaczPb|Erreur de configuration.
+7BVGfL|Valeurs de configuration importées
+UETSE9|Valeurs de configuration importées
+lTdLce|Valeurs de configuration importées
+H9tW8m|Configuration
+VshrlN|Configuration
+c2S7Zr|Configuration
+AAbSwk|Configurer la connexion à la base de données
+E2E47c|Tâches configurées
+BN4UxH|connecté comme
+YlIcRa|Connexion
+KjeCap|Contact
+9MnTvU|Fournisseur de contenu
+BgxoH6|Fournisseur de contenu
+LB2VIH|Fournisseur de contenu
+MM3g7t|Fournisseur de contenu
+NVNePn|Fournisseur de contenu
+WERe3b|Fournisseur de contenu
+hutilZ|Fournisseur de contenu
+jllcnX|Fournisseur de contenu
+yZf4ai|Fournisseur de contenu
+zHtWix|Fournisseur de contenu
+gcFhev|Continuer à modifier l'utilisateur.
+nX2H3M|Droits d'auteur
+MQEsnc|Corriger maintenant - attendre - cela prend jusqu'à 5 minutes !
+URJSm4|Échec de la correction pour « %1 »
+8N2N5h|Nombre d'accès
+8fGF1t|Nombre de rôles non privilégiés :
+OPc8WE|Nombre de rôles privilégiés :
+MzZXhV|Nombre d'enregistrements
+Yp1lPb|Cox
+JWKPQO|Coxing
+jwq0iS|Créer un nouvel utilisateur
+6tNZ2D|Créer un concept de protection des données pourl'application
+wpf4AI|Créer la table `%1` avec toutes les colonnes selon la mise en page actuelle.
+qhZ5Sv|Créé par
+RO5t0k|Créé le
+WRvThr|Créer une nouvelle table vide `%1`...
+gXMgBV|Groupes d'équipage
+OMg9N8|Équipage
+7WScxb|Équipages
+XMwoo5|Équipages
+6hVh0p|Version actuelle sur le serveur dilbo
+ZC5KSz|Actuellement installé :
+6yPD1e|D-Gig
+oTQpJP|Sauvegarde quotidienne
+Ida7sx|Ancienneté des dommages en jours
+mljXaE|Ancienneté des dommages en jours
+769Yt3|Gravité des dommages
+ZBuhvQ|Bateaux endommagés
+50TLgp|Dommages
+MaVc5i|Dommages
+yaRbu4|ZONE DE DANGER !
+PW2Hz1|ZONE DE DANGER : CELA SUPPRIMERA TOUTES LES DONNÉES DE LA BASE DE DONNÉES %1 !!!
+vCGSbJ|Erreur de connexion de la base de données :
+R51PFL|Échec de la connexion à la base de données :
+s2Mkwj|Connexion à la base de données réussie, mais échec de l'instruction de test 'SELECT 1'.
+h0EUOC|La réinitialisation de la base de données a étéignorée.
+4YsmYP|Échec de l'instruction de base de données '%1 ...'. Erreur : '%2'.
+IJxXoI|La base de données a été réinitialisée.
+2Cdisv|Modifications des données
+7NaapI|Structure des données
+Zlg4qc|Confidentialité des données
+cN3sAX|Erreur de récupération des données :
+yxtlEE|Structure de données
+PfeK14|Données
+7lryij|Erreur de base de données. Impossible de supprimer l'enregistrement avec l'uid « %1 » de la table « %2 ». Introuvable.
+zhlDnH|Erreur de base de données : %1. Échec de la création d'une entrée dans la corbeille. L'enregistrement n'a pas été supprimé.
+6nchtK|Erreur de base de données : %1. Échec de la suppression de l'enregistrement dans « %2 ».
+tZT02P|Erreur de base de données : %1. Échec de l'insertion de l'enregistrement dans « %2 ».
+Jq2YEP|Erreur de base de données : %1. Échec de la mise à jour de l'enregistrement dans « %2 ».
+zMDnsc|Socket de base de données
+5pH8pE|Echec de la commande de mise à jour de la base de données. Message d'erreur :
+YwHPOy|Structure de la base de données vérifiée
+ZTpM5O|Date et heure comprises entre le 01/01/1000 00:00:00 et le 31/12/2999 23:59:59
+GGZexg|Date et heure
+sJaCgN|Date de l'accord relatif au traitement des données contractuelles, fournie dans le concept de sécurité
+GVwDG3|Date de l'accord relatif au traitement des données contractuelles
+uSKtHu|date et heure
+6fCAua|Date
+AHuXHg|Date
+eCGctK|Date
+Gh6rpp|datetime A != datetime B.
+z5G34s|datetime A != datetime B.
+1PeXp2|jour de la semaine
+rtBEhk|Cher %1 %2,
+ihdtPy|Cher(e)
+eEUD9N|Chère
+BuXeTn|Cher(e)
+xhXR6R|MODE DEBUG
+zBPp3D|Débogage activé
+DNkmyb|le débogage ralentit les opérations et génère beaucoup de données stockées, mais peut être nécessaire pour le traçage des bogues.
+vfeF47|UUID par défaut du bateau
+wQseut|UUID par défaut de l'équipage
+O5lHM8|UUID par défaut de la destination
+FiBcau|Type de session par défaut
+SJJb4H|Supprimer la base de données %1 et la reconstruire.
+P8NqjU|Supprimer la base de données %1
+yu9T3e|Supprimer maintenant la base de données « %1 » à l'emplacement « %2 »
+MyjroH|Supprimer le répertoire s'il est vide
+wWNgrt|Supprimer les tables de données existantes
+c32XmM|Supprimer le fichier
+6Eagok|Supprimer le mot de passe
+Ju1Dog|Supprimer le mot de passe
+RcjBnK|Supprimer l'enregistrement
+oVRldL|Supprimer l'enregistrement
+eaMVsh|Supprimer le mot de passe permanent de votre compte. Vous pourrez ensuite demander un nouveau mot de passe à usage unique.
+S0Ejhn|Enregistrements supprimés d'une table
+kI31f3|UUID supprimé
+rve23X|Suppression de l'ancien code
+sOovvb|La suppression du mot de passe permanent n'est possible qu'avec l'indication d'une adresse e-mail enregistrée.
+B9EOmx|Description :
+A0ac1c|Description
+Mm3AQ8|Description
+OJFiWA|Description
+VezllF|Description
+RPjUUE|Zones de destination
+we0nQ4|Zones de destination
+D74J4B|la destination
+MI1DGQ|la destination
+HJ6A6c|Classement des destinations
+FAc5j2|destinations
+NdSmAs|destinations
+koWndZ|détails sur l'enregistrement des eaux
+BbZKd9|Détails
+7U0aO6|Deutsch (17.12.2024, 1.234,56)
+aAPA7p|Deutsch
+Y0Rn4h|dilbo par défaut pour le mode portrait
+ssebrB|dilbo mise en page par défaut
+g6ljZr|dilbo accueil pour %1
+VgQ6jU|dilbo accueil
+XhHFLK|afficher une image, chargée depuis la ressource
+ZNvHsT|Accès direct
+hX0dDX|Répertoire
+CWyUVf|handicap
+nyF9E3|afficher un texte formaté
+CHVtwP|Afficher le profil modifié de l'utilisateur.
+ySBlMg|Affichage d'un enregistrement système dans %1 provenant de %2.
+RF1L2R|Distance (par exemple 12 km)
+a75PCW|Distance (par exemple 12 km)
+vtaU6d|Distance (par exemple 12 km)
+RGjcvy|Terminé. Pour le protocole d'audit, veuillez vous reporter à /log/sys_db_audit.log
+Z4Qu8U|Terminé.
+BcbLd0|Terminé
+UIhMz8|Terminé
+ag2Cwk|Terminé
+AB5WD4|Je ne sais pas
+O0UHBE|quatre de couple avec barreur
+trgoYu|quatre de couple avec barreur
+Qq5r0W|quatre de couple sans barreur
+9QtVqj|quatre de couple
+0sSNXI|deux de couple
+ewfbMj|six de couple
+n8EyiH|deux de pointe
+t37q0M|deux de couple avec barreur
+trjdW2|deux de couple sans barreur
+cmjKme|Télécharger le fichier
+DUMRwv|huit de couple
+7VPHRj|bateau-dragon
+TQrqJw|Supprimer la table `%1`.
+TuOggl|Colonne obsolète `%1`.`%2` a été supprimée.
+zQY162|L'index obsolète `%1`.`%2` a été supprimé.
+2p7kEh|Supprimer la table `%1`...
+uTPBBb|Nom d'enfant en double %1
+2IFi0b|Nom local en double %1
+ghD7eD|E-Gig
+jvNIEJ|Chaque modification des données est enregistrée; les 100 derniers jours sont affichés ici. Utilisation autorisée uniquement aux fins réglementées.
+s0Odak|Modifier un enregistrement %1
+OWSuib|Modifier un enregistrement
+F7qnFQ|Modifier les actifs
+GS9KGM|Modifier les badges
+OGz2MB|Modifier les équipages
+TXUDaM|Modifier les dommages
+Ma1l1r|Modifier les destinations
+8ocz68|Traiter les groupes
+zC2FGN|Modifier le carnet de route
+RbrQPd|Modifier les messages
+9ph81g|Modifier les personnes
+D1OCmR|Modifier les préférences
+0U5jy1|Modifier l'enregistrement pour une nouvelle période
+LY4vGp|Modifier l'enregistrement
+5nWQST|Modifier les enregistrements de la table « actifs »
+AVr0go|Modifier les enregistrements de la table « badges »
+Y5nvhk|Modifier les enregistrements de la table « équipages »
+x8Ci7H|Modifier les enregistrements de la table « dommages »
+YopnNN|Modifier les enregistrements de la table « destinations »
+2yBrgz|Modifier les enregistrements de la table « groupes »
+XZ2EfD|Modifier les enregistrements de la table « journal de bord »
+P3Ttve|Modifier les enregistrements de la table messages
+LgQOhJ|Modifier les enregistrements de la table personnes
+cjw9XN|Modifier les enregistrements de la table réservations
+w7Af3R|Modifier les enregistrements de la table statuts
+QCZtbv|Modifier les enregistrements de la table eaux
+vzSIeP|Modifier les enregistrements de la table cahierde bord
+yFclWI|Modifier les réservations
+VGCYGz|Modifier les statuts
+wi2U3J|Modifier un parcours
+2BwYsS|Modifier les eaux
+JCTFGS|Modifier le cahier de bord
+DVfjoK|Modifier
+hAq1LW|Numéro de dommage efa
+64hzBR|Mot de passe efaCloud pour récupérer la configuration et les données efaCloud, si disponibles
+JwyWs2|Échec de connexion au serveur efaCloud %1 : %2
+MgQGLb|efaWeb : lire les réservations
+7JSa5m|ID eFB
+NcwQSc|ID eFB
+j74zFU|ID eFB
+4huRFN|huit avec barreur
+denQKB|huit
+6vwG5v|EMail
+eiCoTk|champs de données vides
+7zx0jm|ID et nom vides pour « %1 »
+HE2ICg|Identifiant vide
+uLDW4W|vide
+8DhT84|Activation de la sauvegarde quotidienne. Cette opération prendra un certain temps.
+QSgzbn|Fin
+tGufyM|Fin
+hHy8fY|Anglais (17/12/2024, 1 234,56)
+ua38OA|Anglais
+H6xh5s|saisir une valeur.
+lYQAls|Inscrire un trajet
+9Eu3qa|ID d'entrée
+CbG7UM|Échec du contrôle d'égalité en raison d'un typede A non reconnu : '
+Wxhd4A|Échec du contrôle d'égalité en raison d'un typede A non reconnu :
+5HZbuy|Ergo
+uv10GI|Ergo
+edML3Q|Erreur lors de l'exécution d'une instruction SELECT de la base de données.
+sTQcju|Erreur dans la séquence des formulaires.
+EvZXbc|Erreur lors de la mise à jour de l'enregistrement dans %1. L'enregistrement avec la clé n'a pas pu être trouvé :
+nHhQOA|Erreur lors de l'enregistrement du fichier temporaire %1 à l'emplacement cible %2.
+1Uo8a4|Erreur
+6HrzgB|Erreur : Le fichier '%1' n'a pas été trouvé.
+8XihSu|Erreur : Le fichier '%1' n'a pas été trouvé.
+vB1jX7|Erreur : L'utilisateur n'a pas suffisamment de droits pour initialiser la base de données.
+NLNSFH|Erreur :
+AsOtjr|Erreur
+UCOyeY|Erreur
+iX6ImJ|Exemple de titre 1
+DybBcu|Exemple de titre 4
+HsHWSA|Exemple de lien
+2x5WNx|Exception survenue lors de l'analyse de %1 dans%2
+vyIEGu|Exception survenue lors de l'analyse de %1 dans%2
+8DfXOI|Exclure des activités du club
+NcFzNZ|Exclure de la compétition
+5RYjmC|exclure des statistiques
+DIIwUV|exclure des statistiques
+w96wp3|Décompression des fichiers %1 à partir de l'archive zip
+d0z4Oi|Champs experts
+XRBVGE|ID externe
+6H3gWj|Champ supplémentaire dans B.
+XPWCVX|Champ supplémentaire dans B
+2trQTF|Extraction des options de variantes de bateau à partir des enregistrements de bateaux %1.
+AyLVcb|Afficher le carnet de bord
+GKykYZ|carnet de bord
+bUhlFK|Échec - quel dommage. L'erreur est : « %1 »,
+N2Co3F|Échec de l'ajout de l'administrateur par défautn° 1142. La table « %1 » n'est pas vide
+7vRDMJ|Échec de l'ajout de l'enregistrement d'administrateur par défaut :
+QR0NE4|Échec de la recherche de l'enregistrement avec l'ID « %1 » dans la table %2 pour la mise à jour.
+geDnMi|Échec du chargement du fichier efa2boats. Il n'y aura pas de variantes de bateau.
+lFtrxn|Échec de l'ajout d'un enfant à %1
+3cuTrK|Échec de la lecture de ../%1
+6QCVNs|Échec de la régénération de la session.
+GP3RV9|Échec de la récupération des données %1.
+kzd3DP|Échec du démarrage de la session.
+hVTaaQ|Échec
+wqLUx1|false
+GEqrkL|female
+0SC9ay|Le fichier n'existe pas.
+Wy3oFO|Limite de taille de fichier dépassée. Vous devriez peut-être vérifier les limites auprès de votre fournisseur d'accès Internet.
+5gYbSn|fichiers analysés
+sKqkK4|fichiers à supprimer lors de la maintenance
+wdLerX|Fichier
+Rhz5mZ|Filtre dans la colonne :
+6M8iob|Rechercher une personne dilbo
+twKTVn|Rechercher les occurrences
+6SbTVr|Rechercher
+Kw1h6C|Rechercher
+QcKAAP|Rechercher
+jm0ymC|Rechercher
+zu2YnS|Rechercher
+U0R4Op|prénom en premier
+z1iH2X|prénom de la personne administratrice
+1plUcT|prénom
+q3IQ5g|cinq sans barreur
+kzSxm8|cinq
+wCxK28|corrigé par
+5Kmxvp|corrigé le
+twupc5|corrigé
+tf4jR2|drapeau
+YgV1U0|flotant A ≠ flotant B.
+qBIi8s|nombre à virgule flottante (64 bits)
+gbnKmi|Canoë pliant
+jxhLJ9|Texte de pied de page
+dlPdPH|pour les bateaux construits, pour les autres non utilisés
+UTmyA8|Pour l'importation, un ID doit être spécifié dans chaque enregistrement. Les enregistrements ayant un ID existant seront écrasés, y compris les suppressions. Les enregistrements avec un ID vide seront créés.
+ymefAc|pour les catalogues standard et les icônes de l'interface utilisateur
+ffkuoc|Pour la recherche, au moins un champ doit contenir une entrée.
+mwgz0K|Pour la configuration encore existante du client %1, il n'y a plus d'utilisateur efaCloud.
+K7m1tH|pour les réservations hebdomadaires
+peiDrk|Aucune table n'a pu être trouvée pour votre uuid.
+AAJv1G|Changement de contexte de session interdit
+tysZww|Changement de contexte de session interdit
+S81unZ|Utilisation interdite du nom réservé %1
+A80LAS|champs de formulaire
+Im6RzC|Erreur de format dans '%1‘
+Dp1r1c|Format pour « td »
+xyM8WL|Format pour « th »
+FoUakd|Format pour « tr »
+IUXcdG|Quatre avec barreur
+i9fWFb|Quatre sans barreur
+hlxO3N|Quatre
+TedbHp|Cadre
+7NqePe|Français (17/12/2024, 1 234,56)
+sUW54d|Français
+WMfvNl|Utilisation libre 1
+oRgZBm|Utilisation libre 1
+Ii46wC|Utilisation libre 2
+y4Dz9K|Utilisation libre 2
+zPSkix|Utilisation libre 2
+zeOCoD|Utilisation libre 2
+10BTtm|Utilisation libre 3
+EJYjbK|Utilisation libre 3
+YIC5iv|Utilisation libre 3
+zUhQ4u|Utilisation libre 3
+JaGU45|Utilisation libre
+umGml6|Utilisation libre
+EIQA63|À partir de quand
+yhYGfZ|De :
+X3aEex|Entièrement utilisable
+kgufgC|Fonction
+pn9DHz|Réservations futures
+O0JWry|Sexe
+V3lCLm|Recevoir régulièrement par e-mail la liste de tous mes propres voyages
+OrvMhQ|Récupérer sous forme de fichier csv à télécharger :
+k2AOXj|Obtenir pour Javascript
+DiqqXC|Nom de l'association globale
+Be16mx|groupes
+kZ2lm5|groupes
+6QM1Pk|Invité
+uDYCoB|Invité
+IIOLVn|gui_anzabzeichen
+gdPIbc|gui_anzabzeichenab
+WXvYQC|gui_anzkm
+qo64TK|gui_anzkmab
+hoK0OF|gui_jahrgang
+dHQ1Jw|gui_letztekm
+8yH0MS|gui_letztesdatum
+1jl7HW|gui_letztesjahr
+Ry4sSi|gui_nachname
+l6eOSb|gui_schluessel
+H6ZnGJ|gui_signatur
+ZZO6hH|gui_status
+BYYsFO|gui_version
+nztTHX|gui_vorname
+jRBat5|Habitudes
+UcowVm|Gérer la session API
+UgRFql|Gestion d'erreur. Vous n'êtes pas autorisé à supprimer votre propre fiche personnelle.
+SCFM0U|Barre d'en-tête
+dF0DWJ|Bonjour %1 %2,
+9fGTH0|Aide sur l'utilisation de l'application
+5NwTuL|Aide
+NAOKEm|Voici les %1 derniers mails envoyés à %2.
+ImbQDK|Voici le résultat de l'audit de la base de données.
+c7f8JL|Vous pouvez rechercher ici un utilisateur du cloud en saisissant certaines informations le concernant.
+IXoLto|masquer
+c02HGj|Remarque :
+EkAEBW|nom du champ d'historique
+ufSvki|historique
+Ymh3Us|Accueil
+e5f94Q|Hébergeur
+M3qtH4|heures
+Hq01RN|entretien
+qrMNsF|téléchargement html
+RZZubx|Je suis également ravi de recevoir des commentaires sur l'application, ainsi que des suggestions et des demandes. Ce formulaire est envoyé à « dilbo.org ».
+CxPfCd|J'en suis sûr et je sais ce que je fais.
+MOvHFw|Je ne sais pas vraiment.
+S5CCm3|Je crains qu'il n'y ait rien à afficher.
+hpKnGj|Je crains qu'il n'y ait rien à afficher.
+xcuBnc|Je crains qu'il n'y ait rien à afficher.
+k0uqfc|Je crains qu'il n'y ait eu aucune correspondance.
+L8CEpv|Je crains qu'il n'y ait rien à afficher.
+MXs2hL|ID
+2qP34d|identifié
+Um89xR|identifiant
+gvdW5g|Si un mot de passe permanent est défini, tu ne peux pas utiliser de mot de passe à usage unique.
+4U5kRy|
+A4xtRJ|
+GEk5T2|
+GgOUUE|
+KN08tD|
+LRXfv7|Si cela se reproduit, vous pouvez aider l'équipe de développement en signalant cette erreur.
+PIA0aA|Si cela se reproduit, vous pouvez aider l'équipe de développement en signalant cette erreur.
+PKlSpe|
+QOTtgG|Si cela se reproduit, vous pouvez aider l'équipe de développement en signalant cette erreur.
+QS7RWw|
+QzYgST|
+RDNGNR|
+U86aMs|
+WB7IlD|
+ceLd6k|Si vous continuez, les données seront perdues et il n'y aura aucun moyen de les restaurer.
+miqSM3|affichage de l'image
+FVkWAh|Importer une archive de sauvegarde efa
+o1uX4R|importer la configuration
+8c2YpB|importer les données
+dj2gr0|Importer efaBackup
+17392l|Importer la table
+elFKdn|Importation de %1. %2 enregistrements :
+LKteOp|Importation de la configuration des administrateurs
+MVk9OQ|Importation de la configuration-configuration
+L4Mkdc|Importation de la configuration efaCloud
+8c3xMn|Importation de la configuration des projets
+O19Vr8|Importation de la configuration des types
+rhfArk|Mentions légales
+o6WA71|Veuillez sélectionner dans la première étape la liste de distribution qui doit recevoir les mails avec ce destinataire.
+FFjdFF|À l'étape suivante, la table est téléchargée et importée comme indiqué. Veuillez confirmer que l'importation doit être effectuée.
+Kzbcet|Total %1 tables avec %2 enregistrements.
+5Bd5LG|Total %1 utilisateurs.
+AkTh7r|Total %1 utilisateurs.
+qHF8o7|en total :
+G8MQnr|Inclure les journaux (recommandé en cas de problèmes d'assistance)
+NWE4ur|Informations sur la protection des données
+qNp1Rk|Initialiser cette version
+vm7D8e|Inrigger
+SclI3O|Insertion OK.
+MmPEku|Insérer un enregistrement
+ji7ea7|Insérer un enregistrement
+wwM2JD|Insertion de l'enregistrement admin %1 dans la table « %2 »
+qC9XHB|Installé le :
+kfB6Rx|Vérification des modules PHP installés...
+WE4FYR|Valeur d'assurance
+yobRgF|entier (64 bits)
+jCvlcK|entier A ≠ entier B.
+LHWWfP|liste d'entiers
+jFc7LF|entier
+GWrjW8|Nom d'enfant non valide %1
+piSUBy|source non valide
+WVta4w|Identifiant non valide : %1.
+2D9pBg|Liste de distribution de courrier invalide
+hfr2Zo|Liste de distribution de courrier invalide
+WfIwn5|Mode non valide.
+bdF7u8|Mode non valide.
+lCOAvM|Mode de modification non valide %1
+X6z2gz|Nom de l'ensemble invalide dans l'ensemble de données
+IRf2pK|Nom ou libellé non valide.
+ORUUoH|Chemin invalide « %1 »
+wULfQO|Nom de table invalide
+43SSV8|Le fait que les lettres soient en majuscules ou en minuscules ne joue aucun rôle.
+HxsB1x|Il est possible que %1 fonctionne sans ces modules, mais cela n'a pas été testé.
+nQuCEf|Italiano (17/12/2024, 1.234,56)
+zXO8gC|Italiano
+c92P96|Élément supprimé.
+Ck2Nrk|Élément déplacé.
+eiIavr|Nom de l'élément
+YYb502|Élément à modifier introuvable à l'emplacement « %1 »
+hCOXX2|Son association globale, comme DRV
+wdaPnt|Son association régionale, comme NRWRV
+MhDtjY|kilomètre
+mRmxz6|kilomètreab
+P3HxMO|étiquette
+ZQGhyK|Langue
+ZbOrwR|langues
+4fsAVc|dernière activité inconnue
+z1kw92|dernière activité :
+IvuNc8|nom de famille premier
+yX4D1v|nom de famille de l'administrateur
+UvHgWB|nom de famille
+vAmruh|entrée tardive
+AT55Zi|#NV
+xYyGTN|partie gauche du corps
+Z3wfSV|liste de gauche
+wTMwjC|comme Doe, John
+3y0SKI|comme John Doe
+rdpocs|utilisation limitée
+ZmqZlm|Liste tronquée après %1 enregistrements.
+CBjPta|Configuration de liste introuvable. Erreur dans la configuration de l'application.
+5jD9Z0|Erreur de définition de liste. Colonne FirstOfBlock manquante dans la partie select.
+SqtY4N|Liste des tables par taille
+RaOL1v|enregistrements de liste
+f4VfE8|liste
+druiJz|listes des enregistrements créés par le système lors d'actions de modification et de suppression
+ZfVuYM|listes pour l'affichage du hangar à bateaux
+ajsoPz|listes pour l'affichage du hangar à bateaux
+1KdLMU|listes
+zLY6b2|liste
+Bwa5WS|Chargement du code source depuis
+GoIpXR|chargement vers la branche de configuration %1 à « %2 »
+gj5lRY|emplacement de fin
+QfU2dm|emplacement de début
+slf0VZ|Types d'emplacement
+Lo8RAS|Emplacements
+p8ECvo|Connexion 
+SirIlb|Déconnexion
+D3RpCa|Informations du journal de bord
+vBZ3ID|Informations du journal de bord
+1H5XXs|Texte du carnet de route
+DkYaZp|journal de bord
+Fc4Dgy|journal de bord
+JAxjna|journal de bord
+XCX6sa|journal de bord
+KYpTxU|nom du journal de bord
+SBPtZz|Carnets de route
+XRkVQO|connecté en tant que « %1 »
+cxAly0|Déconnecté
+RzbZK8|enregistreur
+9Wjdwv|Compte de connexion (identifiant utilisateur, adresse e-mail ou nom de compte)
+cGim1i|Erreur de connexion. Déjà %1 tentatives infructueuses. Veuillez réessayer, mais chaque tentative prendra plus de temps.
+XPLjLc|Connexion pour les utilisateurs enregistrés
+bvy48a|La déconnexion a réussi.
+4RX8ec|Déconnexion
+PD9Mpq|liste inférieure
+rG1Dp9|inférieur
+ZS8fGZ|adresse e-mail de réponse
+dUWl3D|Distribution des e-mails
+im6qRb|Pied de page de l'e-mail
+MnB369|Abonnement à l'e-mail
+T5e4XF|programme de messagerie
+QvmvUh|Les e-mails envoyés à la liste de diffusion sélectionnée ne peuvent pas être lus par l'utilisateur actuellement enregistré.
+kEhmLD|corps principal
+I9cjtm|Emplacement principal
+zr2idi|Maintenance
+q14bUB|homme
+RFQsGA|date de fabrication
+dn8HGw|fabricant
+T1s1x8|Chiffres de dégâts mappés %1.
+LSGlmE|Marges
+sFrCdD|poids maximal de l'équipage
+jpdBlQ|nombre maximal d'erreurs par heure
+ois9NU|nombre maximal d'initiations par heure
+ZzIvFv|nombre maximal hors groupe
+jE9het|nombre maximal de sessions simultanées
+5qeszT|durée maximale d'une session
+GYrSxU|durée maximale d'inactivité d'une session
+7e8XGU|Maximum
+tP9luf|taille maximale
+cdzKPW|nombre maximal de versions
+gigCYX|Moi
+RhddWw|Membre de DRV
+V9gVLM|Membre
+oL3cee|Membre
+53QFpB|membres
+5bpQ0L|membres
+UUzdU8|numéro d'adhésion
+jfXG1z|menu pour le client
+1LPdGM|Menu
+ZbCDu2|Menu
+WOTRnb|Menus
+hYT7i4|Ancienneté du message en jours
+opmIs7|Ancienneté du message en jours
+rlk5hE|corps du message
+9U1xAJ|Destinataires du message
+PXE0oL|Message numéro
+2WKday|objet du message
+OMRZJ7|Déclaration :
+RsZcKe|Message
+Vismxk|messages
+xgI518|messages
+AN3idU|
+DLE6i3|Mise en page « %1 » manquante dans le profil d'interface utilisateur
+SnMP3I|
+Src5GU|
+TjSSTL|
+UXVJ9F|
+XXYUtj|
+ZK8QS3|Mise en page « %1 » manquante dans le profil d'interface utilisateur
+b25lke|
+hNQSjQ|Mise en page « %1 » manquante dans le profil d'interface utilisateur
+jd3R6q|
+nEo1z8|
+pkC1Vl|
+tJ24KR|
+2JGh7P|
+5HQKU8|
+8TLkza|
+8gldgy|
+BV5oHU|
+J5mTVi|
+O30mI3|Type de mise en page « %1 » manquant dans le profil d'interface utilisateur
+O7AHEJ|
+SVi9bN|Type de mise en page « %1 » manquant dans le profil d'interface utilisateur
+WzLCSp|
+kLW4M8|
+nTNeD8|Type de mise en page « %1 » manquant dans le profil d'interface utilisateur
+qzMYT3|
+wpjbS4|
+dAwKF1|Nom d'enregistrement manquant dans l'ensemble de données.
+QrQ9UO|UID d'enregistrement manquant
+1wDq5j|Profil d'interface utilisateur « %1 » manquant
+3WYMhM|
+9f4obg|
+AbQJ6b|
+G0xlW9|
+Rn8Ll8|
+TrTWjh|
+VPbepQ|Profil d'interface utilisateur « %1 » manquant
+Vv6Z5f|
+W0S9bQ|
+fneUmr|
+rKgtvM|
+tup1mT|Profil d'interface utilisateur « %1 » manquant
+zAd7z6|
+dvGVan|Unité « km » ou « m » manquante dans « %1 » pour « %2.%3 ». km supposé.
+dSwD50|Liste moyenne
+Pww8Pl|Modèle
+ynBNkU|Modifié le
+srezpx|Surveillance
+ZkvC3i|Plus de versions
+4f13QL|Bateau à moteur
+lpmzsR|Bateau à moteur
+ZNLZE6|Déplacement interdit pour cet élément de configuration.
+2A3jgB|Plusieurs enregistrements avec %1 « %2 » existent déjà dans la table %3.
+3fFURY|Plusieurs trajets pour le journal de bord « %1 » avec le numéro « %2 » le « %3 » dans la table de journal de bord dilbo.
+fu97I0|Le nom « %1 » est déjà utilisé par l'UUID « %2 »
+CP8U38|suffixe du nom
+PfVnYd|suffixe du nom
+KKC05J|nom utilisé comme référence au fournisseur du contenu
+MqQgeT|nom utilisé comme référence au fournisseur du contenu
+jTLIy0|nom utilisé comme référence au fournisseur du contenu
+k1dV2C|nom utilisé comme référence au fournisseur du contenu
+xPNJEc|nom utilisé comme référence au fournisseur du contenu
+2bt21a|format du nom
+ty9VTg|format du nom
+DTkSIs|nom de l'utilisateur technique permettant d'accéder directement à la base de données
+U5GPxO|nom
+Y2xSOB|nom
+YeYtpw|nom
+Z4cDbe|nom
+cl6L3f|nom
+l7dLzx|nom
+rNpC90|nom
+SAtKfj|Néerlandais (17-12.2024, 1 234,56)
+24djmw|Néerlandais
+2xog20|jamais
+DBX9sP|nouveau
+SMOZBB|Aucune modification n'a été consignée.
+26WMwL|pas de contenu trouvé.
+PE801L|aucun contenu. C'est le cas lorsqu'un conteneur contient lui-même des conteneurs
+mliI2K|Aucun type de données déclaré à ajouter.
+pZ1nbk|Aucun fichier de configuration efa fourni.
+cNDfYs|Aucune section de configuration efa fournie.
+5gZmqR|Aucun identifiant efacloud fourni
+8QpdLl|Aucun projet efacloud
+4Vpkuw|Aucun fichier fourni. Veuillez réessayer.
+UGYekG|Aucun nom de fichier fourni. Veuillez réessayer.
+mYd52x|Aucun fichier n'est indiqué. Veuillez réessayer.
+ziigIX|Aucune importation requise.
+U24lUJ|Aucun utilisateur correspondant trouvé.
+JjCWn9|Aucune donnée modifiée n'a été introduite ou des erreurs sont présentes. Rien n'a donc été modifié.
+3dNfLl|Plus aucun mot de passe à usage unique disponible. Le nombre maximal par utilisateur et par jour est de 10.
+EONiUI|Plus aucun mot de passe à usage unique disponible. Le nombre maximal par utilisateur et par jour est de 10.
+355gfL|Personne
+DEPfjp|Personne
+nsXBwL|aucune opération
+QDFgHt|Aucun mot de passe fourni
+d4yKBL|Aucun projet fourni.
+BwU3GN|Aucune version de serveur trouvée. Est-ce que c'est peut-être le localhost ?
+M4AobL|Pas de mémoire disponible, mode test.
+VTLYoN|Pas de table de ce type.
+ynq0Ng|aucune configuration de table disponible pour la table « %1 ».
+TkfnPp|Aucune mise à jour pour les fichiers de données hors journal de bord. %1 ignoré.
+4C9I5e|Aucun utilisateur pour
+wyHjxb|Aucun utilisateur pour
+njV4BP|Commande de session non valide : %1.
+He8Npc|aucun type de valeur, c'est-à-dire que pour les nœuds de configuration avec une valeur, celle-ci sera toujours nulle.
+AYpSu8|aucune valeur à l'intérieur
+Xn806o|Aucun historique de version disponible.
+lIzc0X|noListForThisRole
+yGorGi|noListForThisRole
+IF1cIg|pas de
+twQEii|pas de
+xhLziQ|session normale
+KjzmnU|Non admissible.
+lTNFEv|Non autorisé.
+yMxAqF|Non admissible.
+jA4eJf|Non autorisé
+WQnTwK|non disponible
+Tt7zlq|Introuvable.
+FHyizx|Non trouvé.
+L2LcBL|introuvable
+Vicmvm|introuvable
+1Pq6VT|NON OK.
+8MAcUu|non défini
+QwAiyc|numéro de dommage non unique issu de l'importation efa
+xDE1cA|inutilisable
+LlqlPF|non utilisé.
+N2DEyA|REMARQUE : Les pièces jointes ont été supprimées et doivent être rattachées.
+Z1rWgP|Remarque : en général, le navigateur met en cache les paramètres de couleur, ce qui fait que la modification n'a pas d'effet visible dans un premier temps. En appuyant sur F5 ou &lt;Ctrl&gt;-F5 après la mise à jour, le cache peut être vidé dans la plupart des navigateurs et le nouveau paramètre de couleur appliqué.
+p71s5H|Remarque :
+AhDzmR|Remarques
+S6HlK8|Aucun changement. Interrompre avec la croix de niveau supérieur.
+NehXwd|Copie de la notification à
+WquAqp|Signaler les dommages à
+aY3FHB|Signaler uniquement si inutilisable
+R22xcy|Envoyer un message de notification à
+jn5WN8|Signaler la réservation à
+rT8wtF|pas
+8qQEHT|noValues
+bNnasv|noValues
+1l4ZE2|nombre A ≠ nombre B.
+Jl8rPJ|Numéro
+e2CD9A|nombre
+eBgDM8|nombre
+oDccWh|nombre
+w171tR|nombre
+cVYtkK|Caractère numérique au début de l'identifiant : %1.
+4j2U0W|Valeur numérique requise dans « %1 »
+Qn9X22|Occurrences de %1
+efYsEa|Trajets en cours
+sQuH9Y|ok.
+vI1rIC|ok.
+Zg9SKd|ok
+03k0iK|sur l'eau
+CBxZVW|Un niveau plus haut
+QV5dHL|une fois ou hebdomadaire
+hUYIPd|une fois ou hebdomadaire
+bN3xHf|une fois
+M4m15E|Mot de passe unique pour %1 '%2'.
+SUuG3E|Mot de passe unique envoyé pour supprimer le mot de passe de l'application '%1'.
+8z7mQ0|Skiff sans barreur
+2m3N8J|Un
+dvOhA1|uniquement dans l'identifiant du hangar à bateaux
+Hxsuol|signaler uniquement les dommages qui empêchent l'utilisation du bateau, etc.
+zxFKkM|uniquement avec le capitaine du bateau
+Pj5VdW|Oups ! une erreur fatale.
+F3yUPA|Oups, l'application a malheureusement planté.
+Nmjt8R|dommages en cours
+SNXt8L|dommages en cours
+35SG0h|réservations en cours
+u4E7HU|réservations en cours
+D0VM1M|Sessions en cours
+lYNvlF|trajets en cours
+7rViLS|Échec de l'ouverture de l'archive de code. Interruption de la mise à jour.
+9v6qNa|Responsable des opérations
+FVuVpT|Tâches opérationnelles
+xqJFkS|Tâches opérationnelles
+MwVqNf|Opérations
+lYBmSv|Opérations
+5qx7Bd|Option
+Rqkqic|Option
+ZiS5as|Option
+mWcht6|Ou vers la page d'accueil
+xF5oPr|Autres personnes
+ABXd9f|Autre
+Mq4mkn|Autre
+NbRfNS|Autre
+NkGPBr|Autre
+P5ZVN7|Autre
+PlKD7C|Autre
+Y3mUTK|Autre
+bpH6Mx|Autre
+zPPByG|Autre
+FalTMo|Aperçu
+10HnEo|Pagaie
+b1CfJu|La page '%1' doit être appelée comme page suivante de Trouver enregistrement.
+crDZRs|La page « %1 » doit être appelée avec un nom de table existant, ce qui n'est pas le cas de « %2 ».
+98iCZZ|La page « %1 » doit être appelée avec un identifiant utilisateur existant, ce qui n'est pas le cas de « %2 ».
+KdLw1V|Appels de page (init), erreurs et connexions
+6yuDuU|Paramètres manquants
+aveC01|Analyse des fichiers de configuration
+JNawOP|écluses passées
+Alcaqq|Mot de passe du compte administrateur, N'OUBLIEZ PAS DE LE RETENIR !
+SjwGi5|Mot de passe oublié ?
+stSdEq|Mot de passe de l'utilisateur technique pour accéder directement à la base de données
+yUqlic|Mot de passe répété pour le compte administrateur.
+bM3xyE|Mot de passe répété
+Cb4KtN|Mot de passe
+VPmVTm|Mot de passe
+y6e6Im|password_hash
+VnA6V0|Chemin d'accès dans la configuration
+kS4t6V|Téléchargement du PDF
+GzXocl|PDF
+hfCAVH|Période de validité
+pYGgkq|Autorisation
+VCcc4J|Autorisations par rôle
+F1eO35|Sexe de la personne
+D9IRZd|Statut de la personne
+9GipPe|UUID de la personne
+UMvvEm|UUID de la personne
+QupcS9|personne
+QfyaT6|Carnet de route personnel
+dcNA1F|Carnet de route personnel
+wfRmav|personid
+UkHpF2|Âge des personnes en jours
+r5rY6e|Âge des personnes en jours
+OzeECc|Classement des personnes
+2reLjS|personnes
+CNjIbc|personnes
+aG0EhE|lieux
+AdwVBx|S'il vous plaît à "
+voVsDM|Veuillez créer la base de données maintenant.
+88nTjP|Veuillez ne pas recharger cette page, mais :
+arUUZe|Prière d’entrer une date valide dans "%2" (et non "%2").
+6ytHoP|Prière d’entrer une adresse e-mail valide dans "%1".
+0qqJ5g|Veuillez saisir une valeur dans %1
+b33lk9|Veuillez saisir une valeur dans %1
+LTZcG4|Veuillez saisir ici les identifiants de l'administrateur de la base de données nouvellement créée. Cet utilisateur sera alors le seul à disposer d'un accès à la nouvelle base de données. Il pourra ainsi effectuer toutes les opérations d'administration nécessaires au sein de l'application.
+CLnsaZ|Choisir ici le mot de passe à usage unique que tu viens de recevoir par e-mail pour t'autoriser.
+IGCugZ|Aidez-nous à améliorer le logiciel en soumettant une demande d'assistance.
+JjAfRD|N'hésitez pas à me faire part de vos demandes ou suggestions concernant les fonctionnalités de l'application. Je m'efforcerai de vous répondre dans les meilleurs délais. Pendant les périodes de vacances, il peut y avoir des retards, mais vous pouvez généralement compter sur une réponse dans un délai d'environ une semaine.
+fCWHZq|Veuillez vous déconnecter et vous reconnecter maintenant.
+hmrHzL|Veuillez noter que toute la documentation est disponible à l'adresse %1. Aucune aide séparée n'est disponible ici.
+d0xnMU|Remarque : le processus démarre immédiatement lorsque vous cliquez sur le bouton et ne prend que quelques secondes.
+TxBnFe|VEUILLEZ NOTER : N'utilisez les informations fournies que dans le but prévu. La transmission des listes exportées ici n'est pas autorisée.
+Fiwrt1|Veuillez noter
+1UW7zW|Veuillez indiquer un nom de table lorsque vous appelez %1.
+VMcexT|Veuillez indiquer une adresse e-mail comme identifiant de connexion pour recevoir un mot de passe à usage unique.
+f8WSn3|Veuillez saisir au moins trois caractères à rechercher.
+6Ln3Bn|Veuillez fournir les informations de connexion à la base de données.
+Nbl5vE|Veuillez indiquer l'identifiant unique de l'enregistrement à modifier.
+9nyiSN|Veuillez lancer un audit et appliquer toutes les améliorations recommandées.
+sN71rx|Veuillez sélectionner la liste de distribution dont vous souhaitez consulter les e-mails précédemment envoyés.
+qfCs0a|Veuillez sélectionner le journal à afficher. Le chargement peut prendre un certain temps, veuillez patienter après avoir effectué votre sélection.
+eMKeDR|Veuillez terminer le processus d'installation.
+1ci7d1|Veuillez utiliser le filtre ou télécharger la liste complète.
+5n89du|Polo Boat
+uD3eA6|Message pour Javascript
+7h26Hb|Préférences
+FE2u7P|Les rôles privilégiés doivent utiliser des identifiants appropriés. Les jetons de connexion ne sont pas autorisés.
+ozBq2M|privilégié
+j8pXJK|Profil de
+xgwLOU|Profil
+M3LyZI|projets
+T9viNy|Propriétés
+dFEmkC|Propriétés
+0Cdq2W|Propriété
+sC5sYJ|Propriété
+JX2kP6|Mis à disposition le %1 par %2 à %3. Le transfert et la copie de cette liste ne sont pas autorisés.
+L5LuMQ|Le nom de table fourni n'a pas de correspondance.
+CMC17q|PS : Il est possible de définir un mot de passe permanent dans le profil utilisateur.
+HQJsHw|Listes d'événements publics
+ZpY8Mk|informations publiques
+R4DpRg|classements publics
+OYUP1J|public
+JuEtZD|données de parcours accessibles au public
+T1Xqi0|informations accessibles au public
+8mpYCq|date d'achat
+bfTln2|devise du prix d'achat
+dE2VfR|Prix d'achat
+UaLOHn|purge des éléments supprimés, ancienneté en jours
+42tG1v|Kayak de compétition
+Mig5Qp|compétition
+rTgJH2|Case à cocher sélectionnée
+SYuuyO|Case à cocher désélectionnée
+vGbtkt|classement
+ip9DDg|#NV
+99XIGm|Lire les e-mails précédemment envoyés
+vp2UUx|prêt .
+5Nu1O6|motif
+8HBvnC|Reconstruire l'index pour inclure les modifications récentes des données.
+nTIsc0|Reconstruire l'index des mots.
+ZmVUvv|Destinataire :
+nHAnn0|Contenu de l'enregistrement
+ivK7vo|Historique de l'enregistrement
+sTP6cS|Historique de l'enregistrement
+TTKxOm|Enregistrement introuvable.
+FpMhl1|Enregistrement introuvable
+Zc1xZ8|Enregistrement de la table %1 pour %2
+S9MHHT|L'enregistrement à supprimer n'a pas été trouvé.
+NCGgdt|Enregistrement
+qgCMZi|Enregistrement
+C94hEq|Enregistrements trouvés.
+jnzy2g|Enregistrements
+xhYaXI|Enregistrements
+zQeBQz|régate
+67aHAM|Nom de l'association régionale
+B9Tygk|Supprimer les fichiers qui ne sont plus nécessaires.
+a1tdb6|Frais de réparation
+dKvaHQ|L'occurrence répétée (%1 fois) de la valeur « %2 » dans la colonne « %3 » de la table « %4 » est ignorée.
+oKmnNP|Répondre à
+XQi6mR|Déclarer un dommage
+8DRVve|signalé par
+iEk4vt|Signalé le
+HxkS2Y|Demander des informations
+4i8w30|Demander une réservation
+L56Cvy|UUID de groupe requis
+ASEoCr|Ancienneté de la réservation en jours
+dhMW65|Ancienneté de la réservation en jours
+lOh6TH|Types de réservation
+wJ2Ds6|Réservations
+yF2q7D|Réservations
+Nn5wAm|Réinitialiser la base de données
+OiGYLb|Réinitialisation de la base de données. Veuillez patienter.
+AmEL6s|Restaurer la configuration existante
+e5VOu1|Résultat du contrôle de la mise en page
+rSEEGA|Résultats pour « %1 »
+FkgqCN|Gréement
+RO36fS|Partie droite du corps
+bhOBpA|Côté droit
+z7eGHS|Rôle non autorisé.
+8RhH9W|Rôles
+Vkz1Y2|Rouler
+MHi2Lg|Aller-retour
+uBiP9l|Aviron
+B9ys2A|Lancer l'audit de la base de données.
+TdJY1c|Lancer la maintenance
+Er1g83|Enregistrer les modifications
+NRGTZC|Enregistrer
+iM0FxL|Enregistrer la configuration existante.
+m1EUK5|aviron
+VRFk1g|Kayak de mer
+HyPev7|Recherche en texte intégral
+xJZxGb|Rechercher dans la configuration
+XZ0WtK|Rechercher dans la base de données
+oCPI1E|Rechercher dans la base de données
+K0gmHX|Placement
+mPoU63|Concept de sécurité
+P0YpJt|Sélectionner config_error
+7fdAj3|Rôle auto-enregistré
+Hjgriv|Date de vente
+fkFH1n|Prix de vente
+W5VoZs|Envoyer des e-mails à une liste de diffusion
+Zb13sS|Envoyer un message
+wzM12X|Envoyer une demande d'assistance ou un commentaire
+FVQVIW|Envoyer
+zmsFb6|Échec de l'envoi pour : '%1'.
+qnVLLU|Envoyé depuis
+QJMq5Y|Envoyé le
+3nLdNA|Envoyé à
+1393xk|Envoyé :
+DsOREl|Numéro de série
+kffirf|Erreur serveur
+ANbCrI|Journaux du serveur
+rjunmx|Journaux du serveur
+fUNLos|Horodatage du serveur
+LMP2yc|URL du serveur
+VZrcen|Début/fin de session
+Wkz0N4|Session terminée.
+5p5bJU|Type de session
+oazRhT|Types de sessions
+gNG2qb|Sessions
+TVNHaX|Définir le logo du club
+LjCmY9|Définit le standard pour `%1`.`%2` de NULL à %3.
+afDI5Q|Paramètre de définition manquant
+zbdLZ5|Définir les valeurs d'un objet spécifique
+a1SFGQ|Définir la date de fin de validité de l'enregistrement ou effacer la date pour prolonger la période.
+iPXyEn|Mise en place de la case à cocher.
+6HRhB6|Définir
+B1rHcp|Paramètres
+PYRA5W|Configurer la base de données à partir de zéro
+9mIR2E|Gravité
+Ep3322|Gravité
+yz3Hwq|Afficher un enregistrement
+owhdS6|Tout afficher
+efjxwi|Afficher la liste filtrée
+feQVi3|Afficher l'historique
+P9P4EV|Afficher mon profil
+zRdTL4|Afficher les occurrences
+bY7MJh|Afficher le code PHP
+UcNTLA|voir les versions
+tIUwtU|Afficher
+ZoXdN3|Mise en page simple
+uJUggz|Sixes
+NKmdC2|Contrôle de la taille : tableaux et enregistrements
+s2UBkR|Mise à jour du logiciel
+lDSTHw|Quelqu'un a tenté de créer un utilisateur avec un rôle différent de « %1 »
+SPIwPm|Désolé, mais le mot de passe et sa confirmation ne correspondent pas.
+0dHbIb|Désolé, mais le mot de passe ne respecte pas les règles de sécurité.
+JmUvue|Désolé, cela n'a pas fonctionné.
+nLel3k|Trier en cliquant sur l'en-tête de la colonne (seulement partiellement), passer de l'ordre croissant à l'ordre décroissant en cliquant une deuxième fois.
+QJVT5W|Type de sport
+zGILzB|Type de sport
+dL8PNe|Début de l'année sportive
+CGKrQ9|Trace d'erreur
+oCZhmi|Démarrer l'audit
+Isyis4|Démarrer la maintenance
+8JSjYh|Le démarrage est le hangar à bateaux
+LqsK5O|Lancer la nouvelle version
+0pdLA1|Heure de démarrage
+gkRHZQ|Démarrer
+8hPspQ|Démarrage de
+YPmPF9|Démarrage de
+yRmL3D|Démarrer
+bpUGCh|Statistiques
+17jwa5|UUID d'état
+7TmEzI|Statut
+QxMwgm|Statut
+Ym0sqt|Statut
+hbyYEk|Magasin
+fWxdb7|La chaîne « %1 » est trop longue. Raccourcie à la taille maximale de %2
+fkVBQK|La chaîne A diffère de la chaîne B
+gCk9cA|La chaîne A diffère de la chaîne B
+ELB52L|Liste de chaînes
+Qig0i8|Chaîne
+2yWFRU|Sujet :
+XMHPag|Sujet :
+sGbUKF|#NV
+dBPdwi|Soumettre
+jQB4Kt|Soumettre
+epw5RT|abonnements, masque
+6PfDNd|Abonnements
+XtU29P|Réussite.
+Xl2t9D|Résumé
+lwuYMn|Résumé
+BVNSCJ|Demande d'assistance
+L8QRea|Jeton d'assistance
+m2XHYS|URL d'assistance
+GHlY4y|balayage
+CATRWa|Période de vérification de la synchronisation
+2YqJmX|Période de synchronisation
+KKbFTN|Champs système
+F01jyL|Expéditeur du courrier système
+ZHgZ3p|enregistrements système
+0i10mg|Nom de la table;Nom de la colonne;Type de données;Longueur des données
+7HfELM|Table des activités pilotées par l'utilisateur
+9uQTkS|table à laquelle appartenait l'enregistrement archivé
+H0mO4k|table à laquelle appartenait l'enregistrement supprimé
+k55LAo|Table :
+WWOePq|Tableau
+pbnWGq|nom de la table
+7m2DRQ|Tables et enregistrements
+bJ44LM|Tables et enregistrements
+nBgz5e|Les tables à importer doivent indiquer les noms de champs de la table de base de données dans la première ligne ; la casse (majuscules/minuscules) est prise en compte. Si des noms de champs non valides sont utilisés, l'importation ne peut pas avoir lieu.
+A0zktK|Les tables à importer qui se composent d'une seule colonne dans laquelle l'ID est indiqué entraîneront la suppression de tous les enregistrements portant cet ID.
+CG71TM|tables
+HRxAqO|tables
+IibzTI|
+YtpkIq|tables
+dY31rb|tables
+f9It0z|tables
+vODhXd|Table
+nzHYMa|modèle
+kqaxGb|#NV
+jMEMEQ|Affichage du texte
+dNEp9w|texte
+oslDj7|Merci pour cette mise à jour !
+02SBJ9|Merci pour votre demande. Le serveur efacloud.org signale :
+9tMKlx|La page '%1' doit être appelée en indiquant l'id de l'ensemble de données à afficher.
+1SbPIM|l'abréviation du nom du club
+mNr8kc|l'adresse à laquelle signaler les dommages
+WEbWAm|l'adresse à laquelle envoyer les messages
+CUBg0z|l'adresse à laquelle envoyer les demandes de réservation
+FbIHzF|les tables de la base de données de l'application
+YQ9znM|les paramètres de maintenance de l'application
+C87JcE|les paramètres de fonctionnement de l'application
+N5iYBO|le validateur
+F7eWEG|les dernières valeurs de l'enregistrement archivé
+wsgJ20|l'identifiant unique de l'enregistrement archivé
+bW1AWB|l'historique des modifications des enregistrements archivés
+deHQT3|L'archivage des enregistrements hors des tables d'activité principales
+3ycORz|le numéro croissant de la session par année sportive
+Fm1y3F|l'équipement doit être exclu des statistiques
+aPetx5|l'équipement ne peut être utilisé qu'avec un capitaine de bateau
+tZ0Nqq|le sous-type de l’équipement (par ex. A-Gig, course)
+EfjjJz|les groupes autorisés pour l'équipement
+QZ5Yo3|l'équipage par défaut de l'équipement
+5AMB0A|la destination par défaut de l'équipement
+sWmt0i|le type de session par défaut de l'équipement
+7W0yee|la valeur d'assurance de l'équipement
+Am9pPm|la date de fabrication de l'équipement
+Av1OHi|le fabricant de l'équipement
+jitRNr|le poids maximal de l'équipage de l'équipement
+yNhYIA|le modèle de l'équipement
+MM2iqK|le nom de l'équipement
+YjKVAF|la date d'achat de l'équipement
+v3q97C|la devise du prix d'achat de l'équipement
+oSamSF|le prix d'achat de l'équipement
+Izm1WG|le groupe requis de l'équipement
+XHoDkQ|la date de vente de l'équipement
+UC1NZv|le prix de vente de l'équipement
+xMqsx3|le numéro de série de l'équipement
+pmMTzE|le statut de l’équipement (disponible, sur l'eau, réservé, etc.)
+l5lCHN|le type de l’équipement (bateau, véhicule, remorque)
+pZOaBj|les options de variante du type de l’équipement
+L3cge1|la position sur la liste des capitaines de bateau
+AebG0R|Le bateau est occupé par l'écriture : %1 du %2 %3 au %4 %5.
+PpJbrz|le bateau ou autre bien endommagé
+HCJDdK|le bateau ou autre bien réservé
+g27eyQ|le bateau utilisé
+CVUGXF|la variante de bateau utilisée (différente de efa : il ne s'agit pas de l'index de la variante de bateau, mais du nom de la variante de bateau)
+qIWVfw|l'heure de l'annulation
+rFsm3l|l'auteur de l'annulation
+XEqfJN|l'adresse de copie carbone pour toutes les notifications envoyées
+M7N2ns|le catalogue des fournisseurs de contenu d'interface utilisateur utilisables
+olANid|le catalogue des mises en page d'interface utilisateur utilisables, répertoriées en tant que conteneurs racine
+Sg8qur|le catalogue des profils d'interface utilisateur utilisables
+Gztz2T|l'identifiant unique de l'enregistrement modifié
+gPuio3|les habitudes du club telles que la langue, les lieux, l'année de création, etc.
+MXb6Vp|le club auquel la personne est associée, généralement s'il ne s'agit pas de son propre club
+uQMtKd|le nom complet du club
+AC6hqs|l'URL de la page d'accueil du club
+3TiVZ0|les colonnes à afficher dans le rapport du journal de bord personnel
+dsRzOm|La configuration de l'accès à la base de données a été enregistrée.
+HMZGRm|les informations de copyright sous forme de chaîne encodée en HTML
+B5jPlc|la présence d'un barreur sur ce bateau, c'est-à-dire avec ou sans barreur ; pour les options, voir les catalogues
+qsQ71B|les noms des équipiers ou leurs UUID
+4563fT|Les routines de maintenance quotidienne ont été effectuées.
+gvvK8s|La modification des données est %1effectuée.
+3SIWc4|La configuration de l'accès à la base de données n'a pas été enregistrée.
+z9JLLb|La base de données a été recréée. Le seul utilisateur administrateur est %1.
+vTZC3z|le serveur hôte de la base de données
+qiUbiD|la structure de la base de données a été mise à jour
+3fJWt1|le nom de la base de données
+3xwsuW|La base de données a été supprimée et reconstruite. Veuillez %1terminer l'installation%2 maintenant.
+jnUMvz|la date et l'heure de fin de la session
+34ThB3|la date et l'heure de début de la session
+E6xABq|la date à laquelle le travail a été effectué
+J0PGb3|les dernières valeurs de l'enregistrement supprimé
+yt29Oi|l'historique des modifications des enregistrements supprimés
+eMT3h1|l'identifiant unique de l'enregistrement supprimé
+ceZU15|La suppression du mot de passe dans la base de données a échoué.
+GK9tfc|l'UUID ou le nom de la destination
+9hYX9D|les différentes options pour le statut de l'équipement
+VVLokL|les différentes options pour le barreur du bateau
+B9zJnz|les différentes options pour le gréement du bateau
+ft49sK|les différentes options pour la disposition des sièges du bateau
+JNDKS5|les différentes options pour la gravité des dommages
+SNnUt4|les différentes options pour les zones de destination
+8x4ec0|les différentes options pour les types d'emplacement
+rxBROI|les différentes options pour les destinataires des messages
+xN1pkc|les différentes options pour le sexe de la personne
+VWN7Up|les différentes options pour le statut de la personne
+RRVXOt|les différentes options pour les types de réservation
+67zrfh|les différentes options pour les types de session
+I4mJX6|le profil par défaut de dilbo
+NNd6Kq|l'URL du serveur dilbo
+mZBGfN|l'identifiant dilbo de cette personne pour la connexion asf
+TAiDHN|le rôle de l'utilisateur dilbo
+baN5tA|la concession de l'utilisateur dilbo
+piBH0n|le mot de passe haché de l'utilisateur dilbo
+NLyGCo|les paramètres de l'utilisateur dilbo tels que la langue, le journal de bord, le profil d'interface utilisateur, etc.
+UKBru6|les abonnements de l'utilisateur dilbo
+YCU44v|les autorisations de workflow de l'utilisateur dilbo
+6PGNEG|Les options d'affichage et de modification apparaissent sous forme de liens dans les résultats de la recherche.
+lyrjhq|la distance parcourue en km
+Gq4P1b|les marges du document
+v9GLZd|le texte du pied de page du document
+EuAbdu|l'identifiant eFB du bateau
+SYSAxI|l'identifiant eFB du bateau
+e4H1FJ|l'identifiant eFB du bateau
+HrGYEo|la date d'expiration de cet enregistrement. Triez les enregistrements par ce champ en ordre décroissant pour afficher en premier l'enregistrement valide le plus récent.
+bM4Hxy|Le fichier « install.php » a été supprimé du dossier racine de l'application et l'accès au dossier « install » de l'application a été bloqué.
+KLYCCf|L'importation du fichier a été effectuée. Vérifiez ce qui a été importé.
+Lk3S4w|Le téléchargement du fichier a réussi. Veuillez vérifier à gauche si tout est correct.
+Fg6pWu|Le téléchargement du fichier a réussi. Vérifiez ce qui doit être importé. Veuillez prêter attention aux erreurs d'importation.
+9dSKwb|Le fichier n'a été chargé que partiellement, veuillez réessayer.
+WOnK0g|Le résultat suivant de l'activité a été enregistré :
+9mww2x|Les modifications suivantes ont été apportées :
+c8I94h|Les éléments de configuration suivants ont été reconnus :
+4SVUF8|Les modules suivants sont manquants sur le serveur par rapport à l'installation de référence :
+w7fPZs|le pied de page de tous les e-mails générés
+7m4ZED|le format du nom complet
+lSrBza|l'hébergeur, c'est-à-dire le fournisseur de services, qui exécute l'application, nommé dans le concept de sécurité
+CwcQGv|les heures travaillées
+MmDF9y|le format HTML de la balise table
+LOqM7C|le format HTML de la balise td
+CT3fXP|le format HTML de la balise th
+Biq8LE|le format HTML de la balise tr
+B8QA1g|La longueur de l'IBAN ne correspond pas aux exigences du pays.
+slMQwZ|La longueur de l'IBAN ne correspond pas aux exigences du pays.
+PFcm3H|L'IBAN doit commencer par des lettres majuscules.
+aYo4k5|L'IBAN doit commencer par des lettres majuscules.
+hQOB0B|Le contrôle de parité de l'IBAN a échoué.
+xI1ac4|Le contrôle de parité de l'IBAN a échoué.
+H3jSfa|La structure de données implémentée
+E3zqvC|l'interface permettant de synchroniser la configuration et les données entre le client et le serveur
+m0N2tS|La structure de la base de données correspond à la version actuelle de l'application.
+Fd0p0U|la barre de menu de gauche
+slCqRl|La liste '%1' ne doit pas être éditée pour le rôle '%2' ou les abonnements ou workflows autorisés pour l'utilisateur actuel (%3 %4).
+cwpbfK|La liste est vide ou aucun enregistrement ne correspond aux critères de filtrage.
+K2xXwe|la liste des types de variantes de bateaux du club
+xGN4rr|la liste des livres sur les activités du club
+uWxE5s|la liste des tâches quotidiennes à configurer
+NznOXv|la liste des lieux du club
+NpDT5P|la liste des carnets de bord du club
+GyWake|la liste des calendriers d'événements accessibles au public
+ApskpP|la liste des classements accessibles au public
+HQYFyU|l'adresse e-mail à utiliser comme expéditeur pour les e-mails générés par le système.
+OSpHxl|Les e-mails sont envoyés individuellement, toujours avec un seul destinataire « À ». En fonction du nombre d'e-mails, cela peut prendre un certain temps et entraîner un classement en spam du côté du destinataire. Veuillez donc les utiliser avec modération.
+g5sgQX|le lieu principal du club où se rendre
+SNvCEQ|la partie principale
+VfEQj7|La longueur maximale de l'identifiant est de 64 caractères
+lgDz45|le nombre maximal de personnes n'appartenant pas à un groupe utilisant cette ressource
+JfO4Mf|le statut d'adhésion de la personne
+83IJFt|le menu d'accès pour les utilisateurs identifiés
+CfncVA|le menu d'accès à l'API
+eirmvN|le menu d'accès public
+q6Fb6f|le menu
+6LrDNO|les menus en fonction du niveau d'accès
+RxkkKI|Le message a été envoyé à %1 membres et enregistré avec le résultat dans la base de données :
+2d5gUe|le nom de l'application
+o8Da6f|le nom du cahier de travail du club
+5JgHWu|le nom du journal de bord. Texte uniquement, s'il vous plaît, pas d'année
+JFBjiB|le nombre de jours après lesquels les enregistrements supprimés sont purgés de la corbeille
+wubamX|le nombre de personnes pouvant monter à bord de ce bateau
+mi5ugY|le nombre de secondes entre deux vérifications de modification
+ifN5oc|le nombre de secondes entre deux demandes de synchronisation
+H6nWWu|Le mot de passe à usage unique n'a malheureusement pas pu être envoyé.
+Nz8G7x|Le mot de passe à usage unique '%1' peut être utilisé pour supprimer le mot de passe permanent de l'application pour les %2 prochaines minutes.
+ULBtgs|Le mot de passe à usage unique n'a pas pu être envoyé.
+1HuxvX|Le mot de passe à usage unique est incorrect ou a expiré.
+K7CeYe|Le mot de passe à usage unique est incorrect ou a expiré.
+PeJo45|Le mot de passe à usage unique a été envoyé à "%1".
+9qnBHc|les options de concessions pour un utilisateur (31 au maximum)
+ZWdewv|les options d'abonnements pour un utilisateur (31 au maximum)
+vckHD7|les options de workflows pour un utilisateur (31 au maximum)
+dSsfbD|le propriétaire de l'actif
+yR7zed|Le mot de passe ne peut être défini que pour les nouveaux utilisateurs et les utilisateurs ayant le rôle de 'bths'.
+b25fYT|Le mot de passe a été modifié.
+W37MTN|Le mot de passe n'est pas assez sûr dans "%1". %2
+aJ5Cy9|Le mot de passe doit comporter entre 8 et 32 caractères.
+iJUmCH|Le mot de passe doit contenir des caractères appartenant à trois des quatre groupes suivants : Chiffres, lettres minuscules, lettres majuscules, caractères spéciaux. Les caractères spéciaux autorisés sont !"#$%&'*+,-./:;<=>?@[]^_`{|}~.
+xVSLCZ|Les mots de passe doivent correspondre. Le mot de passe n'est pas modifié.
+5fKVft|Le mot de passe permanent peut être supprimé ici.
+BgxEQA|la personne demandant la réservation
+UwzBpl|la personne responsable de l'exploitation au sein du club, désignée dans le concept de sécurité
+rWtsmX|la personne responsable
+57TN89|l'adresse de la personne
+K6v6Rw|l'adresse de la personne
+gk3rGE|l'adresse de la personne
+gx1r9Z|l'adresse de la personne
+ocMCkZ|l'adresse de la personne
+y3KKU4|la date de naissance de la personne
+gqdH1B|l'adresse e-mail de la personne
+kSbWaI|le prénom de la personne
+MpDXk4|le sexe de la personne
+RgucWs|le nom de famille de la personne
+60XJqo|le titre de la personne
+DA6MeJ|Le processus peut prendre entre 10 et 20 secondes.
+4hdqAF|Le processus est ainsi terminé.
+HdnMsl|L'identifiant utilisateur fourni n'est pas valide
+3T2ib4|Le motif de la réservation
+H3YhVM|L'enregistrement a été modifié.
+ao5elo|L'enregistrement n'a pas été modifié.
+GkURzg|L'enregistrement de la table '%1' avec l'ID d'enregistrement '%2' n'a pas pu être trouvé.
+CQieDL|L'enregistrement avec l'ID %1 n'a pas été trouvé dans la table %2
+ebNcoK|L'enregistrement avec l'identifiant utilisateur %1 n'a pas été trouvé dans la table %2
+DOxMof|L'identifiant unique de l'enregistrement
+fZg2zo|L'enregistrement doit encore être finalisé par l'administrateur. Ce n'est qu'alors qu'un mot de passe à usage unique peut être envoyé.
+nKI7OJ|Le champ obligatoire « %1 » ne peut pas être mis à jour avec une valeur vide.
+ycNSKI|L'identifiant unique global de la ressource
+D7SPTM|Le rôle '%1' n'a pas d'autorisation pour l'action '%2'. Aucune autorisation appropriée n'a pu être trouvée, ni dans les sous-descriptions, ni dans les workflows.
+G1zcne|La disposition des places, par exemple 4x pour un bateau à quatre rameurs en skiff ou 8+ pour un bateau à huit rameurs en couple, pour les options, voir les catalogues
+gbm29m|la langue sélectionnée
+FDZrap|le journal sélectionné
+xS4f0M|La liste de diffusion sélectionnée n'a pas été trouvée.
+ixCIoQ|le profil d'interface utilisateur sélectionné
+mHga8e|le classeur sélectionné
+WlaoZG|le serveur a répondu avec
+YwUSws|le serveur a répondu avec
+DpOAmY|le temps écoulé depuis l'époque, exprimé en secondes sous forme de nombre à virgule flottante. Voir la fonction PHP microtime. Pour fonctionner correctement, la valeur maximale doit être supérieure au maximum de millis / 1000
+9mmdUG|La session est encore active, on continue avec n'importe quelle action du menu.
+EGWtVL|La session a été interrompue ou l'action n'est pas autorisée pour un utilisateur anonyme.
+5dqGwa|La session a été mise à jour.
+Kmj5St|La configuration est terminée.
+uuZ8U8|La taille de l'archive du code source est trop petite. Quelque chose s'est mal passé lors du téléchargement. C'est pourquoi le processus s'interrompt ici.
+c4h4Rj|les sports pour lesquels ce journal est utilisé
+Lj3Tbd|le début de la période de validité de cet enregistrement
+MijYWH|le mois de début de l'année sportive (1 pour janvier, 10 pour octobre)
+ZKyyt1|le statut est uniquement utilisé pour la compatibilité EFA. Ne doit jamais être utilisé comme statut de base
+fqvnh2|le statut est uniquement utilisé pour la compatibilité EFA. Ne doit jamais être utilisé comme statut de base
+Q2CMAB|l'index des e-mails générés par le système
+IEHrUx|Les champs d'enregistrement du système sont :
+o6XxMP|Le nom de table « %1 » n'est pas un nom de table technique valide.
+xo9xjE|Le tableau affiche toutes les listes disponibles dans le rôle %1 avec l'autorisation nécessaire pour afficher la liste. La liste peut être consultée en cliquant sur la description.
+2WbAyY|la table concernée par la modification
+v0ntYf|La tâche « %1 » a été terminée.
+eM6eDc|l'heure d'approbation
+1cQ44R|le fuseau horaire utilisé
+s2Yv4N|le jeton fourni par le support dilbo pour identifier le client du support
+hGxTLD|Le transfert de votre demande a malheureusement échoué.
+LaxHyH|le type d'armement, c'est-à-dire skiff ou aviron, pour les options, voir les catalogues
+2dEMFI|le type du contenu affiché
+9RLbtj|le type du contenu affiché
+IhdWY9|le type du contenu affiché
+SIBxi4|le type du contenu affiché
+fpvxFx|le type du contenu affiché
+udPhy8|le type de la session
+ChYtZx|L'uid $value n'est pas valide
+kU4p9n|l'identifiant unique du statut de la personne
+6RkvhN|l'identifiant unique de la personne
+YYlWr8|La mise à niveau décompresse le code, en écrasant les fichiers de code existants. Toutes les données d'inventaire, telles que les journaux, les téléchargements, les sauvegardes, etc. sont conservées. La base de données n'est pas modifiée.
+xPiZNQ|l'URL du package source de l'application
+vzoXst|l'URL de l'équipe d'assistance de l'application
+EIFe2G|l'URL de la page d'accueil de l'application
+ZQSvHw|L'utilisateur n'a pas pu être identifié.
+Tk1Zuc|l'interface utilisateur
+Zd3WDX|l'utilisateur est autorisé à saisir des trajets dans le carnet de bord A
+BWUYMd|l'utilisateur est autorisé à saisir des trajets dans le carnet de bord B
+irSnTs|l'utilisateur est autorisé à saisir des trajets dans le carnet de bord C
+URsNhZ|l'utilisateur est autorisé à saisir des trajets dans le carnet de bord D
+a28lWt|l'utilisateur est autorisé à saisir des trajets dans le carnet de bord E
+xf8bTS|L'utilisateur n'est pas autorisé à utiliser le rôle %1.
+BGJkSQ|L'enregistrement de l'utilisateur pour l'ID '%1' n'a pas pu être trouvé.
+EaCDI2|les paramètres de hiérarchie des rôles utilisateur
+sbMbvX|le mot de passe en texte clair de l'utilisateur - uniquement pour le formulaire de connexion
+IBKOYL|L'UUID $uuid n'est pas valide
+4IcuWD|La validité a été modifiée, mais le nouvel enregistrement de période n'a pas pu être inséré.
+R3IpuB|Le type de données de la valeur « %1 » ne fournit pas de définition « parse as ».
+FHFWAq|Le type natif de la valeur ne correspond pas à son type de données.
+rGyRdy|Le tout dernier utilisateur ne doit pas être supprimé de la table des utilisateurs.
+K6E7qi|l'ID d'objet du plan d'eau
+BF6UZB|les plans d'eau, leurs UUID ou leurs noms
+BSfmVE|le nom du plan d'eau
+ATSnFO|Il y a trop d'utilisateurs connectés en ce moment. Veuillez réessayer plus tard. Nous vous remercions de votre compréhension.
+ov6KSI|Il existe une table des utilisateurs dans la base de données.
+OVDL2X|Une erreur s'est produite lors du téléchargement du fichier.
+7TZdGF|Aucune table n'a été trouvée dans la base de données.
+p4vCuA|Ce formulaire permet d'importer une table dans la base de données.
+RBI9tL|Ce formulaire permet d'importer une archive de sauvegarde efa, par exemple efaBackup_20200307_210001.zip. Cela peut prendre un certain temps.
+Agxr6E|Ce formulaire permet de modifier un utilisateur existant.
+GNGdV1|Ce formulaire permet de créer un nouvel utilisateur.
+u34D4y|Ces informations sont fournies exclusivement à des fins de contrôle pour les responsables de l'administration autorisée. Elles ne doivent pas être transmises.
+mw21ct|Il s'agit de l'option permettant de supprimer complètement la base de données.
+e2gF2y|Il s'agit du résultat d'une requête SQL vers la base de données, telle qu'elle se présente actuellement.
+Alao36|Il s'agit de votre profil personnel enregistré par l'application.
+ruWtay|Cette page est la page d'accès pour toute forme de modification des utilisateurs.
+UfY9dV|trio avec barreur
+iPFpX3|trio sans barreur
+kTWaoZ|trio
+D0ASLw|heure d'archivage
+eRqccM|heure de modification
+fMlkpx|heure de suppression
+kYzDQD|Fuseau horaire
+R9sv8M|Heure :
+UvfVMp|heure
+x8hxVv|Délai dépassé en raison de l'inactivité.
+reFIOv|heure
+qotcYy|fuseau horaire
+GP7E8q|Titre
+lWOr2T|à envoyer par e-mail
+s8LPqe|Vers la connexion à l'application.
+bxyfwZ|à quand
+6KXRE6|An :
+MMoUVY|Trop de sessions ouvertes pour cet utilisateur.
+eCFN71|barre supérieure
+mlzgYp|extrémité supérieure
+j6Zbfl|en haut à gauche
+Uy11UA|en haut à droite
+nDBbCc|Total
+wNrHCN|Total
+COJ2c6|Remorque
+5IYzrM|stage d'entraînement
+lluRbP|corbeille
+AhWPwp|trimmy
+1pJnML|Durée du voyage en jours
+EGsuao|Durée du voyage en jours
+7biR4D|vrai ou faux, respectivement 1 ou 0 en SQL
+q8lMgp|vrai, si membre de la DRV
+kDSe5i|vrai, si le premier membre d'équipage est le barreur
+pQmiSd|vrai
+t8bKYn|deux barres et menu inférieur
+AyrdcI|deux avec barreur
+85Dkbv|deux sans barreur
+D5ewAH|Catalogues de types
+ZKulOJ|type de contenu
+mr7H1T|type de contenu
+pkdlIb|type de contenu
+swnEhB|type de contenu
+tfpz5Z|type de contenu
+44XRtA|valeurs de type importées
+5yN29k|Type
+BSaARO|Type
+OfzbIi|Type
+BZTGSR|types
+obT5wK|Fournisseur de contenu de l'interface utilisateur
+e5MqfM|Catalogue de mises en page de l'interface utilisateur
+vAqrgq|Catalogue de profils de l'interface utilisateur
+Fi09DC|Catalogue des fournisseurs d'interface utilisateur
+Kg17Hs|Interface utilisateur
+aaTKWe|uid en tant que référence au fournisseur du contenu
+c3K9R6|uid en tant que référence au fournisseur du contenu
+dGZZZy|uid en tant que référence au fournisseur du contenu
+ho34HP|uid en tant que référence au fournisseur du contenu
+nsbg7U|uid en tant que référence au fournisseur du contenu
+RQNRTZ|uid
+egsf47|Décochez cette case pour ajouter uniquement des journaux de bord supplémentaires.
+OcbYIX|Erreur indéfinie lors du téléchargement. Veuillez réessayer.
+phvRfA|indéfini
+yf8erz|Malheureusement, le traitement du formulaire ne peut pas être poursuivi car une page de formulaire n'a pas été enregistrée depuis trop longtemps.
+IVM45L|Malheureusement, une erreur s'est produite.
+pH7Sis|Malheureusement, il n'y a pas d'historique des modifications pour cet enregistrement.
+BnxvUl|Cela n'a malheureusement pas fonctionné. Le jeton de connexion indiqué n'est pas ou plus valable.
+zxg9i4|Malheureusement, cela n'a pas fonctionné. L'utilisateur '%1' du jeton de connexion n'est pas (plus) enregistré.
+teKQFr|identifiant d'enregistrement universel
+cZoVKb|identifiant unique universel ou nom en texte brut, si pas au format uuid
+3HQTXe|identifiant unique universel
+jN5Dvb|Type de données / type de validation inconnu. « %1 »
+a5koMa|Erreur inconnue lors du téléchargement. Veuillez réessayer.
+xJsUjf|Erreur inconnue lors du téléchargement. Veuillez réessayer.
+w2qoFy|Erreur inconnue lors du téléchargement vers '%1'.
+TjA5DZ|ID inconnu
+ZV56RU|ID inconnu
+OuG821|inconnu
+VCdF1p|inconnu
+tWIACB|inconnu
+GuEiQo|Décompression et copie de l'archive du code source
+qqWydo|Décompression terminée.
+rSrSm0|Échec de la mise à jour de la table « %1 »
+a7FsP7|Mise à jour réussie.
+BPTyxA|Mettre à jour l'enregistrement
+O1YH4O|Mettre à jour l'enregistrement
+M4MjRw|Mise à jour vers la version - %1
+w2PJel|Mise à niveau de l'application %1
+LGyNmA|URL de mise à niveau
+7lipsQ|MISE À NIVEAU
+igMooE|Télécharger le fichier du logo
+tcyZNe|Téléchargement du logo de votre club pour le menu
+0QmP94|Téléchargement
+t7YNl9|Téléchargement
+TEh5j9|liste supérieure
+bUkzCn|supérieur
+THfsbA|Utiliser le champ boat_affix dans l'affichage public des données de voyage
+tXmsvK|Utiliser le champ boat_name dans l'affichage public des données de voyage
+tt0Asq|Utiliser le champ boat_type dans l'affichage public des données de voyage
+vd6ICS|Utiliser le champ crew_groups dans l'affichage public des données de voyage
+14ihGe|Utiliser le champ destination dans l'affichage public des données de voyage
+1o6xTa|Utiliser le champ distance dans l'affichage public des données de voyage
+jkKR7G|Utiliser le champ entry_id dans l'affichage public des données de voyage
+Wxz52t|Utiliser le champ start_time dans l'affichage public des données de voyage
+XPbBHm|Paramètre utilisé de la liste :
+WdiaX5|L'utilisateur %1 a tenté de modifier l'utilisateur %2 sans disposer des droits nécessaires.
+fP8UEm|nom du champ du compte utilisateur
+0KiR9R|concessions de l'utilisateur
+3vzTmN|nom du champ e-mail de l'utilisateur
+V3WJii|nom du champ prénom de l'utilisateur
+NUe8AF|nom du champ identifiant de l'utilisateur
+bX2gGZ|identifiant de l'utilisateur pour la personne administrateur (nombre entier compris entre 100 et 1000000000), À RETENIR
+wOj3jc|identifiant de l'utilisateur
+a9d5U7|L'utilisateur n'est pas admin et ne peut donc rien modifier. Annulation de la demande.
+ZAw7g1|nom du champ nom de famille de l'utilisateur
+nNGaVa|E-mail de l'utilisateur inconnu.
+BPrcKu|module utilisateur
+aCa6RR|Nom de l'utilisateur
+DNPBkr|
+PsYa8c|Utilisateur introuvable
+V2J8Fi|
+YIFe1s|Utilisateur introuvable
+gAFiMp|
+gofuig|
+ldOSxM|
+oaOfo2|
+zOZlkQ|Numéro de l'utilisateur
+h2ZNY7|rôles de l'utilisateur
+OLu71P|abonnements de l'utilisateur
+MuP1As|nom de la table utilisateur
+gI7hvr|L'utilisateur a essayé de changer son propre rôle d'accès sans avoir le rôle useradmin
+T5N6rh|L'utilisateur a essayé de modifier son propre rôle 'Concessions' sans utiliser le rôle 'useradmin'.
+4RIp1F|L'utilisateur a essayé de modifier ses propres workflows sans utiliser le rôle useradmin
+vrv4Ia|workflows de l'utilisateur
+HVl6HK|Utilisateur
+raDyZo|rôle useradmin
+WK1EtH|workflows useradmin
+uRYSvr|Utilisateurs
+Zj5YpY|généralement des bateaux, des remorques ou des véhicules à utiliser et dont l'utilisation doit être enregistrée
+JsWlWf|liste d'uuid
+4FxFdV|liste d'uuid ou de noms
+VM7UAz|uuid ou texte brut
+7IH2fU|uuid
+B1poz5|uuid
+Cd0Su6|uuid
+IxXF5j|uuid
+lUE59o|uuid
+qlfRcK|uuid
+xDfDo7|valide à partir du
+sBg7LI|Les limites de valeur ne peuvent pas être modifiées dans les listes de %1.
+vxuspU|Les limites de valeur ne peuvent pas être modifiées dans les listes de %1.
+Y3rWps|valeur
+afDbIr| (wildcard *) :
+o474TC|valeur
+p31A4j|valeur
+rqHqM3|valeur
+ZBFc6w|options de variante
+A1tKnO|Échec de la vérification pour « %1 »
+rSGs5f|Échec de la vérification. Incrémentation automatique manquante.
+ulIoAv|Échec de la vérification. Colonne %1.%2 extra.
+rxMN98|Échec de la vérification. Colonne %1.%2 manquante.
+3EWY5V|Échec de la vérification. Colonne %1.%2 avec taille %3 au lieu de %4.
+mwaK4O|Échec de la vérification. Colonne %1.%2 avec type %3 au lieu de %4.
+nPmhjO|Échec de la vérification. Index %1.%2 extra.
+9mUNZn|Échec de la vérification. Index %1.%2 non inclus dans les index de %1.
+9g3u60|Échec de la vérification. Tableau %1 extra.
+KprqM0|Échec de la vérification. Tableau %1 manquant.
+DQYc1I|Échec de la vérification
+P1TqTx|Échec de la vérification
+gLdeJY|Vérification réussie pour '%1'.
+5kpp1Q|La version %1 n'est pas prête à être exécutée.
+E8Dd4Q|Historique des versions d'un enregistrement « %1 »
+ALjJNh|champs de versionnement
+XuTvfw|champs de versionnement
+bQgFGC|champs de versionnement
+tInl6V|champs de versionnement
+vU6i7x|champs de versionnement
+fpHDr9|#NV
+2G9KEy|Afficher maintenant sous forme de page web
+Bz2C2z|Afficher l'enregistrement
+hpnkpX|a été lu
+KX00ye|corbeille
+GBSJMD|Classement des eaux
+IF8KUp|eaux
+Nb07t1|eaux
+hA7eVt|eaux
+qAXZBx|eaux
+1sxjGW|Statistiques d'accès web
+1Mzjw9|Page d'accueil web
+GY59tz|Lors de la vérification de la base de données, il a été constaté que sa structure n'est pas adaptée à cette version.
+VykcaV|wherry
+I0yBi9|Kayak en eaux vives
+AcZSJ0|avec barreur
+r6Efpn|avec barreur
+a6h3Ou|avec l'ID %1
+OKImlH|Le mot de passe à usage unique '%1' permet de se connecter à l'application pendant les %2 prochaines minutes. Passé ce délai, il n'est plus valable. Les majuscules ou les minuscules ne sont pas importantes
+grnRY1|sans barreur
+8dPpRp|Index des mots créé.
+uA74t7|nom du cahier de travail
+CoKpst|Cahier de travail
+e10rEf|Cahier de travail
+fbiboA|Cahiers de travail
+ucHbuJ|Cahier de travail
+JLdYZP|Notifications de workflow
+IVseh0|Flux de travail, masque 
+FbnP2p|Workflows
+xo2a9m|écrire dans le journal de bord A
+IoirAf|écrire dans le journal de bord B
+KKYwTw|écrire dans le journal de bord C
+WlhOPA|écrire dans le journal de bord D
+mKPiFX|écrire dans le journal de bord E
+brci3Z|configuration d'écriture
+yqXP9E|Paramètres d'écriture/fichier efa2config
+Cu2G1y|oui/non
+NI7Bvs|Vous pouvez commencer maintenant.
+7aHKoI|Vous devez fournir un paramètre défini dans l'URL
+GIYKaI|Vous devez fournir un identifiant pour rechercher des occurrences.
+NiYUV5|Vous devez fournir l'identifiant de l'utilisateur pour modifier ou ajouter un utilisateur
+Onf4wv|Vous pouvez %1réessayer%2.
+mFJD4W|Vous pouvez %1réessayer%2.
+WxKo5h|Vous pouvez réessayer.
+HBcQsm|Votre sauvegarde a été importée. Veuillez consulter le journal ci-dessous pour plus de détails.
+GHA0On|URL du serveur dilbo de votre club
+CJORsu|nom de votre club
+TaDJo1|Votre logo doit être un fichier .png, utilisez un convertisseur en ligne pour le créer. Le format 4:3 est recommandé, avec une largeur de 400 px.
+VL1hAM|votre nom
+TzCMHn|votre demande ou commentaire
+Vhea3D|Votre application serveur est à jour.
+Lg2U2h|votre jeton d'assistance
+BznhBV|Les mots à rechercher
+KtXJLq|{paramètre non valide avec point-virgule}

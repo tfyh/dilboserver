@@ -1,0 +1,235 @@
+_path;_name;default_label;node_write_permissions;node_read_permissions;node_handling;default_description;record_edit_form;value_reference;input_type;input_modifier;sql_indexed;sql_null;validation_rules;default_value;value_max;value_min;value_size;value_type
+;tables;f9It0z|Tables;;;;FbIHzF|the application data bas...;;;;;;;;;;;;none
+.tables;assets;fuGic5|assets;;;;;;;;;;true;;[name:{#name#} ({#name_affix#}), "short:~ {#asset_type#}, {#asset_subtype#}", "full: ~. {#variant_options#}, {#base_status#}"];;;1024;string_list
+.tables.assets;uuid;B1poz5|uuid;system;analyst;ws;ycNSKI|the resourcces globally...;;;;~;;false;;uuid?;;;36;uuid
+.tables.assets;name;U5GPxO|name;member;member;w;MM2iqK|the assets name;;;;*;;true;;;;;128;string
+.tables.assets;name_affix;PfVnYd|name affix;member;member;w;N3ClPw|an affix to the name;;;;;;true;;;;;128;string
+.tables.assets;asset_owner;Un4xdT|asset owner;member;analyst;wx;dSsfbD|the owner of the asset;;;;;;true;;;;;256;string
+.tables.assets;asset_type;XCI9Vj|asset type;member;member;;l5lCHN|the assets type (boat, ...;;.catalogs.asset_type;select;;;true;;BOAT;;;256;string
+.tables.assets;asset_subtype;fZxA3b|asset subtype;member;member;;tZ0Nqq|the assets subtype (e.g....;;.catalogs.asset_subtype;select;;;true;;;;;256;string
+.tables.assets;base_status;IVmONR|asset status;member;member;;pmMTzE|the assets status (avai...;;.catalogs.asset_status;select;;;true;;AVAILABLE;;;64;string
+.tables.assets;variant_options;ZBFc6w|variant options;member;member;;pZOaBj|the assets type variant...;;.app.boat_variants;select;;;true;;;;;256;string_list
+.tables.assets;allowed_group_uuids;entgRR|allowed group uuids;member;member;w;EfjjJz|the assets allowed grou...;;groups.uuid;autoselect;;;true;;;;;1024;uuid_list
+.tables.assets;required_group_uuid;L56Cvy|required group uuid;member;member;wx;Izm1WG|the assets required gro...;;groups.uuid;autoselect;;;true;;;;;36;uuid
+.tables.assets;max_not_in_group;ZzIvFv|max not in group;member;member;x;lgDz45|the maximum number of pe...;;;;;;true;;;;;;int
+.tables.assets;manufacturer;dn8HGw|manufacturer;member;analyst;wx;Av1OHi|the assets manufacturer;;;;;;true;;;;;128;string
+.tables.assets;model;Pww8Pl|model;member;analyst;wx;yNhYIA|the assets model;;;;;;true;;;;;128;string
+.tables.assets;max_crew_weight;sFrCdD|max crew weight;member;member;;jitRNr|the assets max crew wei...;;;;;;true;;;;;;int
+.tables.assets;manufaction_date;RFQsGA|manufaction date;member;analyst;x;Am9pPm|the assets manufaction ...;;;;;;true;;;;;;date
+.tables.assets;serial_no;DsOREl|serial no;member;analyst;x;xMqsx3|the assets serial no;;;;;;true;;;;;128;string
+.tables.assets;purchase_date;8mpYCq|purchase date;member;analyst;x;YjKVAF|the assets purchase dat...;;;;;;true;;;;;;date
+.tables.assets;purchase_price;dE2VfR|purchase price;member;analyst;x;oSamSF|the assets purchase pri...;;;;;;true;;;;;32;string
+.tables.assets;purchase_price_currency;bfTln2|purchase price currency;member;analyst;x;v3q97C|the assets purchase pri...;;;;;;true;;;;;32;string
+.tables.assets;selling_date;Hjgriv|selling date;member;analyst;x;XHoDkQ|the assets selling date;;;;;;true;;;;;;date
+.tables.assets;selling_price;fkFH1n|selling price;member;analyst;x;UC1NZv|the assets selling pric...;;;;;;true;;;;;32;string
+.tables.assets;insurance_value;WE4FYR|insurance value;member;analyst;x;7W0yee|the assets insurance va...;;;;;;true;;;;;32;string
+.tables.assets;default_crew_uuid;wQseut|default crew uuid;member;member;w;QZ5Yo3|the assets default crew;;crews.uuid;autoselect;;;true;;;;;36;uuid
+.tables.assets;default_session_type;FiBcau|default session type;member;member;;sWmt0i|the assets default sess...;;.catalogs.session_types;select;;;true;;NORMAL;;;64;string
+.tables.assets;default_destination_uuid;O5lHM8|default destination uuid;member;member;w;5AMB0A|the assets default dest...;;destinations.uuid;autoselect;;;true;;;;;36;uuid
+.tables.assets;only_with_boat_captain;zxFKkM|only with boat captain;member;member;;aPetx5|the asset may only be us...;;;;;;false;;false;;;;boolean
+.tables.assets;exclude_from_statistics;5RYjmC|exclude from statistics;member;member;;Fm1y3F|the asset is to be exclu...;;;;;;false;;false;;;;boolean
+.tables.assets;efb_id;7JSa5m|eFB ID;member;analyst;;SYSAxI|the eFB ID of the boat;;;;;;true;;;;;;int
+.tables.assets;free_use_1;oRgZBm|free use 1;member;analyst;w;umGml6|free use;;;;;;true;;;;;256;string
+.tables.assets;free_use_2;Ii46wC|free use 2;member;analyst;wx;zeOCoD|free use 2;;;;;;true;;;;;256;string
+.tables.assets;free_use_3;EJYjbK|free use 3;member;analyst;wx;YIC5iv|free use 3;;;;;;true;;;;;256;string
+.tables.assets;_versionized;bQgFGC|versioning fields;;;;;;;;;;;;;;;;none
+.tables.assets;_common;2zbzk8|common fields;;;;;;;;;;;;;;;;none
+.tables;badges;BbmPwy|badges;;;;;;;;;;true;;[name:{#personid#}, short: ~ , full: ~/ fahrtenheft];;;1024;string_list
+.tables.badges;personid;wfRmav|personid;admin;analyst;wp;;;persons.uuid;autoselect;~;u;false;;uuid?;;;36;uuid
+.tables.badges;abzeichen;QqsVTJ|abzeichen;admin;analyst;;;;;;;;true;;;;;64;string
+.tables.badges;abzeichenab;Xz3Mt2|abzeichenab;admin;analyst;x;;;;;;;true;;;;;64;string
+.tables.badges;kilometer;MhDtjY|kilometer;admin;analyst;;;;;;;;true;;;;;32;string
+.tables.badges;kilometerab;mRmxz6|kilometerab;admin;analyst;x;;;;;;;true;;;;;32;string
+.tables.badges;fahrtenheft;GKykYZ|fahrtenheft;admin;analyst;;;;;;;;true;;;;;512;string
+.tables.badges;gui_vorname;nztTHX|gui_vorname;admin;analyst;x;;;;;;;true;;;;;128;string
+.tables.badges;gui_nachname;Ry4sSi|gui_nachname;admin;analyst;x;;;;;;;true;;;;;128;string
+.tables.badges;gui_jahrgang;hoK0OF|gui_jahrgang;admin;analyst;x;;;;;;;true;;;;;64;string
+.tables.badges;gui_anzabzeichen;IIOLVn|gui_anzabzeichen;admin;analyst;x;;;;;;;true;;;;;64;string
+.tables.badges;gui_anzkm;WXvYQC|gui_anzkm;admin;analyst;x;;;;;;;true;;;;;32;string
+.tables.badges;gui_anzabzeichenab;gdPIbc|gui_anzabzeichenab;admin;analyst;x;;;;;;;true;;;;;64;string
+.tables.badges;gui_anzkmab;qo64TK|gui_anzkmab;admin;analyst;x;;;;;;;true;;;;;32;string
+.tables.badges;gui_letztesjahr;1jl7HW|gui_letztesjahr;admin;analyst;x;;;;;;;true;;;;;32;string
+.tables.badges;gui_letztekm;dHQ1Jw|gui_letztekm;admin;analyst;x;;;;;;;true;;;;;32;string
+.tables.badges;gui_letztesdatum;8yH0MS|gui_letztesdatum;admin;analyst;x;;;;;;;true;;;;;32;string
+.tables.badges;gui_version;BYYsFO|gui_version;admin;analyst;x;;;;;;;true;;;;;32;string
+.tables.badges;gui_schluessel;l6eOSb|gui_schluessel;admin;analyst;x;;;;;;;true;;;;;128;string
+.tables.badges;gui_signatur;H6ZnGJ|gui_signatur;admin;analyst;x;;;;;;;true;;;;;128;string
+.tables.badges;gui_status;ZZO6hH|gui_status;admin;analyst;x;;;;;;;true;;;;;128;string
+.tables.badges;_common;GnHaTt|common fields;;;;;;;;;;;;;;;;none
+.tables;crews;7WScxb|crews;;;;;;;;;;true;;[name:{#name#}, short: ~/ {#cox#} , full: ~/ {#members#}];;;1024;string_list
+.tables.crews;uuid;Cd0Su6|uuid;system;analyst;ws;;;;;~;u;false;;uuid?;;;36;uuid
+.tables.crews;name;Y2xSOB|name;admin;member;w;;;;;*;u;true;;;;;128;string
+.tables.crews;cox_uuid;Yp1lPb|cox;admin;analyst;wp;;;persons.uuid;autoselect;;;true;;;;;36;uuid
+.tables.crews;boat_captain;Zm1EQO|boat captain (position);admin;analyst;;;;;;;;false;;1;;;;int
+.tables.crews;member_uuids;53QFpB|members;admin;analyst;wp;;;persons.uuid;autoselect;;;true;;;;;2048;uuid_list
+.tables.crews;_common;WvdOw5|common fields;;;;;;;;;;;;;;;;none
+.tables;damages;50TLgp|damages;;;;;;;;;;true;;[name:#{#number#} {#description#}, short: ~ ({#severity#}). {#reported_by#}/ , full: ~ {#logbook_text#}];;;1024;string_list
+.tables.damages;number;eBgDM8|number;system;member;s;I99caQ|ascending number;;;;~;ua;false;;0;;;;int
+.tables.damages;efa_number;hAq1LW|efa damage number;admin;analyst;s;QwAiyc|not unique damage number...;;;;~;;true;;;;;;int
+.tables.damages;asset_uuid;MEJn0T|asset;bths;member;w;PpJbrz|the boat or other asset ...;;assets.uuid;autoselect;;;true;;;;;36;uuid
+.tables.damages;description;VezllF|description;bths;member;w;;;;textarea;;;true;;;;;2048;string
+.tables.damages;severity;Ep3322|severity;bths;member;;;;.catalogs.damage_severities;select;;;true;;;;;64;string
+.tables.damages;reported_by;8DRVve|reported by;bths;member;wp;;;persons.uuid;autoselect;;;true;;;;;36;uuid
+.tables.damages;reported_on;iEk4vt|reported on;system;member;s;;;;;~;;true;;;;;;datetime
+.tables.damages;fixed_by;wCxK28|fixed by;admin;analyst;;;;;;;;true;;;;;128;string
+.tables.damages;fixed_on;5Kmxvp|fixed on;admin;analyst;s;;;;;~;;true;;;;;;datetime
+.tables.damages;repair_costs;a1tdb6|repair costs;admin;analyst;x;;;;;;;true;;;;;32;string
+.tables.damages;logbook_text;1H5XXs|logbook text;system;member;;;;;;~;;true;;;;;512;string
+.tables.damages;fixed;twupc5|fixed;admin;member;;;;;;;;false;;false;;;;boolean
+.tables.damages;notes;AhDzmR|notes;member;member;wx;;;;;;;true;;;;;2048;string
+.tables.damages;claim;ErZvL9|claim;admin;analyst;x;;;;;;;false;;false;;;;boolean
+.tables.damages;_common;rc02SG|common fields;;;;;;;;;;;;;;;;none
+.tables;destinations;FAc5j2|destinations;;;;;;;;;;true;;[name:{#name#}, short: ~/ {#distance#} km, full: ~/ {#waters_uuids#}];;;1024;string_list
+.tables.destinations;uuid;7IH2fU|uuid;system;analyst;ws;;;;;~;;false;;uuid?;;;36;uuid
+.tables.destinations;name;l7dLzx|name;admin;member;w;;;;;*;;true;;;;;128;string
+.tables.destinations;start_location;QfU2dm|location of start;admin;member;;;;;;;;true;;;;;128;string
+.tables.destinations;end_location;gj5lRY|location of end;admin;member;;;;;;;;true;;;;;128;string
+.tables.destinations;start_is_boathouse;8JSjYh|start is boathouse;admin;member;;;;;;;;false;;false;;;;boolean
+.tables.destinations;roundtrip;MHi2Lg|roundtrip;admin;member;x;;;;;;;false;;false;;;;boolean
+.tables.destinations;destination_areas;RPjUUE|destination areas;admin;member;x;;;.catalogs.destination_areas;select;;;true;;;;;1024;string_list
+.tables.destinations;passed_locks;JNawOP|passed locks;admin;member;x;;;;;;;false;;0;;;;int
+.tables.destinations;distance;RF1L2R|distance;admin;member;;;;;;;;false;;0;10000;0;;double
+.tables.destinations;only_in_boathouse_id;dvOhA1|only in boathouse id;admin;analyst;x;;;;;;;true;;;;;32;string
+.tables.destinations;waters_uuids;qAXZBx|waters;admin;member;w;;;waters.uuid;autoselect;;;true;;;;;1024;uuid_list
+.tables.destinations;_versionized;XuTvfw|versioning fields;;;;;;;;;;;;;;;;none
+.tables.destinations;_common;DZhl1F|common fields;;;;;;;;;;;;;;;;none
+.tables;groups;kZ2lm5|groups;;;;;;;;;;true;;[name:{#name#}, short: ~ , full: ~/ {#members#}];;;1024;string_list
+.tables.groups;uuid;qlfRcK|uuid;system;analyst;ws;;;;;~;;false;;uuid?;;;36;uuid
+.tables.groups;name;cl6L3f|name;admin;member;w;;;;;*;;true;;;;;128;string
+.tables.groups;color;SfVSSr|color;admin;member;;;;;;;;true;;;;;64;string
+.tables.groups;member_uuids;5bpQ0L|members;admin;analyst;wp;;;persons.uuid;autoselect;;;true;;;;;8192;uuid_list
+.tables.groups;_versionized;ALjJNh|versioning fields;;;;;;;;;;;;;;;;none
+.tables.groups;_common;KCTsEV|common fields;;;;;;;;;;;;;;;;none
+.tables;logbook;DkYaZp|logbook;;;;;;;;;;true;;["name:{#logbookname#} #{#number#}, {#start#}", short: ~: {#end#} // {#asset_uuid#}, full: ~ // {#destination#} // {#crew#}];;;1024;string_list
+.tables.logbook;logbookname;KYpTxU|logbookname;system;bths;;5JgHWu|the name of the logbook....;;;;~;;true;;;;;128;string
+.tables.logbook;number;w171tR|number;system;member;s;3ycORz|the ascending number of ...;;;;~;;false;;0;;;;int
+.tables.logbook;start;yRmL3D|start;bths;bths;;34ThB3|the date and time of the...;;;;;;true;;;;;;datetime
+.tables.logbook;end;tGufyM|end;bths;bths;;jnUMvz|the date and time of the...;;;;;;true;;;;;;datetime
+.tables.logbook;asset_uuid;lusU0e|boat;bths;bths;w;g27eyQ|the boat used;;assets.uuid;autoselect;;;true;;;;;64;uuid_or_name
+.tables.logbook;asset_variant;OoJaFH|asset variant;bths;bths;;CVUGXF|the boat variant used (d...;;.catalogs.boat_variants;select;;;true;;;;;64;string
+.tables.logbook;coxed;r6Efpn|with cox;bths;bths;;kDSe5i|true, if the first crew ...;;;;;;false;;false;;;;boolean
+.tables.logbook;crew;OMg9N8|crew;bths;bths;wp;qsQ71B|the crew names or UUIDs;;persons.uuid;autoselect;;;true;;;;;2048;uuid_or_name_list
+.tables.logbook;boat_captain;T7TS2f|boat captain (position);bths;bths;;L3cge1|the boat captain list po...;;;;;;false;;1;;;;int
+.tables.logbook;session_type;5p5bJU|session type;bths;bths;;udPhy8|the type of the session;;.catalogs.session_types;select;;;true;;;;;64;string
+.tables.logbook;destination;MI1DGQ|destination;bths;bths;w;GK9tfc|the destination UUID or ...;;destinations.uuid;autoselect;;;true;;;;;256;uuid_or_name
+.tables.logbook;waters;Nb07t1|waters;bths;bths;w;BF6UZB|the waters, UUIDs or nam...;;waters.uuid;autoselect;;;true;;;;;1024;uuid_or_name_list
+.tables.logbook;distance;a75PCW|distance;bths;bths;;lyrjhq|the distance passed in k...;;;;;;false;;0;10000;0;;double
+.tables.logbook;comments;8njxdh|comments;bths;bths;w;dhimlx|arbitrary comments;;;;;;true;;;;;2048;string
+.tables.logbook;_common;xopwK1|common fields;;;;;;;;;;;;;;;;none
+.tables;messages;xgI518|messages;;;;;;;;;;true;;[name:{#subject#}, short: ~, full: ~/ {#body#}];;;1024;string_list
+.tables.messages;number;PXE0oL|message number;system;member;s;;;;;~;ua;false;;0;;;;int
+.tables.messages;sent_on;QJMq5Y|sent on;system;member;;;;;;~;;true;;;;;;datetime
+.tables.messages;sent_to;3nLdNA|sent to;bths;member;;;;.catalogs.message_destinations;select;;;true;;;;;64;string
+.tables.messages;sent_from;qnVLLU|sent from;bths;member;wp;;;persons.uuid;autoselect;;;true;;;;;64;uuid_or_name
+.tables.messages;subject;2WKday|message subject;bths;member;;;;;;;;true;;;;;128;string
+.tables.messages;body;rlk5hE|message body;bths;member;;;;;textarea;;;true;;;;;4096;string
+.tables.messages;read;hpnkpX|was read;system;member;;;;;;;;false;;false;;;;boolean
+.tables.messages;to_be_mailed;lWOr2T|to be mailed;bths;member;x;;;;;;;false;;false;;;;boolean
+.tables.messages;reply_to;oKmnNP|reply to;bths;member;x;;;;;;;true;;;;;128;string
+.tables.messages;_common;QvAbxC|common fields;;;;;;;;;;;;;;;;none
+.tables;persons;CNjIbc|persons;;;;;;;;;;true;;[name:{#first_name#} {#last_name#} ({#name_affix#}), short: ~ , full: ~ {#status#} ({#role#})];;;1024;string_list
+.tables.persons;uuid;9GipPe|person UUID;system;analyst;ws;6RkvhN|the unique id of the per...;;;;~;;false;;uuid?;;;36;uuid
+.tables.persons;first_name;1plUcT|first name;admin;bths;w;kSbWaI|the persons first name;;;;;;true;;;;;128;string
+.tables.persons;last_name;UvHgWB|last name;admin;bths;w;RgucWs|the persons last name;;;;*;;true;;;;;128;string
+.tables.persons;name_affix;CP8U38|name affix;admin;bths;w;6EoZZ1|an affix to the name;;;;;;true;;;;;128;string
+.tables.persons;title;GP7E8q|title;admin;bths;x;60XJqo|the persons title;;;;;;true;;;;;128;string
+.tables.persons;gender;O0JWry|gender;admin;bths;;MpDXk4|the persons gender;;.catalogs.person_gender;select;;;true;;;;;64;string
+.tables.persons;birthday;ASO3pq|birthday;admin;analyst;;y3KKU4|the persons birthday;;;;;;true;;;;;64;string
+.tables.persons;association;6h5SfZ|association;admin;analyst;w;MXb6Vp|the club the person is a...;;;;;;true;;;;;128;string
+.tables.persons;status;Ym0sqt|status;admin;analyst;;JfO4Mf|the membership status of...;;status.uuid;autoselect;;;true;;;;;36;uuid
+.tables.persons;addr_street;OyuQS0|addr street;admin;analyst;x;gk3rGE|the persons adress;;;;;;true;;;;;128;string
+.tables.persons;addr_additional;RWzyuw|addr additional;admin;analyst;x;ocMCkZ|the persons adress;;;;;;true;;;;;128;string
+.tables.persons;addr_city;54Nc4L|addr city;admin;analyst;wx;57TN89|the persons adress;;;;;;true;;;;;128;string
+.tables.persons;addr_zip;I8Qe4e|addr zip;admin;analyst;x;gx1r9Z|the persons adress;;;;;;true;;;;;32;string
+.tables.persons;addr_country;HNlaBt|addr country;admin;analyst;x;K6v6Rw|the persons adress;;;;;;true;;;;;128;string
+.tables.persons;email;6vwG5v|email;admin;analyst;;gqdH1B|the persons email;;;;;;true;;;;;128;string
+.tables.persons;membership_number;UUzdU8|membership number;admin;analyst;;;;;;;;true;;;;;32;string
+.tables.persons;external_id;XRBVGE|external id;admin;analyst;;;;;;;;true;;;;;128;string
+.tables.persons;disability;CWyUVf|disability;admin;analyst;x;;;;;;;false;;false;;;;boolean
+.tables.persons;default_asset_uuid;vfeF47|default boat uuid;admin;analyst;wx;;;assets.uuid;autoselect;;;true;;;;;36;uuid
+.tables.persons;exclude_from_statistics;DIIwUV|exclude from statistics;admin;analyst;x;;;;;;;false;;false;;;;boolean
+.tables.persons;exclude_from_competition;NcFzNZ|exclude from competition;admin;analyst;x;;;;;;;false;;false;;;;boolean
+.tables.persons;exclude_from_clubwork;8DfXOI|exclude from clubwork;admin;analyst;x;;;;;;;false;;false;;;;boolean
+.tables.persons;boat_usage_ban;25iWqu|boat usage ban;admin;bths;x;;;;;;;false;;false;;;;boolean
+.tables.persons;efb_id;NcwQSc|eFB ID;admin;analyst;;e4H1FJ|the eFB ID of the boat;;;;;;true;;;;;;int
+.tables.persons;free_use_1;WMfvNl|free use 1;admin;bths;w;JaGU45|free use;;;;;;true;;;;;256;string
+.tables.persons;free_use_2;y4Dz9K|free use 2;admin;bths;wx;zPSkix|free use 2;;;;;;true;;;;;256;string
+.tables.persons;free_use_3;10BTtm|free use 3;admin;bths;wx;zUhQ4u|free use 3;;;;;;true;;;;;256;string
+.tables.persons;user_id;wOj3jc|user id;admin;analyst;w;mZBGfN|the dilbo user id for th...;;;;;;false;;-1;999999999;10;;int
+.tables.persons;password_hash;y6e6Im|password_hash;;analyst;x;piBH0n|the dilbo users passwor...;;;;!;;true;;;;;128;string
+.tables.persons;preferences;B1rHcp|Settings;admin;bths;x;NLyGCo|the dilbo users setting...;;;;;;true;;;;;1024;string
+.tables.persons;role;Vkz1Y2|Rolle;admin;analyst;;TAiDHN|the dilbo user role;;.access.roles;select;;;false;;anonymous;;;32;string
+.tables.persons;subscriptions;6PfDNd|Subscriptions;member;bths;x;UKBru6|the dilbo users subscri...;;;;;;false;;0;2147483647;0;;int
+.tables.persons;workflows;FbnP2p|Workflows;admin;bths;x;YCU44v|the dilbo users workflo...;;;;;;false;;0;2147483647;0;;int
+.tables.persons;concessions;PLIvFy|Concessions;admin;bths;x;baN5tA|the dilbo users concess...;;;;;;false;;0;2147483647;0;;int
+.tables.persons;_versionized;tInl6V|versioning fields;;;;;;;;;;;;;;;;none
+.tables.persons;_common;vJPo4g|common fields;;;;;;;;;;;;;;;;none
+.tables;reservations;yF2q7D|reservations;;;;;;;;;;true;;[name:{#reason#}, {#start#}-{#end#}, short: ~. {#person_uuid#}, full: ~ ({#contact#})];;;1024;string_list
+.tables.reservations;number;e2CD9A|number;system;member;s;iHgePQ|a reservation number;;;;~;ua;false;;0;;;;int
+.tables.reservations;asset_uuid;7wLp7B|asset;bths;member;w;HCJDdK|the boat or other asset ...;;assets.uuid;autoselect;;;true;;;;;36;uuid
+.tables.reservations;reason;5Nu1O6|reason;bths;bths;w;3T2ib4|the reason for the reser...;;;;;;true;;;;;256;string
+.tables.reservations;type;BSaARO|type;bths;member;;hUYIPd|one time or weekly;;.catalogs.reservation_types;select;;;true;;;;;32;string
+.tables.reservations;start;gkRHZQ|start;bths;member;;EIQA63|from when;;;;;;true;;;;;;datetime
+.tables.reservations;end;QSgzbn|end;bths;member;;bxyfwZ|to when;;;;;;true;;;;;;datetime
+.tables.reservations;day_of_week;1PeXp2|day of week;bths;member;x;K7m1tH|for weekly reservations;;;;;;false;;0;;;;int
+.tables.reservations;person_uuid;UMvvEm|person uuid;bths;bths;wp;BgxEQA|the person requesting th...;;persons.uuid;autoselect;;;true;;;;;36;uuid
+.tables.reservations;approved_by;LcjQdN|approved by;system;bths;wpx;N5iYBO|the approver;;persons.uuid;autoselect;;;true;;;;;36;uuid
+.tables.reservations;approved_on;XMqs5E|approved on;system;bths;x;eM6eDc|the time of approval;;;;;;true;;;;;;datetime
+.tables.reservations;cancelled_by;rsPBxh|cancelled by;system;bths;wpx;rFsm3l|the cancellaton executor;;persons.uuid;autoselect;;;true;;;;;36;uuid
+.tables.reservations;cancelled_on;0Jb2Qk|cancelled on;system;bths;x;qIWVfw|the cancellation time;;;;;;true;;;;;;datetime
+.tables.reservations;contact;KjeCap|contact;member;bths;;xN8W5B|a contact for checks;;;;;;true;;;;;128;string
+.tables.reservations;_common;Qq4hXC|common fields;;;;;;;;;;;;;;;;none
+.tables;status;7TmEzI|status;;;;;;;;;;true;;[name:{#name#}, short: ~ , full: ~/ {#type#}];;;1024;string_list
+.tables.status;uuid;17jwa5|status UUID;system;analyst;ws;kU4p9n|the unique id of the per...;;;;~;u;false;;uuid?;;;36;uuid
+.tables.status;name;YeYtpw|name;admin;member;w;;;;;*;u;true;;;;;128;string
+.tables.status;type;OfzbIi|type;admin;member;;QV5dHL|one time or weekly;;.catalogs.person_status;select;;;true;;;;;32;string
+.tables.status;_common;UHoEWO|common fields;;;;;;;;;;;;;;;;none
+.tables;waters;IF8KUp|waters;;;;;;;;;;true;;[name:{#name#}, short: ~ , full: ~/ {#details#}];;;1024;string_list
+.tables.waters;uuid;lUE59o|uuid;system;analyst;ws;K6E7qi|the water°s object Id;;;;~;u;false;;uuid?;;;36;uuid
+.tables.waters;name;rNpC90|name;admin;member;w;BSfmVE|the waters name;;;;*;u;true;;;;;128;string
+.tables.waters;details;BbZKd9|details;admin;member;w;koWndZ|details on the waters re...;;;;;;true;;;;;2048;string
+.tables.waters;efb_id;j74zFU|eFB ID;admin;member;;EuAbdu|the eFB ID of the boat;;;;;;true;;;;;;int
+.tables.waters;_common;ODsxKh|common fields;;;;;;;;;;;;;;;;none
+.tables;workbook;e10rEf|workbook;;;;;;;;;;true;;[name:{#workbookname#} #{#number#}:{#description#}, short: ~ , full: ~/ {#person_uuid#}];;;1024;string_list
+.tables.workbook;number;oDccWh|number;system;member;s;moYtc5|ascending number;;;;~;ua;false;;0;;;;int
+.tables.workbook;workbookname;uA74t7|workbook name;admin;member;;o8Da6f|the name of the clubs w...;;;;*;;true;;;;;128;string
+.tables.workbook;uuid;IxXF5j|uuid;system;analyst;ws;lt3gwh|a unique object identifi...;;;;~;u;false;;uuid?;;;36;uuid
+.tables.workbook;person_uuid;QupcS9|person;bths;bths;wp;rWtsmX|the person responsible;;persons.uuid;autoselect;;;true;;;;;36;uuid
+.tables.workbook;date;AHuXHg|date;bths;bths;;E6xABq|the date of the work don...;;;;;;true;;;;;;date
+.tables.workbook;description;Mm3AQ8|description;bths;bths;w;VeaNed|a description of the wor...;;;;;;true;;;;;2048;string
+.tables.workbook;hours;M3qtH4|hours;bths;bths;;CwcQGv|the hours worked;;;;;;false;;0;1000;0;;double
+.tables.workbook;flag;tf4jR2|flag;bths;bths;x;AB5WD4|dont know;;;;;;false;;false;;;;boolean
+.tables.workbook;approved;TKKGMK|approved;system;bths;x;GL5oKY|approval mark;;;;;;false;;false;;;;boolean
+.tables.workbook;_common;xaRk0g|common fields;;;;;;;;;;;;;;;;none
+.tables;archive;k1f72d|archive;;;;;;;;;;true;;[name:archive #{#id#}, short: ~. {#table#} , full: ~ {#time#}];;;1024;string_list
+.tables.archive;id;MXs2hL|ID;system;analyst;s;hRa7Lj|ascending number provide...;;;;~;ua;false;;0;;;;int
+.tables.archive;archived_uid;LFjF4k|archived uid;system;analyst;s;wsgJ20|the archived record°s un...;;;;~;;false;;uid?;;;12;uid
+.tables.archive;author;dOH4gJ|author;system;analyst;ps;;;persons.user_id;;~;;false;;0;999999999;10;;int
+.tables.archive;time;D0ASLw|time of archiving;system;analyst;s;;;;;~;;false;;0;;;;micro_time
+.tables.archive;table;9uQTkS|table to which the archi...;system;analyst;s;;;;;~;;true;;;;;128;string
+.tables.archive;record;qgCMZi|Record;system;analyst;s;F7eWEG|the archived record last...;;;;~;;true;;;;;0;text
+.tables.archive;rhistory;sTP6cS|Record history;system;analyst;s;bW1AWB|the archived records cha...;;;;;;true;;;;;0;text
+.tables;changes;eDlcRp|changes;;;;;;;;;;true;;[name:archive #{#id#}, short: ~. {#table#} , full: ~ {#time#}];;;1024;string_list
+.tables.changes;id;MXs2hL|ID;system;analyst;s;hRa7Lj|ascending number provide...;;;;~;ua;false;;0;;;;int
+.tables.changes;changed_uid;MZUBHS|changed uid;system;analyst;s;Gztz2T|the changed records uni...;;;;~;;false;;uid?;;;12;uid
+.tables.changes;author;sfhaia|author;system;analyst;ps;;;persons.user_id;;~;;false;;0;999999999;10;;int
+.tables.changes;time;eRqccM|time of change;system;analyst;s;;;;;~;;false;;0;;;;micro_time
+.tables.changes;table;2WbAyY|the table which was affe...;system;analyst;s;;;;;~;;true;;;;;128;string
+.tables.changes;modification;;system;analyst;s;pCUN5Y|a compilation of the mod...;;;;~;;true;;;;;0;text
+.tables;trash;lluRbP|trash;;;;;;;;;;true;;[name:archive #{#id#}, short: ~. {#table#} , full: ~ {#time#}];;;1024;string_list
+.tables.trash;id;MXs2hL|ID;system;analyst;s;hRa7Lj|ascending number provide...;;;;~;ua;false;;0;;;;int
+.tables.trash;deleted_uid;kI31f3|deleted uid;system;analyst;s;eMT3h1|the deleted records uni...;;;;~;;false;;uid?;;;12;uid
+.tables.trash;author;3aIZhf|author;system;analyst;ps;;;persons.user_id;;~;;false;;0;999999999;10;;int
+.tables.trash;time;fMlkpx|time of deletion;system;analyst;s;;;;;~;;false;;0;;;;micro_time
+.tables.trash;table;pbnWGq|tablename;system;analyst;s;H0mO4k|table to which the delet...;;;;~;;true;;;;;128;string
+.tables.trash;record;NCGgdt|record;system;analyst;s;J0PGb3|the deleted record last ...;;;;~;;true;;;;;0;text
+.tables.trash;rhistory;ivK7vo|record history;system;analyst;s;yt29Oi|the deleted records chan...;;;;~;;true;;;;;0;text
+.tables;_common;AxJOaB|common fields;;;;;;;;;;;;;;;;string_list
+.tables._common;uid;RQNRTZ|uid;system;analyst;s;DOxMof|the records unique ident...;;;;~;u;false;;uid?;;;12;uid
+.tables._common;created_by;qhZ5Sv|created by;system;analyst;ps;yDZ1Sv|author;;persons.user_id;;~;;false;;0;999999999;10;;int
+.tables._common;created_on;RO5t0k|created on;system;analyst;s;;;;;~;;false;;0;;;;micro_time
+.tables._common;modified;ynBNkU|modified on;system;analyst;s;;;;;~;;false;;0;;;;micro_time
+.tables._common;history;ufSvki|history;system;analyst;x;;;;;~;;true;;;;;0;text
+.tables;_versionized;vU6i7x|versioning fields;;;;;;;;;;;;;;;;string_list
+.tables._versionized;valid_from;xDfDo7|valid from;admin;analyst;v;Lj3Tbd|the start of the validit...;;;;>;;true;;;;;;date
+.tables._versionized;invalid_from;piSUBy|invalid from;admin;analyst;v;HrGYEo|the end of the validity ...;;;;<;;true;;;;;;date

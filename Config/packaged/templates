@@ -1,0 +1,74 @@
+_path;_name;default_label;default_description;value_reference;node_addable_type;default_value;value_max;value_min;value_type;record_form;input_type
+;templates;EeG8KQ|templates;fZZvT3|the templates for config...;;;;;;none;;
+.templates;list;D1wtTk|List;RVh00J|a dilbo Location objec...;;;1;;;int;;
+.templates.list;select;0Ybbk9|select fields;SoLSqJ|the fields to select fro...;;;;;;string;;
+.templates.list;table;4XC6P1|table name;EebhYT|the name of the table to...;.tables;;;;;string;;select
+.templates.list;where;e6HxWU|SQL where;in5hny|the filter, plain SQL;;;;;;string;;
+.templates.list;options;5yIbno|options;o9jwXG|sorting and editing opti...;;;;;;string;;
+.templates;location;TbizDA|Location;RVh00J|a dilbo Location objec...;.templates.location;;1;;;int;"tags;name;label
+_R;_no_input;_headline
+_//_R;*name|*text_local_name;
+_//_R;*type|*dilbo_user;
+_//_r;fixed_line_phone|street;
+_//_r;postal_code|city;
+_//_R;submit;Submit
+_//;_no_input;";
+.templates.location;type;1Bebyp|type of location;WgWscA|Define the respective ty...;.catalogs.location_types;;boathouse;;;string;;select
+.templates.location;street;GlB32l|Street and No;GjE3ZC|Street and No;;;;;;string;;
+.templates.location;city;tO6TGi|City;txEEgQ|City;;;;;;string;;
+.templates.location;postal_code;tjTi8x|Postal code;PYiCqk|Postal code;;;;;;string;;
+.templates.location;fixed_line_phone;iIoI5m|fixed line phone;uKBmF1|fixed line phone;;;;;;string;;
+.templates.location;dilbo_user;J7H8aA|user ID of its dilbo ins...;2xLsOW|user ID of its dilbo ins...;persons.user_id;;1;;;int;;autoselect
+.templates;logbook;94Oebc|Logbook;zjT0Zb|a dilbo Logbook object...;.templates.logbook;;1;;;int;;
+.templates.logbook;edit_workflow_flag;xkZBMr|edit workflow flag;RC8Q4G|the flag which will allo...;;;0;;;int;;
+.templates.logbook;location;iFfsOT|location name;fQRFm0|the location to which th...;.app.club.locations;;home;;;string;;select
+.templates;workbook;vuzyr3|Workbook;ByFOua|a dilbo Workbook objec...;.templates.workbook;;1;;;int;;
+.templates.workbook;edit_workflow_flag;xkZBMr|edit workflow flag;RC8Q4G|the flag which will allo...;;;0;;;int;;
+.templates.workbook;location;JSpfdh|location name;JaWZSJ|the location to which th...;.app.club.locations;;home;;;string;;select
+.templates;boat_variant;h3QK3i|Boat variant;gjKT0H|a dilbo Boat variant o...;.templates.boat_variant;;1;;;int;"tags;name;label
+_R;_no_input;_headline
+_//_R;*name|*text_local_name;
+_//_r;*coxing|*rigging;
+_//_r;*seating|*places;
+_//_R;submit;Submit
+_//;_no_input;";
+.templates.boat_variant;coxing;JWKPQO|coxing;B5jPlc|the coxing of this boat,...;.catalogs.boat_coxing;;coxless;;;string;;select
+.templates.boat_variant;seating;K0gmHX|seating;G1zcne|the seating like 4x for ...;.catalogs.boat_seating;;1;;;string;;select
+.templates.boat_variant;places;aG0EhE|places;wubamX|the number of people who...;;;1;50;1;int;;
+.templates.boat_variant;rigging;FkgqCN|rigging;LaxHyH|the type of rigging, i. ...;.catalogs.boat_rigging;;scull;;;string;;select
+.templates;provider;S1GkVK|Provider;I3si5T|a dilbo Provider objec...;.templates.provider;;1;;;int;"tags;name;label
+_R;_no_input;_headline
+_//_R;*name|;
+_//_R;*text_local_name|type;
+_//_r;table;
+_//_r;options;
+_//_r;onclick;
+_//_r;template;
+_//_r;resources;
+ _//_R;submit;Submit
+_//;_no_input;";
+.templates.provider;type;gjnNud|the provider type;qxW2NQ|the type of the provider...;.framework.select.ui_provider;;;;;string;;select
+.templates.provider;table;0caAc2|table;bPHrdC|the table to get the dat...;.tables;;;;;string;;select
+.templates.provider;options;tBrMVy|options;dYCSdK|a definition of options ...;;;;;;string;;
+.templates.provider;template;nkdrmO|template;1yFI99|a template to render the...;;;;;;string;;
+.templates.provider;resources;4lsVr8|resources;H3Wc9V|a list of used resources;;;;;;string;;
+.templates;profile;5rlOQ6|Profile;Y3ve7o|a dilbo Profile object...;.templates.profile;;1;;;int;"tags;name;label
+_R;_no_input;_headline
+_//_R;*name|;
+_//_R;*text_local_name|;
+_//_r;landscape|portrait;
+ _//_R;submit;Submit
+_//;_no_input;";
+.templates.profile;landscape;Vx9XHD|landscape layout;aOHGLF|the UI layout for landsc...;.ui.layouts;;;;;string;;select
+.templates.profile;portrait;wVaW7G|portrait layout;W0aBXY|the UI layout for portra...;.ui.layouts;;;;;string;;select
+.templates;sector;nKJc6u|Sector;qn2g70|A sector of the user int...;.templates.sector;.templates.sector;1;;;int;"tags;name;label
+_R;_no_input;qGQjCn|_headline
+_//_R;*name|;
+_//_R;*text_local_name|provider;
+_//_r;size_min|weight|horizontal;
+_//_R;submit;Yibgxb|Submit
+_//;_no_input;";
+.templates.sector;weight;iAh34u|weight;Tp0lZX|relative size;;;1;;;int;;
+.templates.sector;size_min;1ASZWE|minimum size (px);vf8XyW|the minimum size (width ...;;;40;2000;20;int;;
+.templates.sector;horizontal;PxhsKh|horizontal orientation;A1SvP0|the orientation of the c...;;;false;;;boolean;;
+.templates.sector;provider;BoE6wG|contents provider;ErocQF|name as reference to the...;.ui.providers;;;;;string;;select

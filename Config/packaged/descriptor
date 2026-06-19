@@ -1,0 +1,26 @@
+name;label;description;parser
+_path;GL0dtv|parent;KNtj5Z|the uid of the parent it...;string
+_name;3cCdlO|name;JNYIiw|the name of the data ite...;string
+default_value;L2Rm6H|default value;YIb5od|the default value. If th...;none
+default_label;label;qPKfrG|the name in local langua...;string
+default_description;description;UYJ0Pd|a text to explain what t...;string
+node_handling;node handling;w=add to word index, p=contains person reference;string
+node_addable_type;2KFOT2|addable types;aiXMzd|a list of types allowed ...;string
+node_write_permissions;write permissions;"a collection of all roles; workflows etc which are allowed to write the actual value";string
+node_read_permissions;read permissions;"a collection of all roles; workflows etc which are allowed to read the actual value";string
+value_type;Qkc02h|data type;L84szU|The type of data will be...;string
+value_min;MpNcRI|minimum value;hP04vV|the minimum value;none
+value_max;Fz3Z4J|maximum value;odHfH6|the maximum value;none
+value_size;aqVgee|maximum size;NlSd3l|the maximum length of st...;int
+value_unit;unit of value;"the unit of the value; e.g. kg or  €";string
+value_reference;KIa0GD|lookup reference;for record fields this indicates the tale and column for lookup. For configuration items this contains the template path.;string
+validation_rules;vinzbZ|validation rules;MOlhLN|any applicable rule lik…;string
+sql_type;x4sAVc|SQL type;ed2mNI|The SQL field definition...;string
+sql_null;4qH4PV|SQL null allowed;pVECWY|The SQL field definition...;boolean
+sql_indexed;0X6pY6|SQL index type;gPF94C|Set u for unique and a f...;string
+input_type;0gN0FD|type of form input;tti0MT|the type used for the in...;string
+input_modifier;cRiA2r|class of form input;W9F5NE|the class used for the i...;string
+record_edit_form;3MhYFA|item edit form template;fkKgqu|the form template used f...;string
+actual_value;value;the actual value of the item;none
+actual_label;label;the actual name in local language;string
+actual_description;description;the actual text to explain what this item is all about;string

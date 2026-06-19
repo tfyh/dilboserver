@@ -1,0 +1,203 @@
+_path;_name;default_value;default_label;default_description;node_read_permissions;node_addable_type;value_reference;value_type
+;lists;;1KdLMU|lists;;;;;none
+.lists;administration;;GX2BRC|Administer;;;.template.list;;none
+.lists.administration;user;;HVl6HK|user;;analyst;;.templates.list;template
+.lists.administration.user;select;user_id,email,first_name,last_name,role,uid,modified;;;;;;string
+.lists.administration.user;table;persons;;;;;;string
+.lists.administration.user;where;1;;;;;;string
+.lists.administration.user;options;sort=user_id;;;;;;string
+.lists.administration;admins;;ygOOPk|admins;;admin;;.templates.list;template
+.lists.administration.admins;select;user_id,email,first_name,last_name,role,password_hash,uid,modified;;;;;;string
+.lists.administration.admins;table;persons;;;;;;string
+.lists.administration.admins;where;role='admin';;;;;;string
+.lists.administration.admins;options;sort=user_id;;;;;;string
+.lists.administration;privileged;;ozBq2M|privileged;;admin;;.templates.list;template
+.lists.administration.privileged;select;user_id,email,first_name,last_name,role,workflows,concessions,password_hash,uid,modified;;;;;;string
+.lists.administration.privileged;table;persons;;;;;;string
+.lists.administration.privileged;where;(`role` = 'admin') OR (`role` = 'analyst') OR (`role` = 'bths');;;;;;string
+.lists.administration.privileged;options;sort=role.last_name;;;;;;string
+.lists.administration;changelog;;ejtoDx|changelog;;admin;;.templates.list;template
+.lists.administration.changelog;select;id,author,time,table;;;;;;string
+.lists.administration.changelog;table;changes;;;;;;string
+.lists.administration.changelog;where;1;;;;;;string
+.lists.administration.changelog;options;sort=id;;;;;;string
+.lists;analyse;;OLdvxO|Analyse;;;.template.list;;none
+.lists.analyse;assets;;iLRBEh|assets;;analyst;;.templates.list;template
+.lists.analyse.assets;select;uuid,uid,name,asset_subtype,variant_options,invalid_from;;;;;;string
+.lists.analyse.assets;table;assets;;;;;;string
+.lists.analyse.assets;where;1;;;;;;string
+.lists.analyse.assets;options;sort=uuid.-valid_from&firstofblock=uuid;;;;;;string
+.lists.analyse;badgets;;T4IzT5|badges;;analyst;;.templates.list;template
+.lists.analyse.badgets;select;uid,personid,fahrtenheft;;;;;;string
+.lists.analyse.badgets;table;badges;;;;;;string
+.lists.analyse.badgets;where;1;;;;;;string
+.lists.analyse.badgets;options;sort=gui_nachname;;;;;;string
+.lists.analyse;crews;;XMwoo5|crews;;analyst;;.templates.list;template
+.lists.analyse.crews;select;uid,name,cox_uuid,boat_captain;;;;;;string
+.lists.analyse.crews;table;crews;;;;;;string
+.lists.analyse.crews;where;1;;;;;;string
+.lists.analyse.crews;options;sort=name;;;;;;string
+.lists.analyse;damages;;MaVc5i|damages;;analyst;;.templates.list;template
+.lists.analyse.damages;select;uid,number,asset_uuid,description,severity,fixed;;;;;;string
+.lists.analyse.damages;table;damages;;;;;;string
+.lists.analyse.damages;where;1;;;;;;string
+.lists.analyse.damages;options;sort=-number;;;;;;string
+.lists.analyse;destinations;;NdSmAs|destinations;;analyst;;.templates.list;template
+.lists.analyse.destinations;select;uid,uuid,name,distance,invalid_from;;;;;;string
+.lists.analyse.destinations;table;destinations;;;;;;string
+.lists.analyse.destinations;where;1;;;;;;string
+.lists.analyse.destinations;options;sort=uuid.-valid_from&firstofblock=uuid;;;;;;string
+.lists.analyse;groups;;Be16mx|groups;;analyst;;.templates.list;template
+.lists.analyse.groups;select;uid,uuid,name,color,invalid_from;;;;;;string
+.lists.analyse.groups;table;groups;;;;;;string
+.lists.analyse.groups;where;1;;;;;;string
+.lists.analyse.groups;options;sort=uuid.-valid_from&firstofblock=uuid;;;;;;string
+.lists.analyse;logbook;;XCX6sa|logbook;;analyst;;.templates.list;template
+.lists.analyse.logbook;select;uid,number,logbookname,start,end,asset_uuid,destination,distance;;;;;;string
+.lists.analyse.logbook;table;logbook;;;;;;string
+.lists.analyse.logbook;where;1;;;;;;string
+.lists.analyse.logbook;options;sort=-start&maxrows=50;;;;;;string
+.lists.analyse;messages;;Vismxk|messages;;analyst;;.templates.list;template
+.lists.analyse.messages;select;uid,number,sent_on,sent_to,subject;;;;;;string
+.lists.analyse.messages;table;messages;;;;;;string
+.lists.analyse.messages;where;1;;;;;;string
+.lists.analyse.messages;options;sort=-number;;;;;;string
+.lists.analyse;persons;;2reLjS|persons;;analyst;;.templates.list;template
+.lists.analyse.persons;select;uid,uuid,last_name,first_name,status,membership_number,invalid_from;;;;;;string
+.lists.analyse.persons;table;persons;;;;;;string
+.lists.analyse.persons;where;1;;;;;;string
+.lists.analyse.persons;options;sort=uuid.-valid_from&firstofblock=uuid;;;;;;string
+.lists.analyse;reservations;;wJ2Ds6|reservations;;analyst;;.templates.list;template
+.lists.analyse.reservations;select;uid,number,asset_uuid,reason,start,end,contact;;;;;;string
+.lists.analyse.reservations;table;reservations;;;;;;string
+.lists.analyse.reservations;where;1;;;;;;string
+.lists.analyse.reservations;options;sort=-number;;;;;;string
+.lists.analyse;status;;QxMwgm|status;;analyst;;.templates.list;template
+.lists.analyse.status;select;uid,name,type;;;;;;string
+.lists.analyse.status;table;status;;;;;;string
+.lists.analyse.status;where;1;;;;;;string
+.lists.analyse.status;options;sort=name;;;;;;string
+.lists.analyse;waters;;hA7eVt|waters;;analyst;;.templates.list;template
+.lists.analyse.waters;select;uid,name,details;;;;;;string
+.lists.analyse.waters;table;waters;;;;;;string
+.lists.analyse.waters;where;1;;;;;;string
+.lists.analyse.waters;options;sort=name;;;;;;string
+.lists.analyse;workbook;;ucHbuJ|workbook;;analyst;;.templates.list;template
+.lists.analyse.workbook;select;uid,number,person_uuid,date,description,hours;;;;;;string
+.lists.analyse.workbook;table;workbook;;;;;;string
+.lists.analyse.workbook;where;1;;;;;;string
+.lists.analyse.workbook;options;sort=-number;;;;;;string
+.lists;mailDistribution;;dUWl3D|Mail distribution;;;.template.list;;none
+.lists.mailDistribution;all_users;;JO9XOp|all users;;admin;;.templates.list;template
+.lists.mailDistribution.all_users;select;email;;;;;;string
+.lists.mailDistribution.all_users;table;persons;;;;;;string
+.lists.mailDistribution.all_users;where;1;;;;;;string
+.lists.mailDistribution.all_users;options;sort=last_name.first_name;;;;;;string
+.lists;system;;ZHgZ3p|system records;druiJz|lists for records which ...;;.template.list;;none
+.lists.system;trash;;S0Ejhn|deleted records of a tab...;;analyst;;.templates.list;template
+.lists.system.trash;select;id,deleted_uid,author,time,table,record;;;;;;string
+.lists.system.trash;table;trash;;;;;;string
+.lists.system.trash;where;(`table` = '{listparameter}');;;;;;string
+.lists.system.trash;options;sort=-time;;;;;;string
+.lists.system;changes;;whDEyZ|changes within records o...;;analyst;;.templates.list;template
+.lists.system.changes;select;id,changed_uid,author,time,table,modification;;;;;;string
+.lists.system.changes;table;changes;;;;;;string
+.lists.system.changes;where;(`table` = '{listparameter}');;;;;;string
+.lists.system.changes;options;sort=-time;;;;;;string
+.lists.system;archive;;vQfPRI|archived records of a ta...;;admin;;.templates.list;template
+.lists.system.archive;select;id,archived_uid,author,time,table,record;;;;;;string
+.lists.system.archive;table;archive;;;;;;string
+.lists.system.archive;where;(`table` = '{listparameter}');;;;;;string
+.lists.system.archive;options;sort=-time;;;;;;string
+.lists;logbook;;JAxjna|logbook;ZfVuYM|lists for the boathouse ...;;.template.list;;none
+.lists.logbook;all_trips;;XCX6sa|logbook;;bths;;.templates.list;template
+.lists.logbook.all_trips;select;uid,logbookname,number,start,end,asset_uuid,asset_variant,coxed,crew,boat_captain,session_type,destination,waters,distance,comments;;;;;;string
+.lists.logbook.all_trips;table;logbook;;;;;;string
+.lists.logbook.all_trips;where;(DATEDIFF(`start`, '{sports_year_start}') >= 0) AND (`logbookname` = '{logbookname}');;;;;;string
+.lists.logbook.all_trips;options;sort=-start;;;;;;string
+.lists.logbook;open_trips;;lYNvlF|open trips;;bths;;.templates.list;template
+.lists.logbook.open_trips;select;uid,logbookname,number,start,end,asset_uuid,asset_variant,coxed,crew,boat_captain,session_type,destination,waters,distance,comments;;;;;;string
+.lists.logbook.open_trips;table;logbook;;;;;;string
+.lists.logbook.open_trips;where;(`logbookname` = '{logbookname}') AND (ISNULL(`end`) OR YEAR(`end`) < 1971));;;;;;string
+.lists.logbook.open_trips;options;sort=-start&maxrows=50;;;;;;string
+.lists.logbook;open_reservations;;u4E7HU|open reservations;;bths;;.templates.list;template
+.lists.logbook.open_reservations;select;uid,number,asset_uuid,reason,type,start,end,day_of_week,approved_by,approved_on,cancelled_by,cancelled_on;;;;;;string
+.lists.logbook.open_reservations;table;reservations;;;;;;string
+.lists.logbook.open_reservations;where;(DATEDIFF(`end`, NOW()) >= 0);;;;;;string
+.lists.logbook.open_reservations;options;sort=number;;;;;;string
+.lists.logbook;open_damages;;SNXt8L|open damages;;bths;;.templates.list;template
+.lists.logbook.open_damages;select;uid,number,asset_uuid,description,severity,reported_by,reported_on,fixed_by,fixed_on,fixed,notes;;;;;;string
+.lists.logbook.open_damages;table;damages;;;;;;string
+.lists.logbook.open_damages;where;(ISNULL(`fixed_on`) OR YEAR(`fixed_on`) < 1971) AND (`fixed`= 0);;;;;;string
+.lists.logbook.open_damages;options;sort=number;;;;;;string
+.lists.logbook;unavailable_boats;;wdgrOA|boat with base status un...;;bths;;.templates.list;template
+.lists.logbook.unavailable_boats;select;uid,uuid,name,name_affix,asset_type,asset_subtype,base_status;;;;;;string
+.lists.logbook.unavailable_boats;table;assets;;;;;;string
+.lists.logbook.unavailable_boats;where;(`base_status` = 'not_available');;;;;;string
+.lists.logbook.unavailable_boats;options;sort=uuid.-invalid_from&firstofblock=uuid;;;;;;string
+.lists;client;;EhzMrg|client;ajsoPz|lists for the boathouse ...;;.template.list;;none
+.lists.client;assets;;iLRBEh|assets;;;;.templates.list;template
+.lists.client.assets;select;uid,uuid,name,name_affix,asset_type,asset_subtype,base_status,last_variant,default_variant,variant_indices,variant_options,allowed_group_uuids,required_group_uuid,max_not_in_group,max_crew_weight,default_crew_uuid,default_session_type,default_destination_uuid,only_with_boat_captain,invalid_from,modified;;;;;;string
+.lists.client.assets;table;assets;;;;;;string
+.lists.client.assets;where;(`modified` > {modified_after});;;;;;string
+.lists.client.assets;options;sort=uuid.-invalid_from&firstofblock=uuid;;;;;;string
+.lists.client;badges;;T4IzT5|badges;;;;.templates.list;template
+.lists.client.badges;select;uid,personid,abzeichen,kilometer,fahrtenheft,gui_vorname,gui_nachname,gui_anzabzeichen,gui_anzkm,gui_letztesjahr,gui_letztekm,modified;;;;;;string
+.lists.client.badges;table;badges;;;;;;string
+.lists.client.badges;where;(`modified` > {modified_after});;;;;;string
+.lists.client.badges;options;sort=gui_nachname;;;;;;string
+.lists.client;crews;;XMwoo5|crews;;;;.templates.list;template
+.lists.client.crews;select;uid,uuid,name,cox_uuid,boat_captain,member_uuids,modified;;;;;;string
+.lists.client.crews;table;crews;;;;;;string
+.lists.client.crews;where;(`modified` > {modified_after});;;;;;string
+.lists.client.crews;options;sort=name;;;;;;string
+.lists.client;damages;;MaVc5i|damages;;;;.templates.list;template
+.lists.client.damages;select;uid,number,asset_uuid,description,severity,reported_by,reported_on,fixed_by,fixed_on,logbook_text,fixed,notes,modified;;;;;;string
+.lists.client.damages;table;damages;;;;;;string
+.lists.client.damages;where;(`modified` > {modified_after});;;;;;string
+.lists.client.damages;options;sort=number;;;;;;string
+.lists.client;destinations;;NdSmAs|destinations;;;;.templates.list;template
+.lists.client.destinations;select;uid,uuid,name,start_location,end_location,start_is_boathouse,roundtrip,destination_areas,passed_locks,distance,only_in_boathouse_id,waters_uuids,invalid_from,modified;;;;;;string
+.lists.client.destinations;table;destinations;;;;;;string
+.lists.client.destinations;where;(`modified` > {modified_after});;;;;;string
+.lists.client.destinations;options;sort=uuid.-invalid_from&firstofblock=uuid;;;;;;string
+.lists.client;groups;;Be16mx|groups;;;;.templates.list;template
+.lists.client.groups;select;uid,uuid,name,color,member_uuids,invalid_from,modified;;;;;;string
+.lists.client.groups;table;groups;;;;;;string
+.lists.client.groups;where;(`modified` > {modified_after});;;;;;string
+.lists.client.groups;options;sort=uuid.-invalid_from&firstofblock=uuid;;;;;;string
+.lists.client;logbook;;XCX6sa|logbook;;;;.templates.list;template
+.lists.client.logbook;select;uid,logbookname,number,start,end,asset_uuid,asset_variant,coxed,crew,boat_captain,session_type,destination,waters,distance,comments,modified;;;;;;string
+.lists.client.logbook;table;logbook;;;;;;string
+.lists.client.logbook;where;(DATEDIFF(`start`, '{sports_year_start}') >= 0) AND (`logbookname` = '{logbookname}') AND (`modified` > {modified_after});;;;;;string
+.lists.client.logbook;options;sort=-start&maxrows=50;;;;;;string
+.lists.client;messages;;Vismxk|messages;;;;.templates.list;template
+.lists.client.messages;select;uid,number,sent,to,from,subject,body,read,to_be_mailed,reply_to,modified;;;;;;string
+.lists.client.messages;table;messages;;;;;;string
+.lists.client.messages;where;(`modified` > {modified_after});;;;;;string
+.lists.client.messages;options;sort=number;;;;;;string
+.lists.client;persons;;2reLjS|persons;;;;.templates.list;template
+.lists.client.persons;select;uid,uuid,first_name,last_name,name_affix,title,gender,birthday,association,status,membership_number,external_id,disability,default_asset_uuid,boat_usage_ban,invalid_from,modified;;;;;;string
+.lists.client.persons;table;persons;;;;;;string
+.lists.client.persons;where;(`modified` > {modified_after});;;;;;string
+.lists.client.persons;options;sort=uuid.-invalid_from&firstofblock=uuid;;;;;;string
+.lists.client;reservations;;wJ2Ds6|reservations;;;;.templates.list;template
+.lists.client.reservations;select;uid,number,asset_uuid,reason,type,start,end,day_of_week,person_uuid,approved_by,approved_on,cancelled_by,cancelled_on,contact,modified;;;;;;string
+.lists.client.reservations;table;reservations;;;;;;string
+.lists.client.reservations;where;(`modified` > {modified_after});;;;;;string
+.lists.client.reservations;options;sort=number;;;;;;string
+.lists.client;status;;QxMwgm|status;;;;.templates.list;template
+.lists.client.status;select;uid,uuid,name,type,modified;;;;;;string
+.lists.client.status;table;status;;;;;;string
+.lists.client.status;where;(`modified` > {modified_after});;;;;;string
+.lists.client.status;options;sort=name;;;;;;string
+.lists.client;waters;;hA7eVt|waters;;;;.templates.list;template
+.lists.client.waters;select;uid,uuid,name,details,efb_id,modified;;;;;;string
+.lists.client.waters;table;waters;;;;;;string
+.lists.client.waters;where;(`modified` > {modified_after});;;;;;string
+.lists.client.waters;options;sort=name;;;;;;string
+.lists.client;workbook;;ucHbuJ|workbook;;;;.templates.list;template
+.lists.client.workbook;select;uid,number,workbookname,uuid,person_uuid,date,description,hours,flag,approved,modified;;;;;;string
+.lists.client.workbook;table;workbook;;;;;;string
+.lists.client.workbook;where;(DATEDIFF(`date`, '{sports_year_start}') >= 0) AND (`workbookname` = '{workbookname}') AND (`modified` > {modified_after});;;;;;string
+.lists.client.workbook;options;sort=workbookname.number;;;;;;string

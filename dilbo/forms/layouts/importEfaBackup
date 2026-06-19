@@ -1,0 +1,14 @@
+tags;required;name;value;label;type;class;size;maxlength
+<div class='w3-row'><div class='w3-col l1'>;;user_file;;ETueWs|*import this zip archive...;file;;25;
+</div></div><div class='w3-row'><div class='w3-col l2'><br>;;import_config;KVySUs|on;o1uX4R|import configuration;checkbox;formInput;;
+</div></div><div class='w3-row'><div class='w3-col l1'>;;_no_input;;OZGFzr|CAUTION: A configuration...;;;;
+</div></div><div class='w3-row'><div class='w3-col l2'><br>;;import_data;znDABb|on;8c2YpB|import data;checkbox;formInput;;
+</div></div><div class='w3-row'><div class='w3-col l1'>;;_no_input;;fK6t7h|CAUTION: A data import u...;;;;
+</div></div><div class='w3-row'><div class='w3-col l2'><br>;;reset_db;qU8H7m|on;wWNgrt|delete existing data tab...;checkbox;formInput;;
+</div></div><div class='w3-row'><div class='w3-col l1'>;;_no_input;;egsf47|Uncheck to only add furt...;;;;
+</div></div><div class='w3-row'><div class='w3-col l2'><br>;;efaCloud_password;;64hzBR|efaCloud password to ret...;password;formInput;;
+</div></div><div class='w3-row' style='margin-top:20px'><div class='w3-col l1'><div style='float:left'>;;submit;JiFVoM|Upload and import;;submit;formbutton;;
+</div></div></div>;;_no_input;;;;;;
+<li><span class='helptext'>;;_help_text;;xozppP|Only for backup archives...;;;;
+</span></li><li><span class='helptext'><b>;;_help_text;;tcVMpJ|BE CAREFUL. THERE IS NO ...;;;;
+</b></span></li>;;_help_text;;;;;;

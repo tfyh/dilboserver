@@ -1,0 +1,63 @@
+  <!-- Footer is part of the menu bar -->
+  <!-- End page content -->
+</div>
+</main>
+</div>
+<div class="entry-unrelated sidebar">
+  <div id="sticky-sidebar-stuff"></div>
+</div>
+
+    <!-- jQuery as baseline -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- tfyh framework scripts -->
+    <!-- ====================== -->
+
+    <!-- the tfyh/util package -->
+    <!-- Part 1: i18n & storage support -->
+    <script src="../../tfyh/js01/util/I18n.js"></script>
+    <script src="../../tfyh/js01/util/Language.js"></script>
+    <script src="../../tfyh/js01/util/LanguageSettings.js"></script>
+    <script src="../../tfyh/js01/util/LocalCache.js"></script>
+
+    <!-- the tfyh/data package -->
+    <!-- static data utilities -->
+    <script src="../../tfyh/js01/data/SettingsLoader.js"></script>
+    <script src="../../tfyh/js01/data/Codec.js"></script>
+    <script src="../../tfyh/js01/data/Ids.js"></script>
+    <!-- static and single value processing -->
+    <script src="../../tfyh/js01/data/ParserName.js"></script>
+    <script src="../../tfyh/js01/data/Parser.js"></script>
+    <script src="../../tfyh/js01/data/ParserConstraints.js"></script>
+    <script src="../../tfyh/js01/data/Formatter.js"></script>
+    <script src="../../tfyh/js01/data/PropertyName.js"></script>
+    <script src="../../tfyh/js01/data/Property.js"></script>
+    <script src="../../tfyh/js01/data/Type.js"></script>
+    <script src="../../tfyh/js01/data/Validator.js"></script>
+    <script src="../../tfyh/js01/data/Findings.js"></script>
+    <script src="../../tfyh/js01/data/Indices.js"></script>
+    <!-- instantiated configuration -->
+    <script src="../../tfyh/js01/data/Config.js"></script>
+    <script src="../../tfyh/js01/data/Item.js"></script>
+    <script src="../../tfyh/js01/data/Record.js"></script>
+
+    <!-- the tfyh/util package -->
+    <!-- Part 2: user interface -->
+    <script src="../../tfyh/js01/util/AutoComplete.js"></script>
+    <script src="../../tfyh/js01/util/ConfigPanel.js"></script>
+    <script src="../../tfyh/js01/util/Container.js"></script>
+    <script src="../../tfyh/js01/util/Dialog.js"></script>
+    <script src="../../tfyh/js01/util/Form.js"></script>
+    <script src="../../tfyh/js01/util/FormHandler.js"></script>
+    <script src="../../tfyh/js01/util/ListHandlerKernel.js"></script>
+    <script src="../../tfyh/js01/util/Modal.js"></script>
+    <script src="../../tfyh/js01/util/Timer.js"></script>
+    <script src="../../tfyh/js01/util/User.js"></script>
+
+    <!-- dilbo main script -->
+    <!-- ================= -->
+    <script src="../../dilbo/js01/InputValidator.js"></script>
+    <script src="../../dilbo/js01/dilboMain.js"></script>
+
+</body>
+</html>

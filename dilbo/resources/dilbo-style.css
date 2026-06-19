@@ -1,0 +1,190 @@
+@CHARSET "UTF-8";
+
+main {
+	position: relative;
+	z-index: 1;
+}
+
+.entry-unrelated {
+	box-sizing: border-box;
+}
+
+.main-and-sidebar {
+	display: grid;
+	gap: 0;
+	grid-template-columns: minmax(0, 1fr) 17%;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* reduced size, but with side menu */
+@media ( max-width : 1199px) and (min-width: 850px) {
+	.main-and-sidebar {
+		grid-template-columns: minmax(0, 1fr) 17%;
+	}
+}
+/* further reduced screen, without side menu */
+@media ( max-width : 849px) and (min-width: 700px) {
+	.main-and-sidebar {
+		grid-template-columns: minmax(0, 1fr) 9%;
+	}
+}
+/* further reduced screen, without side menu */
+@media ( max-width : 699px) {
+	.main-and-sidebar {
+		grid-template-columns: minmax(0, 1fr) 1%;
+	}
+}
+
+.cfg-nav {
+	padding-left: 0.3em;
+	cursor: pointer;
+	display: table-cell;
+}
+.cfg-nav:hover {
+	background-color: #fff;
+}
+
+.cfg-item {
+	padding-left: 0em;
+	cursor: pointer;
+}
+
+.cfg-button:hover {
+	background-color: #033161;
+	color:#fff;
+	opacity: 0.7;
+}
+
+.eventitem {
+	cursor:pointer;
+}
+
+.noscroll {
+	overflow: hidden;	
+}
+
+.tfyh-container {
+	overflow: hidden;
+	position:absolute;
+}
+
+.tfyh-tile {
+	position: absolute;
+	background-color:  #fff !important;
+}
+
+.tfyh-tile-transparent {
+	position: absolute;
+	background-color: transparent !important;
+}
+
+.dilbo-menubutton {
+	aspect-ratio: 1 / 1; 
+	margin-bottom:5px; 
+	background-color: #eee !important;
+	display: inline-block;
+}
+
+.dilbo-menubutton:hover {
+	background-color: #ccc !important;
+	cursor: pointer;
+}
+
+.splashscreen {
+	margin: auto;
+	margin-top: 10%;
+    width: 60%;
+}
+
+.scrollh {
+	overflow-x:auto;
+	overflow-y:hidden;
+}
+
+.scrollv {
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+/* --------- FORM FIELD VALIDITY MARKER STYLES --------*/
+.uuid-valid {
+	border-right: 15px solid #090;       /* RAG - green */
+}
+
+.uuid-invalid {
+	border-right: 15px solid #fc0;       /* RAG - amber */
+}
+
+.uuid-not-found {
+	border-right: 15px solid #c00;       /* RAG - red */
+}
+
+.uuid-not-checked {
+	border-right: 15px solid #acacac;    /* RAG - gray */
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ---- display a clock ---- */
+/* see https://www.geeksforgeeks.org/how-to-create-analog-clock-using-html-css-and-javascript/ */
+
+#clockSquareBox {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boxed {
+	width: auto;
+	max-height: 100%;
+}
+
+#clockContainer {
+	width: 100%;
+	height: 100%;
+    /*to make the height and width responsive*/
+    background: url(../resources/img/clock.png) no-repeat;
+    /*setting our background image*/
+    background-size: contain;
+}
+ 
+#clockHour,
+#clockMinute,
+#clockSecond {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+ 
+#clockHour {
+    width: 4%;
+    height: 30%;
+    top: 20%;
+    left: 47.75%;
+    opacity: 0.8;
+}
+ 
+#clockMinute {
+    width: 3%;
+    height: 38%;
+    top: 12%;
+    left: 48.25%;
+    opacity: 0.8;
+}
+ 
+#clockSecond {
+    width: 2%;
+    height: 33%;
+    top: 17%;
+    left: 48.75%;
+    background: #088161;
+    opacity: 0.8;
+}

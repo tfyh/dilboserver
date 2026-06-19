@@ -1,0 +1,46 @@
+<!-- End of Sidebar/menu -->
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-top w3-hide-large w3-xlarge" style="background-image: url('../../tfyh/resources/transparent.png')">
+  <div style='padding-right:6px;'>
+    <div class="w3-bar-item w3-right">
+      <img src="../../dilbo/resources/app_logo_64.png" alt="dilbo Logo" style="width:100%;">
+    </div>  
+  </div>
+  <div style='padding:14px'>
+    <a href="javascript:void(0)" class="w3-bar-item" onclick="w3_open()">
+       <span style='font-size:1.2em;' class='menuitem'>&#x2630;</span>
+    </a>
+  </div>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="menuOverlay"></div>
+
+<!-- !PAGE CONTENT!  -->
+<!-- margin left of 250px is the space hidden by the sidebar menu. -->
+<div class="w3-main" style="margin-left:200px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- The Modal -->
+  <div id="tfyhModal" class="modal" style="z-index: 4">
+    <!-- Modal content -->
+	<div id="tfyhModal-content" class="modal-content">
+	  <span class="close">&times;</span>
+	  <p>Common Modal Box - empty.</p>
+	</div>
+  </div>
+
+  <!-- The Dialog -->
+  <div id="tfyhDialog" class="dialog" style="z-index: 6">
+    <!-- Dialog content -->
+	<div id="tfyhDialog-content" class="dialog-content">
+	  <p>Common Dialog Box - empty.</p>
+	</div>
+  </div>
+
+  <!-- START OF content -->
+  <div class="w3-container">

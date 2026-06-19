@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>dilbo - the digital logbook for rowing and canoeing</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="../../tfyh/resources/w3-style.css">
+  <link rel="stylesheet" href="../../tfyh/resources/app-style.css">
+
+  <link rel="stylesheet" href="../../dilbo/resources/dilbo-style.css">
+  <link rel="stylesheet" href="../../dilbo/resources/fonts.css">
+  <link rel="icon" href="../../dilbo/resources/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../../dilbo/resources/favicon.ico" type="image/x-icon" />
+</head>
+
+<body class="body" style='margin-top:50px'>
+<div class='main-and-sidebar'>
+<main>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-top menubar" 
+            style="z-index:3;width:200px;overflow-y: hidden;" id="menuSidebar">
+  <div class="w3-container">
+    <a href='../../index.php'><img src="../../var/Uploads/tenant/logo.png" alt="please upload a club logo" style="display:block;width:150px;margin-left:20px;margin-top:20px"></a>
+    <span id='sidebar_clubname'></span>
+  </div>
+  

@@ -1,0 +1,13 @@
+tags;required;name;value;label;type;class;size;maxlength
+<div class='w3-row'><div class='w3-col l2'>;*;first_name;;G4czbF|Your first name;text;;90%;250
+</div><div class='w3-col l2'>;*;last_anme;;T1m6yT|Your last name;text;;90%;250
+</div></div><div class='w3-row'><div class='w3-col l1'>;*;email;;eNwq9h|Your e-mail address for ...;email;;95%;250
+</div></div><div class='w3-row'><div class='w3-col l1'>;*;club;;0mLtWK|The association where ef...;text;;90%;250
+</div></div><div class='w3-row'><div class='w3-col l1'>;*;request;;X9LNW4|Your request;textarea;;4;
+</div></div><div class='w3-row'><div class='w3-col l1'>;;_no_input;;;;;;
+</div></div><div class='w3-row'><div class='w3-col l1'>;;SendLogs;;L9ZdPG|Send the API logs and th...;checkbox;;5;5
+</div></div><div class='w3-row'><div class='w3-col l1'>;;submit;OymftT|submit;;submit;formbutton;;
+</div></div>;;_no_input;;;;;;
+<li><span class='helptext'>;;_help_text;;SqKLVH|A * in front of a field ...;;;;
+</span></li><li><span class='helptext'>;;_help_text;;iiTAZJ|Support requests will no...;;;;
+</span></li>;;_help_text;;;;;;

@@ -1,0 +1,113 @@
+_path;_name;node_addable_type;node_read_permissions;default_value;default_label;default_description;value_type
+;access;;;;8JnBLB|access;;none
+.access;roles;string;;;h2ZNY7|user roles;EaCDI2|the user role hierarchy ...;none
+.access.roles;anonymous;;;anonymous;dW5Evo|Anonymous user;yFH7vj|a user who has not yet i...;string
+.access.roles;guest;;;guest,anonymous;6QM1Pk|Guest;wYd9bK|a user who has identifie...;string
+.access.roles;member;;;member,guest,anonymous;V9gVLM|Member;wErv4U|a normal user;string
+.access.roles;bths;;;*bths,member,guest,anonymous;dNfK2I|Boathouse;hGYIpr|a technical user to refl...;string
+.access.roles;analyst;;;*analyst,bths,member,guest,anonymous;wqfjYX|Analyst;X3tFbN|a user with read access ...;string
+.access.roles;admin;;;*admin,analyst,bths,member,guest,anonymous;jBHUla|Administrator;joR2KU|a user with write access...;string
+.access;workflows;int;;;vrv4Ia|user workflows;vckHD7|the options for workflow...;none
+.access.workflows;logbook_entry_A;;;1;xo2a9m|write into logbook A;Zd3WDX|the user is allowed to e...;int
+.access.workflows;logbook_entry_B;;;2;IoirAf|write into logbook B;BWUYMd|the user is allowed to e...;int
+.access.workflows;logbook_entry_C;;;4;KKYwTw|write into logbook C;irSnTs|the user is allowed to e...;int
+.access.workflows;logbook_entry_D;;;8;WlhOPA|write into logbook D;URsNhZ|the user is allowed to e...;int
+.access.workflows;logbook_entry_E;;;16;mKPiFX|write into logbook E;a28lWt|the user is allowed to e...;int
+.access.workflows;message_entry;;;32;AT55Zi|Nachrichten hinterlassen;;int
+.access.workflows;damage_entry;;;64;sGbUKF|Schadensmeldungen abgebe...;;int
+.access.workflows;reservation_entry;;;128;Vyfkad|Boote reservieren;;int
+.access.workflows;logbook_view;;;256;AyLVcb|Fahrtenbuch anzeigen;;int
+.access.workflows;message_view;;;512;ip9DDg|Nachrichten lesen;;int
+.access.workflows;damage_view;;;1024;fpHDr9|Schadensmeldungen lesen;;int
+.access.workflows;reservation_view;;;2048;MgQGLb|efaWeb: Reservierungen l...;;int
+.access;subscriptions;int;;;OLu71P|user subscriptions;ZWdewv|the options for subscrip...;none
+.access.subscriptions;pers_logbook;;;1;dcNA1F|personal logbook;V3lCLm|get a list of all own tr...;int
+.access;concessions;int;;;0KiR9R|user concessions;9qnBHc|the options for concessi...;none
+.access.concessions;assets;;;1;F7qnFQ|edit assets;5nWQST|edit records af table as...;int
+.access.concessions;badges;;;2;GS9KGM|edit badges;AVr0go|edit records af table ba...;int
+.access.concessions;crews;;;4;OGz2MB|edit crews;Y5nvhk|edit records af table cr...;int
+.access.concessions;damages;;;8;TXUDaM|edit damages;x8Ci7H|edit records af table da...;int
+.access.concessions;destinations;;;16;Ma1l1r|edit destinations;YopnNN|edit records af table de...;int
+.access.concessions;groups;;;32;8ocz68|edit groups;2yBrgz|edit records af table gr...;int
+.access.concessions;logbook;;;64;zC2FGN|edit logbook;XZ2EfD|edit records af table lo...;int
+.access.concessions;messages;;;128;RbrQPd|edit messages;P3Ttve|edit records af table me...;int
+.access.concessions;persons;;;256;9ph81g|edit persons;LgQOhJ|edit records af table pe...;int
+.access.concessions;reservations;;;512;yFclWI|edit reservations;cjw9XN|edit records af table re...;int
+.access.concessions;status;;;1024;VGCYGz|edit status;w7Af3R|edit records af table st...;int
+.access.concessions;waters;;;2048;2BwYsS|edit waters;QCZtbv|edit records af table wa...;int
+.access.concessions;workbook;;;4096;JCTFGS|edit workbook;vzSIeP|edit records af table wo...;int
+.access;menus;;;;WOTRnb|Menus;6LrDNO|the menus according to t...;none
+.access.menus;api;string;;;PcFnaZ|API;CfncVA|the menu for API access;none
+.access.menus.api;nop;;guest;dilbo/api/nop;nsXBwL|no operation;kqaxGb|Schnittstelle testen;string
+.access.menus.api;session;;guest;dilbo/api/session;VZrcen|session start/stop;UcowVm|Handle api session;string
+.access.menus.api;info;;guest;dilbo/api/info;ZpY8Mk|public information;HxkS2Y|request information;string
+.access.menus.api;insert;;member;dilbo/api/insert;ji7ea7|insert record;MmPEku|insert record;string
+.access.menus.api;update;;member;dilbo/api/update;O1YH4O|update record;BPTyxA|update record;string
+.access.menus.api;delete;;bths;dilbo/api/delete;RcjBnK|delete record;oVRldL|delete record;string
+.access.menus.api;list;;member;dilbo/api/list;f4VfE8|list;RaOL1v|list records;string
+.access.menus.api;housekeeping;;bths;dilbo/api/housekeeping;Hq01RN|housekeeping;Isyis4|start housekeeping;string
+.access.menus;public;string;;;OYUP1J|public;eirmvN|the menu for public acce...;string
+.access.menus.public;login;;anonymous;tfyh/forms/login.php;p8ECvo|log in;;string
+.access.menus.public;dataPrivacy;;anonymous;dilbo/pages/showTopic.php?topic=dataPrivacy;Zlg4qc|data privacy;;string
+.access.menus.public;imprint;;anonymous;dilbo/pages/showTopic.php?topic=imprint;rhfArk|imprint;;string
+.access.menus.public;about;;anonymous;dilbo/pages/showTopic.php?topic=about;SXFCcM|about;;string
+.access.menus.public;logout;;.anonymous;tfyh/pages/logout.php;3XfFZR|Abmelden;;string
+.access.menus.public;jspost;;.anonymous;tfyh/forms/jsPost.php;uD3eA6|Post for Javascript;;string
+.access.menus;identified;string;;;2qP34d|identified;83IJFt|the menu for access of i...;none
+.access.menus.identified;publicHome;string;.anonymous;dilbo/public/index.php;VgQ6jU|dilbo home;;none
+.access.menus.identified;user;string;analyst;;uRYSvr|Users;;none
+.access.menus.identified.user;Find;;analyst;tfyh/forms/findUser.php;zu2YnS|Find;;string
+.access.menus.identified.user;Add;;admin;tfyh/forms/changeUser.php?uid=new;JolXHh|Add;;string
+.access.menus.identified.user;Lists;;analyst;tfyh/pages/showList.php?set=administration;tNYLhI|administration;;string
+.access.menus.identified.user;Show;;.analyst;tfyh/pages/showUser.php;ZTKMhv|[Show];;string
+.access.menus.identified.user;Change;;.admin;tfyh/forms/changeUser.php;0gI9lN|Change;;string
+.access.menus.identified.user;SendToken;;.admin;tfyh/pages/sendLoginToken.php;dJvuUP|[Send token];;string
+.access.menus.identified.user;Workflows;;.admin;tfyh/forms/editServices.php?type=workflows;A1Owa3|[Edit workflows];;string
+.access.menus.identified.user;Concessions;;.admin;tfyh/forms/editServices.php?type=concessions;pl1k9D|[Edit concessions];;string
+.access.menus.identified;data;string;admin;;PfeK14|Data;;none
+.access.menus.identified.data;findrecord;;analyst;tfyh/forms/findRecord.php;oCPI1E|Search the database;;string
+.access.menus.identified.data;tables;;analyst;tfyh/pages/showTables.php;7m2DRQ|Tables and records;;string
+.access.menus.identified.data;structure;;analyst;tfyh/pages/dataStructure.php;7NaapI|data layout;;string
+.access.menus.identified.data;EfaImport;;admin;dilbo/forms/importEfaBackup.php;dj2gr0|Import efaBackup;;string
+.access.menus.identified.data;whereis;;.analyst;tfyh/pages/whereIs.php;zRdTL4|Show occurrences;;string
+.access.menus.identified.data;showrecord;;.analyst;tfyh/pages/viewRecord.php;yz3Hwq|Show a record;;string
+.access.menus.identified.data;editrecord;;.admin;tfyh/forms/editRecord.php;OWSuib|Edit a record;;string
+.access.menus.identified.data;history;;.analyst;tfyh/pages/viewRecordHistory.php;feQVi3|Show History;;string
+.access.menus.identified.data;systemrecord;;.analyst;tfyh/pages/viewSystemRecord.php;feQVi3|Show System Record;;string
+.access.menus.identified;config;string;admin;;VshrlN|Configuration;;none
+.access.menus.identified.config;search;;analyst;tfyh/forms/findConfig.php;Kw1h6C|find;;string
+.access.menus.identified.config;show;;admin;tfyh/pages/configureApp.php?mode=show&top=.;owhdS6|Show all;;string
+.access.menus.identified.config;edit;;admin;tfyh/pages/configureApp.php?mode=edit&top=.;DVfjoK|Edit;;string
+.access.menus.identified.config;jsget;;.anonymous;tfyh/pages/jsGet.php;k2AOXj|Get for Javascript;;string
+.access.menus.identified.config;jspost;;.member;tfyh/forms/jsPost.php;uD3eA6|Post for Javascript;;string
+.access.menus.identified.config;colors;;admin;tfyh/forms/changeTheme.php;Alpzz7|Change theme;;string
+.access.menus.identified.config;logo;;admin;dilbo/forms/uploadLogo.php;TVNHaX|Set club logo;;string
+.access.menus.identified.config;phpinfo;;.admin;dilbo/public/phpinfo.php;bY7MJh|PHP config;;string
+.access.menus.identified;monitoring;string;admin;;srezpx|Monitoring;;none
+.access.menus.identified.monitoring;Access;;admin;tfyh/pages/showActivities.php;1sxjGW|Web access statistics;;string
+.access.menus.identified.monitoring;Server;;admin;tfyh/pages/showLog.php;ANbCrI|Server log;;string
+.access.menus.identified.monitoring;dataChanges;;admin;tfyh/pages/showChanges.php;2Cdisv|Data changes;;string
+.access.menus.identified.monitoring;Permissions;;admin;tfyh/pages/accessOverview.php;UW9vbC|Authorisations overview;;string
+.access.menus.identified.monitoring;secConcept;;admin;tfyh/pages/securityConcept.php;mPoU63|Security Concept;;string
+.access.menus.identified;operations;string;admin;;MwVqNf|Operations;;none
+.access.menus.identified.operations;tasks;;admin;dilbo/pages/operationsTasks.php;xqJFkS|Operations tasks;;string
+.access.menus.identified.operations;cronjobs;;.admin;dilbo/pages/runCronJobs.php;TdJY1c|Run housekeeping;;string
+.access.menus.identified.operations;dbReset;;.admin;tfyh/pages/databaseReset.php;Nn5wAm|Reset database;;string
+.access.menus.identified.operations;dbAudit;;.admin;tfyh/pages/databaseAudit.php;3bUCT8|Audit the database;;string
+.access.menus.identified.operations;supportRequest;;admin;tfyh/forms/support.php;BVNSCJ|Support request;;string
+.access.menus.identified.operations;help;;admin;dilbo/pages/help.php;5NwTuL|Help;;string
+.access.menus.identified.operations;upgrade;;admin;tfyh/pages/upgrade.php;s2UBkR|Software Upgrade;;string
+.access.menus.identified.operations;init_version;;.admin;tfyh/Control/initVersion.php;qNp1Rk|Initialize this versiion;;string
+.access.menus.identified;home;string;member;;gigCYX|Me;;none
+.access.menus.identified.home;Home;;member;dilbo/pages/home.php;Ymh3Us|Home;;string
+.access.menus.identified.home;showProfile;;member;dilbo/pages/myProfile.php;P9P4EV|show my profile;;string
+.access.menus.identified.home;logout;;anonymous;tfyh/pages/logout.php;SirIlb|Log out;;string
+.access.menus;client;string;;;JjtIVR|client;jfXG1z|menu for the client;none
+.access.menus.client;enterTrip;;bths,@31;;lYQAls|enter trip;;none
+.access.menus.client;endTrip;;.bths,.@31;;uSzD8H|cancel trip;;none
+.access.menus.client;editTrip;;.bths,.@31;;wi2U3J|edit trip;;none
+.access.menus.client;cancelTrip;;.bths,.@31;;tGjTU8|cancel trip;;none
+.access.menus.client;sendMessage;;bths,@32;;Zb13sS|send message;;none
+.access.menus.client;reportDamage;;bths,@64;;XQi6mR|report damage;;none
+.access.menus.client;requestReservation;;bths,@128;;4i8w30|request reservation;;none
+.access.menus.client;editPreferences;;.member;;D1OCmR|edit preferences;;none

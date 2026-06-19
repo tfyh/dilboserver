@@ -1,0 +1,6 @@
+
+
+# Use this file to trigger a maintenance window display.
+# Enter the expected end date and time at the first line
+# to redirect to the maintenance page, minimum length is 4 characters
+# Leave the first line empty to not redirect to the maintenance page.
