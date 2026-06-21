@@ -55,30 +55,6 @@ class DilboCronJobs extends CronJobs
     }
 
     /**
-     * Returns the repeat period if a task is due today based on the $task_day specification: starts with a letter (D =
-     * Daily, W = Weekly, M = Monthly), continues with a number (for D: 1 always, for W: 1 = Monday, 2 =
-     * Tuesday asf., for M: day of month, 31 is the same as ultimo). Returns an empty String, if not due today.
-     */
-    private static function dueToday(string $taskDay): string
-    {
-        $period = substr($taskDay, 0, 1);
-        $day = intval(substr(trim($taskDay), 1));
-        // daily control
-        if (strcasecmp($period, "D") == 0)
-            return "daily";
-        // weekly control
-        if ((strcasecmp($period, "W") == 0) && ($day == intval(date("w"))))
-            return "weekly";
-        // monthly control, any day
-        if ((strcasecmp($period, "M") == 0) && ($day == intval(date("j"))))
-            return "monthly";
-        // monthly control, ultimo. 86,400 seconds are 1 day
-        if ((strcasecmp($period, "M") == 0) && ($day == 31) && (intval(date("j", time() + 86400)) == 1))
-            return "ultimo";
-        return "";
-    }
-
-    /**
      * Jobs can be configured to be control together with the cron jobs trigger, which should be called every day.
      * A job consists of a scheduled day (see Tfyh_tasks->due_today for details) and a task type.
      */
