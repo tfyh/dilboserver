@@ -13,7 +13,7 @@
  * the License.
  */
 
-namespace dilbo\app;
+namespace App;
 
 class Notifier
 {

@@ -13,10 +13,10 @@
  * the License.
  */
 
-namespace dilbo\app;
+namespace App;
 
-use tfyh\util\I18n;
-use tfyh\util\ListHandler;
+use Util\I18n;
+use Util\ListHandler;
 
 /**
  * class file for resolving the UUIDs into names.

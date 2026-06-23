@@ -13,26 +13,27 @@
  * the License.
  */
 
-namespace dilbo\app;
+namespace App;
 
 include_once '../../tfyh/Api/PreModificationCheck.php';
-use tfyh\api\PreModificationCheck;
 
-use tfyh\control\LoggerSeverity;
-use tfyh\control\Runner;
-use tfyh\control\Sessions;
-use tfyh\data\Codec;
-use tfyh\data\Config;
-use tfyh\data\DatabaseConnector;
-use tfyh\data\Findings;
-use tfyh\data\Formatter;
-use tfyh\data\Ids;
-use tfyh\data\Parser;
-use tfyh\data\ParserName;
-use tfyh\data\Record;
-use tfyh\util\I18n;
-use tfyh\util\Language;
-use tfyh\util\ListHandler;
+use Api\PreModificationCheck;
+
+use Control\LoggerSeverity;
+use Control\Runner;
+use Control\Sessions;
+use Data\Codec;
+use Data\Config;
+use Data\DatabaseConnector;
+use Data\Findings;
+use Data\Formatter;
+use Data\Ids;
+use Data\Parser;
+use Data\ParserName;
+use Data\Record;
+use Util\I18n;
+use Util\Language;
+use Util\ListHandler;
 
 /**
  * Class file for the app data verification and modification. This class adds to the Efa_tables class, which

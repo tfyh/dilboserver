@@ -15,8 +15,8 @@
 
 namespace dilbo\pages;
 
-use tfyh\control\Runner;
-use tfyh\data\Config;
+use Control\Runner;
+use Data\Config;
 
 /**
  * The data privacy declaration page.

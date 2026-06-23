@@ -13,12 +13,11 @@
  * the License.
  */
 
-
-namespace dilbo\app;
+namespace App;
 
 include_once "../../tfyh/Control/CronJobs.php";
-use tfyh\control\CronJobs;
-use tfyh\data\Config;
+use Control\CronJobs;
+use Data\Config;
 
 /**
  * Static class container file for a daily jobs routine. It may be triggered by whatever, checks whether it was

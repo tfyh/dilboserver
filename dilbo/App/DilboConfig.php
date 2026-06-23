@@ -13,23 +13,23 @@
  * the License.
  */
 
-namespace dilbo\app;
+namespace App;
 
 use DateTimeImmutable;
 use Exception;
 use DateInterval;
 
-use tfyh\util\I18n;
-use tfyh\util\Language;
-use tfyh\data\Codec;
-use tfyh\data\Config;
-use tfyh\data\DatabaseConnector;
-use tfyh\data\Formatter;
-use tfyh\data\Ids;
-use tfyh\data\Item;
-use tfyh\data\ParserConstraints;
-use tfyh\data\ParserName;
-use tfyh\data\PropertyName;
+use Util\I18n;
+use Util\Language;
+use Data\Codec;
+use Data\Config;
+use Data\DatabaseConnector;
+use Data\Formatter;
+use Data\Ids;
+use Data\Item;
+use Data\ParserConstraints;
+use Data\ParserName;
+use Data\PropertyName;
 
 /**
  * Digital Logbook Configuration class mainly for managing mappings and synchronisation

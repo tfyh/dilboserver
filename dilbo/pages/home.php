@@ -15,15 +15,14 @@
 
 namespace dilbo\pages;
 
-use tfyh\api\Transactions;
-use tfyh\control\Runner;
-use tfyh\data\Config;
-use tfyh\util\I18n;
+use Api\Transaction;
+use Control\Runner;
+use Data\Config;
+use Util\I18n;
 
 /**
  * The start of the session after successful login.
  */
-
 // ===== initialize
 $userRequestedFile = __FILE__;
 include_once "../../tfyh/init/init.php";
@@ -56,6 +55,6 @@ echo "e-Mail: " . $runner->sessions->userMail() . ".<br>";
 echo $version_notification . "</p>";
 echo "<h4>" . $i18n->t("cDfe5p|Boats underway") . "</h4>";
 echo "<p> - Awaits implementation - </p>";
-echo "<h4>" . $i18n->t("Z4VNs0|Active clients") . "</h4>" . Transactions::getLastAccessesApi();
+echo "<h4>" . $i18n->t("Z4VNs0|Active clients") . "</h4>" . Transaction::getLastAccessesApi();
 echo "</div>";
 $runner->endScript();

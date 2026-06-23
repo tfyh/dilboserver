@@ -13,30 +13,30 @@
  * the License.
  */
 
-namespace dilbo\app;
+namespace App;
 
 include_once "DilboConfig.php";
 include_once "EfaCloudApi.php";
 include_once "DilboRecordHandler.php";
 
-use tfyh\control\Sessions;
-use tfyh\data\Codec;
-use tfyh\data\Config;
-use tfyh\data\DatabaseConnector;
-use tfyh\data\Findings;
-use tfyh\data\Formatter;
-use tfyh\data\Ids;
-use tfyh\data\Item;
-use tfyh\data\Parser;
-use tfyh\data\ParserConstraints;
-use tfyh\data\ParserName;
-use tfyh\data\PropertyName;
-use tfyh\data\Record;
-use tfyh\data\Type;
-use tfyh\data\Xml;
-use tfyh\util\FileHandler;
-use tfyh\util\I18n;
-use tfyh\util\Language;
+use Control\Sessions;
+use Data\Codec;
+use Data\Config;
+use Data\DatabaseConnector;
+use Data\Findings;
+use Data\Formatter;
+use Data\Ids;
+use Data\Item;
+use Data\Parser;
+use Data\ParserConstraints;
+use Data\ParserName;
+use Data\PropertyName;
+use Data\Record;
+use Data\Type;
+use Data\Xml;
+use Util\FileHandler;
+use Util\I18n;
+use Util\Language;
 
 /**
  * class file for the specific handling of efa backup import and export.
@@ -834,6 +834,8 @@ class EfaImport
     private function step6and7importRecordsChunk(int    $chunk, int $from, string $filename,
                                                  string $efaTableName, string $bookName) : int
     {
+        if ($efaTableName == "")
+            return 0;
         $config = Config::getInstance();
         $i18n = I18n::getInstance();
         $cnt = count($_SESSION["efaImport"]["data_records"]);
@@ -991,7 +993,7 @@ class EfaImport
 
         // use records cache
         if (!isset($_SESSION["efaImport"]["data_records"]))
-            $_SESSION["efaImport"]["data_records"] = $xmlTreeRoot->getAsArray("data");
+            $_SESSION["efaImport"]["data_records"] = is_null($xmlTreeRoot) ? [] : $xmlTreeRoot->getAsArray("data");
         // import chunk
         $remainder = $this->step6and7importRecordsChunk($chunk, $from, $fileName, $efaTableName,
             $bookName);

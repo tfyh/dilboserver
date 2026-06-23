@@ -13,15 +13,15 @@
  * the License.
  */
 
-namespace dilbo\app;
+namespace App;
 
-use tfyh\api\ResultForTransaction;
-use tfyh\data\Codec;
-use tfyh\data\Config;
-use tfyh\data\DatabaseConnector;
-use tfyh\data\Formatter;
-use tfyh\data\Ids;
-use tfyh\data\ParserName;
+use Api\ResultForTransaction;
+use Data\Codec;
+use Data\Config;
+use Data\DatabaseConnector;
+use Data\Formatter;
+use Data\Ids;
+use Data\ParserName;
 
 /**
  * class file for the specific handling of dilbo public information which is to be passed to different clients.

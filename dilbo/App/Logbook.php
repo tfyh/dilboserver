@@ -13,15 +13,14 @@
  * the License.
  */
 
+namespace App;
 
-namespace dilbo\app;
-
-use tfyh\data\Config;
-use tfyh\data\DatabaseConnector;
-use tfyh\data\Ids;
-use tfyh\data\ParserName;
-use tfyh\data\ParserConstraints;
-use tfyh\util\ListHandler;
+use Data\Config;
+use Data\DatabaseConnector;
+use Data\Ids;
+use Data\ParserName;
+use Data\ParserConstraints;
+use Util\ListHandler;
 
 /**
  * class file for logbook reading, auditing, and formatting capabilities.

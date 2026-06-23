@@ -13,9 +13,9 @@
  * the License.
  */
 
-namespace dilbo\app;
+namespace App;
 
-use tfyh\data\Codec;
+use Data\Codec;
 
 /**
  * This class provides the API to an efaCloud server to retrieve configuration from there
