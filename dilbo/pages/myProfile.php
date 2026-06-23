@@ -13,20 +13,19 @@
  * the License.
  */
 
+namespace dilbo\pages;
+
+use Control\Runner;
+use Control\Users;
+use Data\Config;
+use Data\DatabaseConnector;
+use Data\Record;
+use Util\I18n;
+use Util\Language;
+
 /**
  * The page to display the user's profile
  */
-
-// ===== initialize
-namespace dilbo\pages;
-
-use tfyh\control\Runner;
-use tfyh\control\Users;
-use tfyh\data\Config;
-use tfyh\data\DatabaseConnector;
-use tfyh\data\Record;
-use tfyh\util\I18n;
-use tfyh\util\Language;
 
 // ===== initialize
 $userRequestedFile = __FILE__;

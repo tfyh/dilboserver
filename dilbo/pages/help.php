@@ -15,14 +15,13 @@
 
 namespace dilbo\pages;
 
-use tfyh\control\Runner;
-use tfyh\data\Config;
-use tfyh\util\I18n;
+use Control\Runner;
+use Data\Config;
+use Util\I18n;
 
 /**
  * The help page (simple text)
  */
-
 // ===== initialize
 $userRequestedFile = __FILE__;
 include_once "../../tfyh/init/init.php";

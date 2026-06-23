@@ -13,28 +13,26 @@
  * the License.
  */
 
+namespace App;
+
+include_once "../../dilbo/App/EfaImport.php";
+
+use Control\Runner;
+use Data\Config;
+use Data\DatabaseConnector;
+use Data\DatabaseSetup;
+use Data\Formatter;
+use Data\ParserName;
+use Data\WordIndex;
+use Util\FileHandler;
+use Util\Form;
+use Util\I18n;
+
 /**
  * The form for upload and import of multiple data records as csv-tables. Based on the Form class, please read
  * instructions there to better understand this PHP-code part.
  */
-
-// ===== initialize toolbox and socket and start session.
 // ===== initialize
-namespace dilbo\app;
-
-include_once "../../dilbo/App/EfaImport.php";
-
-use tfyh\control\Runner;
-use tfyh\data\Config;
-use tfyh\data\DatabaseConnector;
-use tfyh\data\DatabaseSetup;
-use tfyh\data\Formatter;
-use tfyh\data\ParserName;
-use tfyh\data\WordIndex;
-use tfyh\util\FileHandler;
-use tfyh\util\Form;
-use tfyh\util\I18n;
-
 $userRequestedFile = __FILE__;
 include_once "../../tfyh/init/init.php";
 $i18n = I18n::getInstance();
@@ -285,7 +283,7 @@ if ($todo == 1) { // step 1. No texts for output
 } elseif ($todo == 2) { // step 2. Files were uploaded, started import
     echo Form::formErrorsToHtml($formErrors);
     if (strlen($formErrors) == 0) // trigger the JavaScript progress management by providing the 'progressUrl'
-        echo "<span class='tfyhProgressUrl' id='../../dilbo/forms/importEfaBackup.php?f_seq=" . $runner->fsId . "2" . "'>Loading ...</span>";
+        echo "<span class='tfyhProgressUrl' id='../../dilbo/forms/importEfaBackup.php?fSeq=" . $runner->fsId . "2" . "'>Loading ...</span>";
 } elseif ($todo == 3) { // step 3. fractional import of data, output at last step
     echo "<p>" . $i18n->t("HBcQsm|Your backup has been imp...") . "</p>";
     if (isset($efaImport))

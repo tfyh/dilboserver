@@ -13,17 +13,17 @@
  * the License.
  */
 
-/**
- * Force to run the daily cron jobs
- */
 namespace dilbo\pages;
 
 include_once "../App/DilboCronJobs.php";
 
-use dilbo\app\DilboCronJobs;
-use tfyh\control\Runner;
-use tfyh\util\I18n;
+use App\DilboCronJobs;
+use Control\Runner;
+use Util\I18n;
 
+/**
+ * Force to run the daily cron jobs
+ */
 // ===== initialize
 $userRequestedFile = __FILE__;
 include_once "../../tfyh/init/init.php";

@@ -13,17 +13,16 @@
  * the License.
  */
 
+namespace App;
+
+use Control\Users;
+use Data\DatabaseConnector;
+use Util\I18n;
+
 /**
  * A utility class to read and provide the specific user profile according to the application. It is separated
  * from the user.php to keep the latter generic for all applications.
  */
-
-namespace dilbo\app;
-
-use tfyh\control\Users;
-use tfyh\data\DatabaseConnector;
-use tfyh\util\I18n;
-
 class DilboUsers
 {
 

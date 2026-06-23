@@ -23,25 +23,36 @@ let cfgPanel = false
 
 let progressUrl = false
 let progress = false
+let isProgressDisplay = false
 
 let formId = false
 let form = false
 let formHandler
 let inputValidator
 
-function init() {
+function initShort() {
 	if (!config) {
 		// Start with loading the configuration.
 		config = Config.getInstance()
-		config.load(init)
+		config.load(initShort)
 	}
 	else if (!i18n.loaded) {
 		// now that the language setting is known, set the locales and load the i18n resource file
 		Formatter.setLocale(config.language(), config.timeZoneOffset())
 		Parser.setLocale(config.language(), config.timeZoneOffset())
 		i18n = I18n.getInstance()
-		i18n.loadResource(config.language().toLowerCase(), init)
+		i18n.loadResource(config.language().toLowerCase(), initShort)
 	}
+	else if (isProgressDisplay)
+		modal.showProgress()
+	else
+		init()
+}
+
+
+function init() {
+	if (!config)
+		initShort(init)
 	else if (!cfgPanel && configTop) {
 		// initialise the configuration editor panel if this is a configuration edit
 		cfgPanel = new ConfigPanel(config, modal, configTop.split("|")[0], configTop.split("|")[1])
@@ -82,8 +93,10 @@ $(document).ready(function() {
 	// trigger the activity according to its priority
 	// progress control is first priority
 	if (progressUrl) {
-		let progressChunk = 100;
-		modal.showProgress(progressUrl, 1, progressChunk, 0);
+		modal.setProgressParameters(progressUrl, 500)
+		isProgressDisplay = true
+		// shorthand loader for this case
+		initShort(modal.showProgress)
 	}
 	// form editing or configuration editing the third
 	else if (formId || configTop)

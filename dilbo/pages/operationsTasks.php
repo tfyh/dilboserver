@@ -13,18 +13,16 @@
  * the License.
  */
 
+use Control\Runner;
+use Data\Config;
+use Data\WordIndex;
+use Util\I18n;
+
 /**
  * A selection of operations tasks
  */
 
 // ===== initialize
-namespace dilbo\pages;
-
-use tfyh\control\Runner;
-use tfyh\data\Config;
-use tfyh\data\WordIndex;
-use tfyh\util\I18n;
-
 $userRequestedFile = __FILE__;
 include_once "../../tfyh/init/init.php";
 $runner = Runner::getInstance();

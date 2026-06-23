@@ -17,14 +17,12 @@
  * The form for upload of the club logo.
  */
 
+use Control\Runner;
+use Data\Config;
+use Util\Form;
+use Util\I18n;
+
 // ===== initialize
-namespace dilbo\app;
-
-use tfyh\control\Runner;
-use tfyh\data\Config;
-use tfyh\util\Form;
-use tfyh\util\I18n;
-
 $userRequestedFile = __FILE__;
 include_once "../../tfyh/init/init.php";
 $i18n = I18n::getInstance();

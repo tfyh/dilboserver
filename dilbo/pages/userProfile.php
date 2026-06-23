@@ -13,16 +13,14 @@
  * the License.
  */
 
+use Control\Runner;
+use Data\Codec;
+use Data\DatabaseConnector;
+use Util\I18n;
+
 /**
  * The display of a user profile
  */
-namespace dilbo\pages;
-
-use tfyh\control\Runner;
-use tfyh\data\Codec;
-use tfyh\data\DatabaseConnector;
-use tfyh\util\I18n;
-
 $userRequestedFile = __FILE__;
 include_once "../../tfyh/init/init.php";
 $runner = Runner::getInstance();

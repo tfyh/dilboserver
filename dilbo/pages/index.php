@@ -12,12 +12,11 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-namespace dilbo\app;
 
-use tfyh\control\Runner;
+use Control\Runner;
 include_once "../../tfyh/Control/Runner.php";
 
-use tfyh\data\Config;
+use Data\Config;
 include_once "../../tfyh/Data/Config.php";
 
 /**
