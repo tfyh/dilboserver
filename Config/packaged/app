@@ -16,7 +16,6 @@ _path;_name;default_value;default_label;default_description;node_addable_type;va
 .app.club.habits;public_rankings;"boats_ranking; destinations_ranking";R4DpRg|Public rankings;ApskpP|the list of publicly ava...;;string;;;;;
 .app.club.habits;sports_type;rowing;QJVT5W|sports type;c4h4Rj|the sports this logbook ...;;string;;;.framework.select.sport;select;
 .app.club.habits;sports_year_start;1;dL8PNe|Sports year start;MijYWH|the starting month of th...;;int;1;12;;"select 1=1;4=4;7=7;10=10";
-.app.club.habits;timezone;cet;kYzDQD|Time zone;1cQ44R|the time zone used;;string;;;.framework.select.timezone;select;
 .app.club;locations;;Lo8RAS|Locations;NznOXv|the list of locations of...;.templates.location;none;;;;;
 .app.club;logbooks;;SBPtZz|Logbooks;NpDT5P|the list of logbooks of ...;.templates.logbook;none;;;;;
 .app.club;workbooks;;fbiboA|Workbooks;xGN4rr|the list of books on clu...;.templates.workbook;none;;;;;

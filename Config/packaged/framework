@@ -21,8 +21,6 @@ _path;_name;default_value;default_label;default_description;value_type;input_typ
 .framework.pdf;footer_text;dilbo;jxhLJ9|Footer text;v9GLZd|the documents footer te...;string;
 .framework.pdf;margins;[ 15, 15, 15, 10, 10];LSGlmE|Margins;Gq4P1b|the document°s margins;int_list;
 .framework;select;;D5ewAH|Type catalogs;TvbhVS|a dilbo Type catalogs ...;none;
-.framework.select;timezone;;qotcYy|timezone;98zonu|available time zones;none;
-.framework.select.timezone;cet;;vM2BVe|Central European time;4T3kKl|Berlin/Paris;none;
 .framework.select;language;;ZbOrwR|languages;rWiluj|available languages, lin...;none;
 .framework.select.language;en;;ua38OA|English;hHy8fY|English (17/12/2024, 1,2...;none;
 .framework.select.language;de;;aAPA7p|Deutsch;7U0aO6|Deutsch (17.12.2024, 1.2...;none;
