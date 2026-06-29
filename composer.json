@@ -1,0 +1,29 @@
+{
+    "name": "tfyh/dilboserver",
+    "description": "dilbo server – digitales Bootshaus-Logbuch. Bindet das tfyh-Framework per Composer ein und stellt es unter ./tfyh bereit.",
+    "type": "project",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/tfyh/dilboserver",
+    "authors": [
+        {
+            "name": "Martin Glade",
+            "homepage": "https://github.com/tfyh"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tfyh/tfyh"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "tfyh/tfyh": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "post-install-cmd": "php bin/place-tfyh.php",
+        "post-update-cmd": "php bin/place-tfyh.php"
+    }
+}

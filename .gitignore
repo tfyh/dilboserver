@@ -1,0 +1,5 @@
+# Composer
+/vendor/
+
+# tfyh framework, provided by Composer at <app-root>/tfyh (symlink or copy)
+/tfyh/
